@@ -1,0 +1,12 @@
+---
+title: "First concept"
+author: "H"
+date: "2024-05-21"
+categories: [basics, algebra]
+---
+
+$A = \pi * r^2$
+
+![](thumbnail.jpg)
+
+Since this post doesn't specify an explicit `image`, the first image in the post will be used in the listing page of posts.

@@ -1,0 +1,11 @@
+---
+title: "Topic 0"
+author: "H"
+date: "2024-06-01"
+categories: [math, code, medicine]
+image: "image.jpg"
+---
+
+first topic covered
+
+![](thumbnail.jpg)

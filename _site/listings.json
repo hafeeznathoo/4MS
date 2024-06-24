@@ -1,0 +1,16 @@
+[
+  {
+    "listing": "/applications.html",
+    "items": [
+      "/applications/concept_1/index.html",
+      "/applications/concept_0/index.html"
+    ]
+  },
+  {
+    "listing": "/topics.html",
+    "items": [
+      "/topics/topic_1/index.html",
+      "/topics/topic_0/index.html"
+    ]
+  }
+]
