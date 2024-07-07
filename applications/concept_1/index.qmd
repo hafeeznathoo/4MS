@@ -6,8 +6,22 @@ categories: [algebra, general, stats]
 image: "image.jpg"
 ---
 
-This is a post with executable code.
+##This is a post with executable code. some content
+
+*format this*
+
+*format this*
+
+$A = l * w * \Sigma * \pi$
 
 ```{r}
 1 + 1
+library(tidyverse)
+data(mtcars)
+
+ggplot(mtcars, aes(x=am, y=mpg, color=cyl))+
+  geom_point()
+
+
+
 ```
