@@ -1,0 +1,16 @@
+---
+title: "Rolling Averages"
+author: "Ali Hassan"
+date: "2024-06-24"
+categories: [general, stats, arithmetic]
+image: "image.jpg"
+---
+
+**Some Basics**
+
+An average is a common concept, it is a number which represents each data point within a range of numbers, giving equal weight to each number. While averages are fairly straightforward, the concept of rolling averages may not be as simple. 
+
+A rolling average is the average of a range of values within a given time frame which keeps moving forward to keep up incoming data as time goes on. Rolling averages help us include incoming data to adjust our average value and they can constrain the data we look at if we want to emphasize a certain set of values within a range. 
+
+
+Take budgeting for example. An average monthly spend ever since you opened your bank account would not be the greatest figure to help you work on your finances. It would not update with new data (e.g., transactions, withdrawals, deposits) and it includes all data within the range (is it really that useful to know how much you spent in a month when you were 15?) With a rolling average, you can constrain the time you look at (e.g., the last 3 months) 
