@@ -14,3 +14,5 @@ A rolling average is the average of a range of values within a given time frame 
 
 
 Take budgeting for example. An average monthly spend ever since you opened your bank account would not be the greatest figure to help you work on your finances. It would not update with new data (e.g., transactions, withdrawals, deposits) and it includes all data within the range (is it really that useful to know how much you spent in a month when you were 15?) With a rolling average, you can constrain the time you look at (e.g., the last 3 months) 
+
+test test test
