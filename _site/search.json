@@ -4,42 +4,14 @@
     "href": "topics.html",
     "title": "Topics",
     "section": "",
-    "text": "Topic 1\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nJun 24, 2024\n\n\nH\n\n\n\n\n\n\n\n\n\n\n\n\nTopic 0\n\n\n\n\n\n\nmath\n\n\ncode\n\n\nmedicine\n\n\n\n\n\n\n\n\n\nJun 1, 2024\n\n\nH\n\n\n\n\n\n\nNo matching items"
+    "text": "Topic 1\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nJun 24, 2024\n\n\nH\n\n\n\n\n\n\n\n\n\n\n\n\nRolling Averages\n\n\n\n\n\n\ngeneral\n\n\nstats\n\n\narithmetic\n\n\n\n\n\n\n\n\n\nJun 24, 2024\n\n\nAli Hassan\n\n\n\n\n\n\n\n\n\n\n\n\nTopic 0\n\n\n\n\n\n\nmath\n\n\ncode\n\n\nmedicine\n\n\n\n\n\n\n\n\n\nJun 1, 2024\n\n\nH\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "topics/topic_1/index.html",
-    "href": "topics/topic_1/index.html",
-    "title": "Topic 1",
+    "objectID": "topics/topic_2/index.html",
+    "href": "topics/topic_2/index.html",
+    "title": "Topic 0",
     "section": "",
-    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "applications.html",
-    "href": "applications.html",
-    "title": "Applications",
-    "section": "",
-    "text": "Concept 1\n\n\n\n\n\n\nalgebra\n\n\ngeneral\n\n\nstats\n\n\n\n\n\n\n\n\n\nJun 24, 2024\n\n\nH\n\n\n\n\n\n\n\n\n\n\n\n\nFirst concept\n\n\n\n\n\n\nbasics\n\n\nalgebra\n\n\n\n\n\n\n\n\n\nMay 21, 2024\n\n\nH\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "applications/concept_1/index.html",
-    "href": "applications/concept_1/index.html",
-    "title": "Concept 1",
-    "section": "",
-    "text": "##This is a post with executable code. some content\nformat this\nformat this\n\\(A = l * w * \\Sigma * \\pi\\)\n\n1 + 1\n\n[1] 2\n\nlibrary(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.1     ✔ tibble    3.2.1\n✔ lubridate 1.9.3     ✔ tidyr     1.3.1\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\ndata(mtcars)\n\nggplot(mtcars, aes(x=am, y=mpg, color=cyl))+\n  geom_point()"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "applications/concept_2/index.html",
-    "href": "applications/concept_2/index.html",
-    "title": "First concept",
-    "section": "",
-    "text": "\\(A = \\pi * r^2\\)\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "first topic covered"
   },
   {
     "objectID": "index.html",
@@ -49,10 +21,45 @@
     "text": "This is our site\nLanding page here,\nadd a ‘why’\ndirect to site links\na large graphic here"
   },
   {
-    "objectID": "topics/topic_2/index.html",
-    "href": "topics/topic_2/index.html",
-    "title": "Topic 0",
+    "objectID": "applications/concept_2/index.html",
+    "href": "applications/concept_2/index.html",
+    "title": "First concept",
     "section": "",
-    "text": "first topic covered"
+    "text": "\\(A = \\pi * r^2\\)\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "applications/concept_1/index.html",
+    "href": "applications/concept_1/index.html",
+    "title": "Concept 1",
+    "section": "",
+    "text": "##This is a post with executable code. some content\nformat this\nformat this\n\\(A = l * w * \\Sigma * \\pi\\)\n\n1 + 1\n\n[1] 2\n\nlibrary(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.1     ✔ tibble    3.2.1\n✔ lubridate 1.9.3     ✔ tidyr     1.3.1\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\ndata(mtcars)\n\nggplot(mtcars, aes(x=am, y=mpg, color=cyl))+\n  geom_point()"
+  },
+  {
+    "objectID": "applications.html",
+    "href": "applications.html",
+    "title": "Applications",
+    "section": "",
+    "text": "Concept 1\n\n\n\n\n\n\nalgebra\n\n\ngeneral\n\n\nstats\n\n\n\n\n\n\n\n\n\nJun 24, 2024\n\n\nH\n\n\n\n\n\n\n\n\n\n\n\n\nFirst concept\n\n\n\n\n\n\nbasics\n\n\nalgebra\n\n\n\n\n\n\n\n\n\nMay 21, 2024\n\n\nH\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "topics/topic_1/index.html",
+    "href": "topics/topic_1/index.html",
+    "title": "Topic 1",
+    "section": "",
+    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "topics/topic_3/index.html",
+    "href": "topics/topic_3/index.html",
+    "title": "Rolling Averages",
+    "section": "",
+    "text": "Some Basics\nAn average is a common concept, it is a number which represents each data point within a range of numbers, giving equal weight to each number. While averages are fairly straightforward, the concept of rolling averages may not be as simple.\nA rolling average is the average of a range of values within a given time frame which keeps moving forward to keep up incoming data as time goes on. Rolling averages help us include incoming data to adjust our average value and they can constrain the data we look at if we want to emphasize a certain set of values within a range.\nTake budgeting for example. An average monthly spend ever since you opened your bank account would not be the greatest figure to help you work on your finances. It would not update with new data (e.g., transactions, withdrawals, deposits) and it includes all data within the range (is it really that useful to know how much you spent in a month when you were 15?) With a rolling average, you can constrain the time you look at (e.g., the last 3 months)"
   }
 ]
