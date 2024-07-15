@@ -1,0 +1,12 @@
+---
+title: "Measures of Central Tendency"
+author: "Hafeez Nathoo"
+date: "2024-06-24"
+categories: [ statistics, analysis, data]
+---
+
+The goal of this post is to give a quick introduction
+
+```{r}
+1 + 1
+```

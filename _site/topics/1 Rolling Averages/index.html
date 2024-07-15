@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="H">
-<meta name="dcterms.date" content="2024-06-01">
+<meta name="author" content="Ali Hassan">
+<meta name="dcterms.date" content="2024-06-24">
 
-<title>Math4MedStudents - Topic 2</title>
+<title>Math4MedStudents - Rolling Averages</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -117,11 +117,11 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Topic 2</h1>
+      <h1 class="title">Rolling Averages</h1>
                                 <div class="quarto-categories">
-                <div class="quarto-category">math</div>
-                <div class="quarto-category">code</div>
-                <div class="quarto-category">medicine</div>
+                <div class="quarto-category">general</div>
+                <div class="quarto-category">stats</div>
+                <div class="quarto-category">arithmetic</div>
               </div>
                   </div>
   </div>
@@ -132,14 +132,14 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Author</div>
       <div class="quarto-title-meta-contents">
-               <p>H </p>
+               <p>Ali Hassan </p>
             </div>
     </div>
       
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">June 1, 2024</p>
+        <p class="date">June 24, 2024</p>
       </div>
     </div>
     
@@ -160,8 +160,11 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>first topic covered</p>
-<p><img src="thumbnail.jpg" class="img-fluid"></p>
+<p><strong>Some Basics</strong></p>
+<p>An average is a common concept, it is a number which represents each data point within a range of numbers, giving equal weight to each number. While averages are fairly straightforward, the concept of rolling averages may not be as simple.</p>
+<p>A rolling average is the average of a range of values within a given time frame which keeps moving forward to keep up incoming data as time goes on. Rolling averages help us include incoming data to adjust our average value and they can constrain the data we look at if we want to emphasize a certain set of values within a range.</p>
+<p>Take budgeting for example. An average monthly spend ever since you opened your bank account would not be the greatest figure to help you work on your finances. It would not update with new data (e.g., transactions, withdrawals, deposits) and it includes all data within the range (is it really that useful to know how much you spent in a month when you were 15?) With a rolling average, you can constrain the time you look at (e.g., the last 3 months)</p>
+<p>test test test</p>
 
 
 
@@ -247,7 +250,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/mathformedstudents\.netlify\.app");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

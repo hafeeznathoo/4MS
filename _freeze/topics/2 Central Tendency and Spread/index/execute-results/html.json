@@ -1,0 +1,15 @@
+{
+  "hash": "7c8cfc0ac92eeb357e36c0315b0688ee",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Mean and Standard Deviation\"\nauthor: \"Hafeez Nathoo\"\ndate: \"2024-06-24\"\ncategories: [ statistics, analysis]\nimage: \"image.jpg\"\n---\n\n\nThis is a post with executable code.\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

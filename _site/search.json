@@ -4,12 +4,12 @@
     "href": "topics.html",
     "title": "Topics",
     "section": "",
-    "text": "Topic 1\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nJun 24, 2024\n\n\nH\n\n\n\n\n\n\n\n\n\n\n\n\nRolling Averages\n\n\n\n\n\n\ngeneral\n\n\nstats\n\n\narithmetic\n\n\n\n\n\n\n\n\n\nJun 24, 2024\n\n\nAli Hassan\n\n\n\n\n\n\n\n\n\n\n\n\nTopic 0\n\n\n\n\n\n\nmath\n\n\ncode\n\n\nmedicine\n\n\n\n\n\n\n\n\n\nJun 1, 2024\n\n\nH\n\n\n\n\n\n\nNo matching items"
+    "text": "Rolling Averages\n\n\n\n\n\n\ngeneral\n\n\nstats\n\n\narithmetic\n\n\n\n\n\n\n\n\n\nJun 24, 2024\n\n\nAli Hassan\n\n\n\n\n\n\n\n\n\n\n\n\nMean and Standard Deviation\n\n\n\n\n\n\nstatistics\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nJun 24, 2024\n\n\nHafeez Nathoo\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "topics/topic_2/index.html",
     "href": "topics/topic_2/index.html",
-    "title": "Topic 0",
+    "title": "Topic 2",
     "section": "",
     "text": "first topic covered"
   },
@@ -60,6 +60,20 @@
     "href": "topics/topic_3/index.html",
     "title": "Rolling Averages",
     "section": "",
-    "text": "Some Basics\nAn average is a common concept, it is a number which represents each data point within a range of numbers, giving equal weight to each number. While averages are fairly straightforward, the concept of rolling averages may not be as simple.\nA rolling average is the average of a range of values within a given time frame which keeps moving forward to keep up incoming data as time goes on. Rolling averages help us include incoming data to adjust our average value and they can constrain the data we look at if we want to emphasize a certain set of values within a range.\nTake budgeting for example. An average monthly spend ever since you opened your bank account would not be the greatest figure to help you work on your finances. It would not update with new data (e.g., transactions, withdrawals, deposits) and it includes all data within the range (is it really that useful to know how much you spent in a month when you were 15?) With a rolling average, you can constrain the time you look at (e.g., the last 3 months)"
+    "text": "Some Basics\nAn average is a common concept, it is a number which represents each data point within a range of numbers, giving equal weight to each number. While averages are fairly straightforward, the concept of rolling averages may not be as simple.\nA rolling average is the average of a range of values within a given time frame which keeps moving forward to keep up incoming data as time goes on. Rolling averages help us include incoming data to adjust our average value and they can constrain the data we look at if we want to emphasize a certain set of values within a range.\nTake budgeting for example. An average monthly spend ever since you opened your bank account would not be the greatest figure to help you work on your finances. It would not update with new data (e.g., transactions, withdrawals, deposits) and it includes all data within the range (is it really that useful to know how much you spent in a month when you were 15?) With a rolling average, you can constrain the time you look at (e.g., the last 3 months)\ntest test test"
+  },
+  {
+    "objectID": "topics/2 Central Tendency and Spread/index.html",
+    "href": "topics/2 Central Tendency and Spread/index.html",
+    "title": "Mean and Standard Deviation",
+    "section": "",
+    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "topics/1 Rolling Averages/index.html",
+    "href": "topics/1 Rolling Averages/index.html",
+    "title": "Rolling Averages",
+    "section": "",
+    "text": "Some Basics\nAn average is a common concept, it is a number which represents each data point within a range of numbers, giving equal weight to each number. While averages are fairly straightforward, the concept of rolling averages may not be as simple.\nA rolling average is the average of a range of values within a given time frame which keeps moving forward to keep up incoming data as time goes on. Rolling averages help us include incoming data to adjust our average value and they can constrain the data we look at if we want to emphasize a certain set of values within a range.\nTake budgeting for example. An average monthly spend ever since you opened your bank account would not be the greatest figure to help you work on your finances. It would not update with new data (e.g., transactions, withdrawals, deposits) and it includes all data within the range (is it really that useful to know how much you spent in a month when you were 15?) With a rolling average, you can constrain the time you look at (e.g., the last 3 months)\ntest test test"
   }
 ]
