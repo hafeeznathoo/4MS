@@ -5,8 +5,34 @@ date: "2024-06-24"
 categories: [ statistics, analysis, data]
 ---
 
-The goal of this post is to give a quick introduction
+The goal of this post is to give a quick introduction to measures of central tendency - which is a fancy way of saying, how can we use a single number to summarize the contents of a data set.
 
-```{r}
-1 + 1
+These are widely taught in pretty much every stats class, so here we will focus on conceptual meaning and use rather than formulas.
+
+Lets start with a simple data set for illustrative purposes with only five numbers: $(1, 4, 5, 10, 10)$
+
+```{r, echo = FALSE, message=FALSE}
+sample <- c(1, 4, 5, 10, 10)
+getmode <- function(v) {
+   uniqv <- unique(v)
+   uniqv[which.max(tabulate(match(v, uniqv)))]
+}
+
+mean(sample)
+median(sample)
+getmode(sample)
 ```
+
+The mean is defined as the
+
+The median is defined as
+
+The mode is defined as the value which appears most frequently in the data set (`{r} sample)`, this is straightforward and is clearly the value '10' in our sample data.
+
+------------------------------------------------------------------------
+
+**References**
+
+1.  *Hurley M, Tenny S. Mean. \[Updated 2023 Jul 17\]. In: StatPearls \[Internet\]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK546702*
+2.  *Tenny S, Hoffman MR. Median. \[Updated 2022 Sep 19\]. In: StatPearls \[Internet\]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK470533*
+3.  *Mercadante AA, Tenny S. Mode. \[Updated 2023 Jul 17\]. In: StatPearls \[Internet\]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK540990*
