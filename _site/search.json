@@ -56,8 +56,8 @@
     "text": "The goal of this post is to give a quick introduction to measures of central tendency - which is a fancy way of saying, how can we use a single number to summarize the contents of a data set. The three quantities we are concerned with will be the mean (average), median, and mode.\nThese are widely taught in pretty much every stats class, so here we will focus on conceptual meaning and interpretation.\nLets start with a simple data set for illustrative purposes with only five numbers: \\((1, 4, 5, 10, 10)\\)"
   },
   {
-    "objectID": "topics/2 Central Tendency/index.html#section-1",
-    "href": "topics/2 Central Tendency/index.html#section-1",
+    "objectID": "topics/2 Central Tendency/index.html#section",
+    "href": "topics/2 Central Tendency/index.html#section",
     "title": "Measures of Central Tendency",
     "section": "",
     "text": "References\n\nHurley M, Tenny S. Mean. [Updated 2023 Jul 17]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-.Available from: https://www.ncbi.nlm.nih.gov/books/NBK546702\nTenny S, Hoffman MR. Median. [Updated 2022 Sep 19]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-.Available from: https://www.ncbi.nlm.nih.gov/books/NBK470533\nMercadante AA, Tenny S. Mode. [Updated 2023 Jul 17]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-.Available from: https://www.ncbi.nlm.nih.gov/books/NBK540990"

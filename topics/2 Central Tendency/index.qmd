@@ -31,6 +31,7 @@ The mean ($\mu$) is defined as the sum of all members of the set ($x_i$'s) divid
 $$
 \mu = (\Sigma x_i )/ n
 $$
+    
 ### Median
 
 The median is defined as the middle value in the set, also known as the 50th percentile. This value will represent the halfway point - half the numbers are less, and half more.

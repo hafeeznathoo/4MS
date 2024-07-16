@@ -185,11 +185,11 @@ window.Quarto = {
    
   <ul>
   <li><a href="#mean-aka-the-average" id="toc-mean-aka-the-average" class="nav-link active" data-scroll-target="#mean-aka-the-average">Mean (aka the Average)</a></li>
+  <li><a href="#median" id="toc-median" class="nav-link" data-scroll-target="#median">Median</a></li>
   <li><a href="#mode" id="toc-mode" class="nav-link" data-scroll-target="#mode">Mode</a></li>
   <li><a href="#the-importance-of-mean-vs-median" id="toc-the-importance-of-mean-vs-median" class="nav-link" data-scroll-target="#the-importance-of-mean-vs-median">The Importance of Mean vs Median</a></li>
   <li><a href="#thank-you" id="toc-thank-you" class="nav-link" data-scroll-target="#thank-you">Thank you!</a></li>
   <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
-  <li><a href="#section-1" id="toc-section-1" class="nav-link" data-scroll-target="#section-1"></a></li>
   </ul>
 </nav>
     </div>
@@ -208,7 +208,10 @@ window.Quarto = {
 <p>The mean (<span class="math inline">\(\mu\)</span>) is defined as the sum of all members of the set (<span class="math inline">\(x_i\)</span>’s) divided by the number of members in that set (<span class="math inline">\(n\)</span>) - this works out to <span class="math inline">\(30/5\)</span> for our example giving a mean of <span class="math inline">\(6\)</span>.</p>
 <p><span class="math display">\[
 \mu = (\Sigma x_i )/ n
-\]</span> ### Median</p>
+\]</span></p>
+</section>
+<section id="median" class="level3">
+<h3 class="anchored" data-anchor-id="median">Median</h3>
 <p>The median is defined as the middle value in the set, also known as the 50th percentile. This value will represent the halfway point - half the numbers are less, and half more.</p>
 <p>In our data set <span class="math inline">\((1, 4, 5, 10, 10)\)</span>, the median is <span class="math inline">\(5\)</span>.</p>
 <p>If there were two middle numbers - for example in <span class="math inline">\((2, 3, 4, 5, 6, 8)\)</span> - then average the two middle numbers. For this example, the median is <span class="math inline">\(4.5\)</span>.</p>
@@ -221,7 +224,7 @@ window.Quarto = {
 <h3 class="anchored" data-anchor-id="the-importance-of-mean-vs-median">The Importance of Mean vs Median</h3>
 <p>These definitions are straightforward enough, and are often calculated with software (R, Excel, python, etc.) and not by hand. The importance is in understanding their utility - in particular Mean vs Median.</p>
 <p>The mean can be affected by outliers - e.g.&nbsp;the mean of <span class="math inline">\((1,2,3,4,100)\)</span> is <span class="math inline">\(22\)</span> - a high value considering the bulk of the data is below 5. The median is <span class="math inline">\(3\)</span> - much more representative of the bulk of the data. The median is commonly reported in clinical applications owing to its resistance to the effects of outliers.</p>
-<p>In a “normal” - bell curve, the mean and median are fairly similar - as expected in the histogram below.</p>
+<p>In a normal (bell) curve, the mean and median are fairly similar - as expected when looking at the histogram below.</p>
 <div class="cell" data-messages="false">
 <div class="cell-output-display">
 <div>
@@ -231,7 +234,7 @@ window.Quarto = {
 </div>
 </div>
 </div>
-<p>When you have data which is not as close to a bell curve (demonstrated in the below histogram) - median can be more useful since it is not as susceptible to the effects of a long tail.</p>
+<p>When you have data which is not as close to a bell curve (demonstrated in the below histogram) - median can be more useful since it is not as susceptible to the effects of a long tail (also known as <strong>skew</strong>)</p>
 <div class="cell" data-messages="false">
 <div class="cell-output-display">
 <div>
@@ -249,9 +252,6 @@ window.Quarto = {
 </section>
 <section id="section" class="level2">
 <h2 class="anchored" data-anchor-id="section"></h2>
-</section>
-<section id="section-1" class="level2">
-<h2 class="anchored" data-anchor-id="section-1"></h2>
 <p><strong>References</strong></p>
 <ol type="1">
 <li><em>Hurley M, Tenny S. Mean. [Updated 2023 Jul 17]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-.Available from: https://www.ncbi.nlm.nih.gov/books/NBK546702</em></li>
