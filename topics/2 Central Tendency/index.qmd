@@ -29,7 +29,7 @@ getmode <- function(v) {
 The mean ($\mu$) is defined as the sum of all members of the set ($x_i$'s) divided by the number of members in that set ($n$) - this works out to $30/5$ for our example giving a mean of $6$.
 
 $$
-\mu = (\Sigma x_i )/ n
+\mu = \frac{\sum_{i}^{n} x_i}{n}
 $$
     
 ### Median
@@ -51,7 +51,8 @@ These definitions are straightforward enough, and are often calculated with soft
 
 The mean can be affected by outliers - e.g. the mean of $(1,2,3,4,100)$ is $22$ - a high value considering the bulk of the data is below 5. The median is $3$ - much more representative of the bulk of the data. The median is commonly reported in clinical applications owing to its resistance to the effects of outliers.
 
-In a normal (bell) curve, the mean and median are fairly similar - as expected when looking at the histogram below.
+In a normal (bell) curve, the mean and median are fairly similar - as expected when looking at the histogram below. 
+<!-- The mean is the black line and median is in red. -->
 
 ```{r echo=FALSE, messages=FALSE, warning=FALSE, error=FALSE}
 
@@ -59,20 +60,26 @@ normalvec <- rnorm(1000)
 
 ggplot(mapping = aes(normalvec))+
   geom_histogram(color = "black", fill = "steelblue4", bins = 40)+
+  # geom_vline(xintercept = mean(normalvec), color = 'black')+
+  # geom_vline(xintercept = median(normalvec), color = 'red')+
   xlab("Values")+
   ylab("count")+
   theme_bw()
 
 ```
 
-When you have data which is not as close to a bell curve (demonstrated in the below histogram) - median can be more useful since it is not as susceptible to the effects of a long tail (also known as **skew**)
+When you have data which is not as close to a bell curve (demonstrated in the below histogram) - median can be more useful since it is not as susceptible to the effects of a long tail (also known as **skew**). 
+<!-- The mean is the black line and median is in red. -->
+In the below data, the extreme values to the right would inflate the value of the mean.
 
 ```{r echo=FALSE, messages=FALSE, warning=FALSE}
 
 lognormalvec <- rlnorm(5000)
 
 ggplot(mapping = aes(lognormalvec))+
-  geom_histogram(color = "black", fill = "violetred4", bins = 60)+
+  geom_histogram(color = "black", fill = "steelblue4", bins = 60)+
+  # geom_vline(xintercept = mean(lognormalvec), color = 'black')+
+  # geom_vline(xintercept = median(lognormalvec), color = 'red')+
   xlab("Values")+
   ylab("count")+
   theme_bw()

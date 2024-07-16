@@ -207,7 +207,7 @@ window.Quarto = {
 <h3 class="anchored" data-anchor-id="mean-aka-the-average">Mean (aka the Average)</h3>
 <p>The mean (<span class="math inline">\(\mu\)</span>) is defined as the sum of all members of the set (<span class="math inline">\(x_i\)</span>’s) divided by the number of members in that set (<span class="math inline">\(n\)</span>) - this works out to <span class="math inline">\(30/5\)</span> for our example giving a mean of <span class="math inline">\(6\)</span>.</p>
 <p><span class="math display">\[
-\mu = (\Sigma x_i )/ n
+\mu = \frac{\sum_{i}^{n} x_i}{n}
 \]</span></p>
 </section>
 <section id="median" class="level3">
@@ -224,7 +224,7 @@ window.Quarto = {
 <h3 class="anchored" data-anchor-id="the-importance-of-mean-vs-median">The Importance of Mean vs Median</h3>
 <p>These definitions are straightforward enough, and are often calculated with software (R, Excel, python, etc.) and not by hand. The importance is in understanding their utility - in particular Mean vs Median.</p>
 <p>The mean can be affected by outliers - e.g.&nbsp;the mean of <span class="math inline">\((1,2,3,4,100)\)</span> is <span class="math inline">\(22\)</span> - a high value considering the bulk of the data is below 5. The median is <span class="math inline">\(3\)</span> - much more representative of the bulk of the data. The median is commonly reported in clinical applications owing to its resistance to the effects of outliers.</p>
-<p>In a normal (bell) curve, the mean and median are fairly similar - as expected when looking at the histogram below.</p>
+<p>In a normal (bell) curve, the mean and median are fairly similar - as expected when looking at the histogram below. <!-- The mean is the black line and median is in red. --></p>
 <div class="cell" data-messages="false">
 <div class="cell-output-display">
 <div>
@@ -234,7 +234,7 @@ window.Quarto = {
 </div>
 </div>
 </div>
-<p>When you have data which is not as close to a bell curve (demonstrated in the below histogram) - median can be more useful since it is not as susceptible to the effects of a long tail (also known as <strong>skew</strong>)</p>
+<p>When you have data which is not as close to a bell curve (demonstrated in the below histogram) - median can be more useful since it is not as susceptible to the effects of a long tail (also known as <strong>skew</strong>). <!-- The mean is the black line and median is in red. --> In the below data, the extreme values to the right would inflate the value of the mean.</p>
 <div class="cell" data-messages="false">
 <div class="cell-output-display">
 <div>
