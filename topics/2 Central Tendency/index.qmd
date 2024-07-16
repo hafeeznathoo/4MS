@@ -5,7 +5,7 @@ date: "2024-06-24"
 categories: [ statistics, analysis, data]
 ---
 
-The goal of this post is to give a quick introduction to measures of central tendency - which is a fancy way of saying, how can we use a single number to summarize the contents of a data set.
+The goal of this post is to give a quick introduction to measures of central tendency - which is a fancy way of saying, how can we use a single number to summarize the contents of a data set. The three quantities we are concerned with will be the **mean**, **median**, and **mode**.
 
 These are widely taught in pretty much every stats class, so here we will focus on conceptual meaning and use rather than formulas.
 
@@ -17,22 +17,27 @@ getmode <- function(v) {
    uniqv <- unique(v)
    uniqv[which.max(tabulate(match(v, uniqv)))]
 }
-
-mean(sample)
-median(sample)
-getmode(sample)
+# 
+# mean(sample)
+# median(sample)
+# getmode(sample)
 ```
 
-The mean is defined as the
+The mean ($\mu$) is defined as the sum of all members of the set ($x_i$'s) divided by the number of members in that set ($n$) - this works out to $30/5$ for our example giving a mean of $6$.
 
-The median is defined as
+$$
+\mu = (\Sigma x_i )/ n
+$$
 
-The mode is defined as the value which appears most frequently in the data set (`{r} sample)`, this is straightforward and is clearly the value '10' in our sample data.
+The median is defined as ...
 
-------------------------------------------------------------------------
+
+
+
+The mode is defined as the value which appears most frequently in the data set $(1, 4, 5, 10, 10)$, this is straightforward and is clearly the value $10$ in our sample data.
 
 **References**
 
-1.  *Hurley M, Tenny S. Mean. \[Updated 2023 Jul 17\]. In: StatPearls \[Internet\]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK546702*
-2.  *Tenny S, Hoffman MR. Median. \[Updated 2022 Sep 19\]. In: StatPearls \[Internet\]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK470533*
-3.  *Mercadante AA, Tenny S. Mode. \[Updated 2023 Jul 17\]. In: StatPearls \[Internet\]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK540990*
+1.  *Hurley M, Tenny S. Mean. \[Updated 2023 Jul 17\]. In: StatPearls \[Internet\]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-.Available from: https://www.ncbi.nlm.nih.gov/books/NBK546702*
+2.  *Tenny S, Hoffman MR. Median. \[Updated 2022 Sep 19\]. In: StatPearls \[Internet\]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-.Available from: https://www.ncbi.nlm.nih.gov/books/NBK470533*
+3.  *Mercadante AA, Tenny S. Mode. \[Updated 2023 Jul 17\]. In: StatPearls \[Internet\]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-.Available from: https://www.ncbi.nlm.nih.gov/books/NBK540990*
