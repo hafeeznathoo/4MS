@@ -2,8 +2,9 @@
   {
     "listing": "/topics.html",
     "items": [
+      "/topics/3_measures_of_spread/index.html",
       "/topics/1 Rolling Averages/index.html",
-      "/topics/2 Central Tendency/index.html"
+      "/topics/2_central_tendency/index.html"
     ]
   },
   {

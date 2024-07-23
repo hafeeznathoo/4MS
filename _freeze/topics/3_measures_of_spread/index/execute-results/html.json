@@ -1,0 +1,17 @@
+{
+  "hash": "51452b270b667be2e246e469b165eaf7",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Measures of Dispersion\"\nauthor: \"Hafeez Nathoo\"\ndate: \"2024-07-23\"\ncategories: [ statistics, analysis, data]\n---\n\n\nThe goal of this post is to give a quick introduction to measures of dispersion - which is a fancy way of saying, how can we use a single number to summarize the contents of a data set. The four quantities we are concerned with will be the **standard deviation**, **variance**, **inter quartile range (IQR)**, and **range**.\n\nThe big question to answer is why do we care? \nGenerally, data can be described with two measures - one of [central tendency]<https://mathformedstudents.netlify.app/topics/2%20Central%20Tendency/> and one of \n\nLets start with a simple data set for illustrative purposes with only five numbers: $(1, 4, 5, 10, 10)$\n\n\n::: {.cell}\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 3.937004\n```\n\n\n:::\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 15.5\n```\n\n\n:::\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 6\n```\n\n\n:::\n:::\n\n::: {.cell messages='false'}\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-2-1.png){width=672}\n:::\n:::\n\n\nUltimately the best measure to report will depend on you application - these measures are the first step to deeper statistical analysis.\n\n\n### Thank you!\n\nHope the above was helpful, a few concepts were touched on in this article - skew, data visualization, and so on - stay tuned for more posts diving deeper into those topics!\n\n\n## \n\n**References**\n\n1.  *El Omda S, Sergent SR. Standard Deviation. [Updated 2023 Aug 14]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK574574/*\n2.  *Wadhwa RR, Azzam D. Variance. [Updated 2023 Jul 17]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK551689/*\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

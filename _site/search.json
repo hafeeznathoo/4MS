@@ -4,42 +4,21 @@
     "href": "topics.html",
     "title": "Topics",
     "section": "",
-    "text": "Rolling Averages\n\n\n\n\n\n\ngeneral\n\n\nstats\n\n\narithmetic\n\n\n\n\n\n\n\n\n\nJun 24, 2024\n\n\nAli Hassan\n\n\n\n\n\n\n\n\n\n\n\n\nMeasures of Central Tendency\n\n\n\n\n\n\nstatistics\n\n\nanalysis\n\n\ndata\n\n\n\n\n\n\n\n\n\nJun 24, 2024\n\n\nHafeez Nathoo\n\n\n\n\n\n\nNo matching items"
+    "text": "Measures of Dispersion\n\n\n\n\n\n\nstatistics\n\n\nanalysis\n\n\ndata\n\n\n\n\n\n\n\n\n\nJul 23, 2024\n\n\nHafeez Nathoo\n\n\n\n\n\n\n\n\n\n\n\n\nRolling Averages\n\n\n\n\n\n\ngeneral\n\n\nstats\n\n\narithmetic\n\n\n\n\n\n\n\n\n\nJun 24, 2024\n\n\nAli Hassan\n\n\n\n\n\n\n\n\n\n\n\n\nMeasures of Central Tendency\n\n\n\n\n\n\nstatistics\n\n\nanalysis\n\n\ndata\n\n\n\n\n\n\n\n\n\nJun 24, 2024\n\n\nHafeez Nathoo\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "topics/1 Rolling Averages/index.html",
-    "href": "topics/1 Rolling Averages/index.html",
-    "title": "Rolling Averages",
+    "objectID": "topics/2_central_tendency/index.html",
+    "href": "topics/2_central_tendency/index.html",
+    "title": "Measures of Central Tendency",
     "section": "",
-    "text": "Some Basics\nAn average is a common concept, it is a number which represents each data point within a range of numbers, giving equal weight to each number. While averages are fairly straightforward, the concept of rolling averages may not be as simple.\nA rolling average is the average of a range of values within a given time frame which keeps moving forward to keep up incoming data as time goes on. Rolling averages help us include incoming data to adjust our average value and they can constrain the data we look at if we want to emphasize a certain set of values within a range.\nTake budgeting for example. An average monthly spend ever since you opened your bank account would not be the greatest figure to help you work on your finances. It would not update with new data (e.g., transactions, withdrawals, deposits) and it includes all data within the range (is it really that useful to know how much you spent in a month when you were 15?) With a rolling average, you can constrain the time you look at (e.g., the last 3 months)\ntest test test"
+    "text": "The goal of this post is to give a quick introduction to measures of central tendency - which is a fancy way of saying, how can we use a single number to summarize the contents of a data set. The three quantities we are concerned with will be the mean (average), median, and mode.\nThese are widely taught in pretty much every stats class, so here we will focus on conceptual meaning and interpretation.\nLets start with a simple data set for illustrative purposes with only five numbers: \\((1, 4, 5, 10, 10)\\)"
   },
   {
-    "objectID": "applications.html",
-    "href": "applications.html",
-    "title": "Applications",
+    "objectID": "topics/2_central_tendency/index.html#section",
+    "href": "topics/2_central_tendency/index.html#section",
+    "title": "Measures of Central Tendency",
     "section": "",
-    "text": "Concept 1\n\n\n\n\n\n\nalgebra\n\n\ngeneral\n\n\nstats\n\n\n\n\n\n\n\n\n\nJun 24, 2024\n\n\nH\n\n\n\n\n\n\n\n\n\n\n\n\nFirst concept\n\n\n\n\n\n\nbasics\n\n\nalgebra\n\n\n\n\n\n\n\n\n\nMay 21, 2024\n\n\nH\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "applications/concept_1/index.html",
-    "href": "applications/concept_1/index.html",
-    "title": "Concept 1",
-    "section": "",
-    "text": "##This is a post with executable code. some content\nformat this\nformat this\n\\(A = l * w * \\Sigma * \\pi\\)\n\n1 + 1\n\n[1] 2\n\nlibrary(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.1     ✔ tibble    3.2.1\n✔ lubridate 1.9.3     ✔ tidyr     1.3.1\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\ndata(mtcars)\n\nggplot(mtcars, aes(x=am, y=mpg, color=cyl))+\n  geom_point()"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "applications/concept_2/index.html",
-    "href": "applications/concept_2/index.html",
-    "title": "First concept",
-    "section": "",
-    "text": "\\(A = \\pi * r^2\\)\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "References\n\nHurley M, Tenny S. Mean. [Updated 2023 Jul 17]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-.Available from: https://www.ncbi.nlm.nih.gov/books/NBK546702\nTenny S, Hoffman MR. Median. [Updated 2022 Sep 19]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-.Available from: https://www.ncbi.nlm.nih.gov/books/NBK470533\nMercadante AA, Tenny S. Mode. [Updated 2023 Jul 17]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-.Available from: https://www.ncbi.nlm.nih.gov/books/NBK540990"
   },
   {
     "objectID": "index.html",
@@ -49,17 +28,52 @@
     "text": "This is our site\nLanding page here,\nadd a ‘why’\ndirect to site links\na large graphic here"
   },
   {
-    "objectID": "topics/2 Central Tendency/index.html",
-    "href": "topics/2 Central Tendency/index.html",
-    "title": "Measures of Central Tendency",
+    "objectID": "applications/concept_2/index.html",
+    "href": "applications/concept_2/index.html",
+    "title": "First concept",
     "section": "",
-    "text": "The goal of this post is to give a quick introduction to measures of central tendency - which is a fancy way of saying, how can we use a single number to summarize the contents of a data set. The three quantities we are concerned with will be the mean (average), median, and mode.\nThese are widely taught in pretty much every stats class, so here we will focus on conceptual meaning and interpretation.\nLets start with a simple data set for illustrative purposes with only five numbers: \\((1, 4, 5, 10, 10)\\)"
+    "text": "\\(A = \\pi * r^2\\)\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
   },
   {
-    "objectID": "topics/2 Central Tendency/index.html#section",
-    "href": "topics/2 Central Tendency/index.html#section",
-    "title": "Measures of Central Tendency",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "References\n\nHurley M, Tenny S. Mean. [Updated 2023 Jul 17]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-.Available from: https://www.ncbi.nlm.nih.gov/books/NBK546702\nTenny S, Hoffman MR. Median. [Updated 2022 Sep 19]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-.Available from: https://www.ncbi.nlm.nih.gov/books/NBK470533\nMercadante AA, Tenny S. Mode. [Updated 2023 Jul 17]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-.Available from: https://www.ncbi.nlm.nih.gov/books/NBK540990"
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "applications/concept_1/index.html",
+    "href": "applications/concept_1/index.html",
+    "title": "Concept 1",
+    "section": "",
+    "text": "##This is a post with executable code. some content\nformat this\nformat this\n\\(A = l * w * \\Sigma * \\pi\\)\n\n1 + 1\n\n[1] 2\n\nlibrary(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.1     ✔ tibble    3.2.1\n✔ lubridate 1.9.3     ✔ tidyr     1.3.1\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\ndata(mtcars)\n\nggplot(mtcars, aes(x=am, y=mpg, color=cyl))+\n  geom_point()"
+  },
+  {
+    "objectID": "applications.html",
+    "href": "applications.html",
+    "title": "Applications",
+    "section": "",
+    "text": "Concept 1\n\n\n\n\n\n\nalgebra\n\n\ngeneral\n\n\nstats\n\n\n\n\n\n\n\n\n\nJun 24, 2024\n\n\nH\n\n\n\n\n\n\n\n\n\n\n\n\nFirst concept\n\n\n\n\n\n\nbasics\n\n\nalgebra\n\n\n\n\n\n\n\n\n\nMay 21, 2024\n\n\nH\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "topics/1 Rolling Averages/index.html",
+    "href": "topics/1 Rolling Averages/index.html",
+    "title": "Rolling Averages",
+    "section": "",
+    "text": "Some Basics\nAn average is a common concept, it is a number which represents each data point within a range of numbers, giving equal weight to each number. While averages are fairly straightforward, the concept of rolling averages may not be as simple.\nA rolling average is the average of a range of values within a given time frame which keeps moving forward to keep up incoming data as time goes on. Rolling averages help us include incoming data to adjust our average value and they can constrain the data we look at if we want to emphasize a certain set of values within a range.\nTake budgeting for example. An average monthly spend ever since you opened your bank account would not be the greatest figure to help you work on your finances. It would not update with new data (e.g., transactions, withdrawals, deposits) and it includes all data within the range (is it really that useful to know how much you spent in a month when you were 15?) With a rolling average, you can constrain the time you look at (e.g., the last 3 months)\ntest test test"
+  },
+  {
+    "objectID": "topics/3_measures_of_spread/index.html",
+    "href": "topics/3_measures_of_spread/index.html",
+    "title": "Measures of Dispersion",
+    "section": "",
+    "text": "The goal of this post is to give a quick introduction to measures of dispersion - which is a fancy way of saying, how can we use a single number to summarize the contents of a data set. The four quantities we are concerned with will be the standard deviation, variance, inter quartile range (IQR), and range.\nThe big question to answer is why do we care? Generally, data can be described with two measures - one of [central tendency]https://mathformedstudents.netlify.app/topics/2%20Central%20Tendency/ and one of\nLets start with a simple data set for illustrative purposes with only five numbers: \\((1, 4, 5, 10, 10)\\)\n[1] 3.937004\n\n\n[1] 15.5\n\n\n[1] 6\nUltimately the best measure to report will depend on you application - these measures are the first step to deeper statistical analysis."
+  },
+  {
+    "objectID": "topics/3_measures_of_spread/index.html#section",
+    "href": "topics/3_measures_of_spread/index.html#section",
+    "title": "Measures of Dispersion",
+    "section": "",
+    "text": "References\n\nEl Omda S, Sergent SR. Standard Deviation. [Updated 2023 Aug 14]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK574574/\nWadhwa RR, Azzam D. Variance. [Updated 2023 Jul 17]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK551689/"
   }
 ]
