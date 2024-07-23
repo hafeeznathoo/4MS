@@ -1,0 +1,56 @@
+---
+title: "Measures of Dispersion"
+author: "Hafeez Nathoo"
+date: "2024-07-23"
+categories: [ statistics, analysis, data]
+---
+
+The goal of this post is to give a quick introduction to measures of dispersion - which is a fancy way of saying, how can we use a single number to summarize the contents of a data set. The four quantities we are concerned with will be the **standard deviation**, **variance**, **inter quartile range (IQR)**, and **range**.
+
+The big question to answer is why do we care? 
+Generally, data can be described with two measures - one of [central tendency]<https://mathformedstudents.netlify.app/topics/2%20Central%20Tendency/> and one of 
+
+Lets start with a simple data set for illustrative purposes with only five numbers: $(1, 4, 5, 10, 10)$
+
+```{r, echo = FALSE, message=FALSE, warning=FALSE}
+library(tidyverse)
+sample <- c(1, 4, 5, 10, 10)
+
+sd(sample)
+var(sample)
+IQR(sample)
+range <- range(sample)
+
+data_range <- range[2] - range[1]
+```
+
+
+```{r echo=FALSE, messages=FALSE, warning=FALSE, error=FALSE}
+
+normalvec <- rnorm(1000)
+
+ggplot(mapping = aes(normalvec))+
+  geom_histogram(color = "black", fill = "steelblue4", bins = 40)+
+  # geom_vline(xintercept = mean(normalvec), color = 'black')+
+  # geom_vline(xintercept = median(normalvec), color = 'red')+
+  xlab("Values")+
+  ylab("count")+
+  theme_bw()
+
+```
+
+Ultimately the best measure to report will depend on you application - these measures are the first step to deeper statistical analysis.
+
+
+### Thank you!
+
+Hope the above was helpful, a few concepts were touched on in this article - skew, data visualization, and so on - stay tuned for more posts diving deeper into those topics!
+
+
+## 
+
+**References**
+
+1.  *El Omda S, Sergent SR. Standard Deviation. [Updated 2023 Aug 14]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK574574/*
+2.  *Wadhwa RR, Azzam D. Variance. [Updated 2023 Jul 17]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK551689/*
+
