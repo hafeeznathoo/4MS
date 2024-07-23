@@ -7,23 +7,29 @@ categories: [ statistics, analysis, data]
 
 The goal of this post is to give a quick introduction to measures of dispersion - which is a fancy way of saying, how can we use a single number to summarize the contents of a data set. The four quantities we are concerned with will be the **standard deviation**, **variance**, **inter quartile range (IQR)**, and **range**.
 
-The big question to answer is why do we care? 
-Generally, data can be described with two measures - one of [central tendency]<https://mathformedstudents.netlify.app/topics/2_central_tendency/> and one of 
+The big question to answer is why do we care? Generally, data can be described with two measures - one of \[central tendency\]<https://mathformedstudents.netlify.app/topics/2_central_tendency/> and one of spread, these two numbers together will give a sense of the distribution of the data.
 
-Lets start with a simple data set for illustrative purposes with only five numbers: $(1, 4, 5, 10, 10)$
+Lets start with a simple data set for illustrative purposes with only five numbers: $(1, 4, 5, 8, 35)$
 
 ```{r, echo = FALSE, message=FALSE, warning=FALSE}
 library(tidyverse)
-sample <- c(1, 4, 5, 10, 10)
+sample <- c(1, 4, 5, 8, 35)
 
 sd(sample)
 var(sample)
 IQR(sample)
 range <- range(sample)
-
 data_range <- range[2] - range[1]
+data_range
 ```
 
+### Range
+
+Range is the simplest measure of the ones listed, representing the maximum extent of the data set and calculated very simply as the distance between the max and min.
+
+$$
+range = x_{max} - x_{min}
+$$
 
 ```{r echo=FALSE, messages=FALSE, warning=FALSE, error=FALSE}
 
@@ -39,18 +45,15 @@ ggplot(mapping = aes(normalvec))+
 
 ```
 
-Ultimately the best measure to report will depend on you application - these measures are the first step to deeper statistical analysis.
-
+Ultimately the best measure to report will depend on your application - these measures are the first step to deeper statistical analysis.
 
 ### Thank you!
 
 Hope the above was helpful, a few concepts were touched on in this article - skew, data visualization, and so on - stay tuned for more posts diving deeper into those topics!
 
-
 ## 
 
 **References**
 
-1.  *El Omda S, Sergent SR. Standard Deviation. [Updated 2023 Aug 14]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK574574/*
-2.  *Wadhwa RR, Azzam D. Variance. [Updated 2023 Jul 17]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK551689/*
-
+1.  *El Omda S, Sergent SR. Standard Deviation. \[Updated 2023 Aug 14\]. In: StatPearls \[Internet\]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK574574/*
+2.  *Wadhwa RR, Azzam D. Variance. \[Updated 2023 Jul 17\]. In: StatPearls \[Internet\]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK551689/*

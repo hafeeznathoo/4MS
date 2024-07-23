@@ -85,7 +85,7 @@ ggplot(mapping = aes(lognormalvec))+
   theme_bw()
 ```
 
-Ultimately the best measure to report will depend on you application - these measures are the first step to deeper statistical analysis.
+Ultimately the best measure to report will depend on your application - these measures are the first step to deeper statistical analysis.
 
 
 ### Thank you!
