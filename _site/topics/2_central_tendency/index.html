@@ -244,7 +244,7 @@ window.Quarto = {
 </div>
 </div>
 </div>
-<p>Ultimately the best measure to report will depend on you application - these measures are the first step to deeper statistical analysis.</p>
+<p>Ultimately the best measure to report will depend on your application - these measures are the first step to deeper statistical analysis.</p>
 </section>
 <section id="thank-you" class="level3">
 <h3 class="anchored" data-anchor-id="thank-you">Thank you!</h3>
@@ -344,7 +344,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/mathformedstudents\.netlify\.app");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

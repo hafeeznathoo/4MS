@@ -207,10 +207,10 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="statistics,analysis,data" data-listing-date-sort="1721714400000" data-listing-file-modified-sort="1721743249009" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="259">
+<div class="quarto-post image-right" data-index="0" data-categories="statistics,analysis,data" data-listing-date-sort="1721714400000" data-listing-file-modified-sort="1721772647042" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="659">
 <div class="thumbnail">
 <p><a href="./topics/3_measures_of_spread/index.html" class="no-external"></a></p><a href="./topics/3_measures_of_spread/index.html" class="no-external">
-<p class="card-img-top"><img src="topics\3_measures_of_spread\index_files\figure-html\unnamed-chunk-2-1.png"  class="thumbnail-image card-img"/></p>
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
 </a><p><a href="./topics/3_measures_of_spread/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
@@ -248,16 +248,16 @@ Hafeez Nathoo
 </div>
 <div class="quarto-post image-right" data-index="1" data-categories="general,stats,arithmetic" data-listing-date-sort="1719208800000" data-listing-file-modified-sort="1720570453374" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="190">
 <div class="thumbnail">
-<p><a href="./topics/1 Rolling Averages/index.html" class="no-external"></a></p><a href="./topics/1 Rolling Averages/index.html" class="no-external">
-<p><img src="./topics/1 Rolling Averages/image.jpg" class="thumbnail-image"></p>
-</a><p><a href="./topics/1 Rolling Averages/index.html" class="no-external"></a></p>
+<p><a href="./topics/1_rolling_averages/index.html" class="no-external"></a></p><a href="./topics/1_rolling_averages/index.html" class="no-external">
+<p><img src="./topics/1_rolling_averages/image.jpg" class="thumbnail-image"></p>
+</a><p><a href="./topics/1_rolling_averages/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./topics/1 Rolling Averages/index.html" class="no-external">Rolling Averages</a>
+<a href="./topics/1_rolling_averages/index.html" class="no-external">Rolling Averages</a>
 </h3>
 <div class="listing-subtitle">
-<a href="./topics/1 Rolling Averages/index.html" class="no-external"></a>
+<a href="./topics/1_rolling_averages/index.html" class="no-external"></a>
 </div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('general'); return false;">
@@ -271,11 +271,11 @@ arithmetic
 </div>
 </div>
 <div class="listing-description">
-<a href="./topics/1 Rolling Averages/index.html" class="no-external"><strong>Some Basics</strong></a>
+<a href="./topics/1_rolling_averages/index.html" class="no-external"><strong>Some Basics</strong></a>
 </div>
 </div>
 <div class="metadata">
-<a href="./topics/1 Rolling Averages/index.html" class="no-external">
+<a href="./topics/1_rolling_averages/index.html" class="no-external">
 <div class="listing-date">
 Jun 24, 2024
 </div>
@@ -285,7 +285,7 @@ Ali Hassan
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="statistics,analysis,data" data-listing-date-sort="1719208800000" data-listing-file-modified-sort="1721157206483" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="669">
+<div class="quarto-post image-right" data-index="2" data-categories="statistics,analysis,data" data-listing-date-sort="1719208800000" data-listing-file-modified-sort="1721756337149" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="669">
 <div class="thumbnail">
 <p><a href="./topics/2_central_tendency/index.html" class="no-external"></a></p><a href="./topics/2_central_tendency/index.html" class="no-external">
 <p class="card-img-top"><img src="topics\2_central_tendency\index_files\figure-html\unnamed-chunk-2-1.png"  class="thumbnail-image card-img"/></p>
@@ -410,7 +410,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/mathformedstudents\.netlify\.app");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

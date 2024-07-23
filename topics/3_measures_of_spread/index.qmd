@@ -5,9 +5,11 @@ date: "2024-07-23"
 categories: [ statistics, analysis, data]
 ---
 
+### Overview
+
 The goal of this post is to give a quick introduction to measures of dispersion - which is a fancy way of saying, how can we use a single number to summarize the contents of a data set. The four quantities we are concerned with will be the **standard deviation**, **variance**, **inter quartile range (IQR)**, and **range**.
 
-The big question to answer is why do we care? Generally, data can be described with two measures - one of \[central tendency\]<https://mathformedstudents.netlify.app/topics/2_central_tendency/> and one of spread, these two numbers together will give a sense of the distribution of the data.
+The big question to answer is why do we care? Generally, data can be described with two measures - one of [central tendency](https://mathformedstudents.netlify.app/topics/2_central_tendency) and one of spread, these two numbers together will give a sense of the distribution of the data.
 
 Lets start with a simple data set for illustrative purposes with only five numbers: $(1, 4, 5, 8, 35)$
 
@@ -15,12 +17,12 @@ Lets start with a simple data set for illustrative purposes with only five numbe
 library(tidyverse)
 sample <- c(1, 4, 5, 8, 35)
 
-sd(sample)
-var(sample)
-IQR(sample)
-range <- range(sample)
-data_range <- range[2] - range[1]
-data_range
+# sd(sample)
+# var(sample)
+# IQR(sample)
+# range <- range(sample)
+# data_range <- range[2] - range[1]
+# data_range
 ```
 
 ### Range
@@ -31,27 +33,59 @@ $$
 range = x_{max} - x_{min}
 $$
 
-```{r echo=FALSE, messages=FALSE, warning=FALSE, error=FALSE}
+In our example data $x_{max} = 35$ and $x_{min}=1$, so the range will be $35-1 = 34$.
 
-normalvec <- rnorm(1000)
+### Inter Quartile Range (IQR)
 
-ggplot(mapping = aes(normalvec))+
-  geom_histogram(color = "black", fill = "steelblue4", bins = 40)+
-  # geom_vline(xintercept = mean(normalvec), color = 'black')+
-  # geom_vline(xintercept = median(normalvec), color = 'red')+
-  xlab("Values")+
-  ylab("count")+
-  theme_bw()
+A given data set can be arranged in quartiles - segmentation of the data into four groups by increasing value (bottom 25%, top 25%, and the two middle ranges).
 
-```
+For example, the data set $(1, 4, 5, 8, 35)$ when divided into quartiles is the below, with the corresponding percentiles noted (i.e. what position do these values occupy in the ordered data).
 
-Ultimately the best measure to report will depend on your application - these measures are the first step to deeper statistical analysis.
+| Quartile | Percentiles | Values |
+|----------|-------------|--------|
+| First    | 0 - 25%     | 1 - 4  |
+| Second   | 25% - 50%   | 4 - 5  |
+| Third    | 50% - 75%   | 5 - 8  |
+| Fourth   | 75% - 100%  | 8 - 35 |
+
+Now that the quartiles have been defined, IQR is straightforward - the difference between the 25th percentile and 75th percentile values.
+
+For our sample data - $(1, 4, 5, 8, 35)$, the 25 percentile value is $4$ and the 75 percentile is $8$. IQR would be $8 - 4 = 4$.
+
+$$
+IQR = x_{75\%} - x_{25\%}
+$$
+
+A great advantage to IQR is its resistance to extreme values, it is often reported in literature for this reason.
+
+### Standard Deviation and Variance
+
+Standard deviation (commonly represented by $\sigma$) and variance (commonly represented by $\sigma^2$) are related and ubiquitous when it comes to describing spread of data. Standard deviation is the square root of variance, as you may have guessed from the notation.
+
+**The conceptual definition of the variance is the "average" distance of any data point from the mean, squared** (mean represented by $\mu$). Variance is calculated by taking the distance of every data point from the mean, squaring it, and dividing it by the number of data points ($n$).
+
+
+$$
+Variance = \sigma^2 = \frac{\sum_{i}^{n}(x_i - \mu)^2}{n}
+$$
+$$
+Standard Deviation = \sqrt{Variance} = \sqrt{\frac{\sum_{i}^{n}(x_i - \mu)^2}{n}}
+$$
+Standard deviation and variance are tedious to calculate by hand even for very small datasets, software is almost always used to get these metrics.
+
+The variance and standard deviation provide quantitative measures of the data dispersion around the mean and are essential to understanding the dispersion of your data.
+
+### Applications
+
+In datasets with outliers or skewed distributions the standard deviation and variance will be affected. IQR is often reported alongside median to give two measures (of spread and central tendency, respectively) which are less susceptible to extreme values.
+
+Ultimately the best measures to report will depend on your application - these measures are the first step to deeper statistical analysis.
 
 ### Thank you!
 
-Hope the above was helpful, a few concepts were touched on in this article - skew, data visualization, and so on - stay tuned for more posts diving deeper into those topics!
+Stay tuned for more posts diving deeper into those topics!
 
-## 
+##
 
 **References**
 
