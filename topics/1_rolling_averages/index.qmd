@@ -2,7 +2,7 @@
 title: "Rolling Averages"
 author: "Ali Hassan"
 date: "2024-06-24"
-categories: [general, stats, arithmetic]
+categories: [general, statistics, arithmetic]
 image: "image.jpg"
 ---
 
