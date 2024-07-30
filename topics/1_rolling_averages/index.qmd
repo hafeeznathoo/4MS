@@ -6,13 +6,53 @@ categories: [general, stats, arithmetic]
 image: "image.jpg"
 ---
 
-**Some Basics**
+## Overview
 
-An average is a common concept, it is a number which represents each data point within a range of numbers, giving equal weight to each number. While averages are fairly straightforward, the concept of rolling averages may not be as simple. 
+The goal of this post is to go through the concept of a rolling average. A rolling average is an average which continually updates as new data comes in. A rolling average is comprised of two additional components compared to a regular average: 
 
-A rolling average is the average of a range of values within a given time frame which keeps moving forward to keep up incoming data as time goes on. Rolling averages help us include incoming data to adjust our average value and they can constrain the data we look at if we want to emphasize a certain set of values within a range. 
+- A time frame in which data is averaged over (e.g., 3 months), this can be thought of the amount of time we look at and, 
+- When that time frame is applied to the data (e.g., the most recent 3 months, this can be though of as when we set the start/end point of the above amount of time
 
+## Setting the foundation - the concept of an average
 
-Take budgeting for example. An average monthly spend ever since you opened your bank account would not be the greatest figure to help you work on your finances. It would not update with new data (e.g., transactions, withdrawals, deposits) and it includes all data within the range (is it really that useful to know how much you spent in a month when you were 15?) With a rolling average, you can constrain the time you look at (e.g., the last 3 months) 
+An average is a common concept that you are likely already familiar with. It is a number which represents each data point within a range of numbers, giving equal weight to each number. While averages are fairly straightforward, the concept of rolling averages may not be as simple. 
 
-test test test
+$$
+average = \frac{\sum_{i=1}^n}{n}
+$$
+
+The formula above is how you calculate a fraction and it looks a lot more complicated than the idea of an average you may have in your head - the numbers within a set all added up divided by the amount of numbers. The formula is saying that the average of a dataset is the sum (indicated by the $\sum$ symbol) of all the numbers in a dataset (indicated by the $n$ above the $\sum$ symbol) starting at the first value in that data set ($i$ = 1) divided by the number of values ($n$). 
+
+## The rolling average
+
+The rolling average is simply an average which is updated as new data comes in within a set time frame. The point that this average is **updated** is important; simply calculating an average that's contrained to a certain time frame does not make an average *rolling*. 
+
+Recall that the two important components of a rolling average are the amount of time we want to average over and when we want to set that amount of time to be set. Typically, rolling averages are conducted on the most recent values (the 'when' we want to set the amount of time to) so the end point is set to be the most recent data and the start point always moves forward in time. 
+
+The amount of time looked at varies depending on what is important. Take finances for examples. If we wanted to get insight into how our spending is changing as we start to tighten up our budget, it would be better to look at the last 30 days rather than the last 300 days as we are very interested in how new data is affecting this average. 
+
+Mathematically, a rolling average can looks like this:
+
+$$
+rolling\;average = \frac{\sum_{i=\:n-3}^n}{n}
+$$
+
+Suppose that the values in the above dataset are monthly blood tests for potassium. Based on the convention that we introduced above, the equation is telling us to average the last 3 months worth of blood work (3 data points) and to move that average to include the move recent blood work data point and to subsequently drop the latest blood work data (which would now be 4 months ago) as new potassium blood work comes in.
+
+## How this relates clinically
+
+The most prominent area of medicine where the rolling average becomes important is in interpreting HbA1c values.
+
+HbA1c represents the proportion of red blood cells (RBCs) that are glycated (bound to sugar molecules). The gem of HbA1c is that sugar molecules in the blood that have bound to RBCs (glycated) never unbound themselves, RBCs act like a history book of how much sugar has been in the blood. With greater blood sugar concentrations, more glucose binds to the available RBCs and conversely, with lower blood sugar concentrations, less glucose binds to newly created RBCs. As time passes on, both glycated and non-glycated hemoglobin is destroyed in the spleen and those records are effectively 'deleted'.
+
+Given the above, and that RBCs are created and destroyed approximately every 3 months, HbA1c is effectively an internally built in moving average of the blood glucose in the last ~3 months; at any particular moment the HbA1c concentration is a reflection of blood glucose in the last 3 months and updates continually.
+
+## Why this matters for the clinician
+
+Since HbA1c is a 3-month rolling average of the latest blood glucose levels in a given patient, testing HbA1c should only be done every 3 months. If testing is done more frequently, there is going to be overlap between the 'data' being given between the current and prior HbA1c reading and clinically, we want to see how the body is changing rather than how it was.
+
+## Thank you!
+
+Thanks for reading through this article. More articles connecting clinical practice and mathematics are coming soon.
+
+*Image provided by Wikimedia Commons*
