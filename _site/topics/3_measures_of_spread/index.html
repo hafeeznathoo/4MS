@@ -184,13 +184,13 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#range" id="toc-range" class="nav-link active" data-scroll-target="#range">Range</a></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#range" id="toc-range" class="nav-link" data-scroll-target="#range">Range</a></li>
   <li><a href="#inter-quartile-range-iqr" id="toc-inter-quartile-range-iqr" class="nav-link" data-scroll-target="#inter-quartile-range-iqr">Inter Quartile Range (IQR)</a></li>
   <li><a href="#standard-deviation-and-variance" id="toc-standard-deviation-and-variance" class="nav-link" data-scroll-target="#standard-deviation-and-variance">Standard Deviation and Variance</a></li>
   <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications">Applications</a></li>
-  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
   <li><a href="#thank-you" id="toc-thank-you" class="nav-link" data-scroll-target="#thank-you">Thank you!</a></li>
-  <li><a href="#section-1" id="toc-section-1" class="nav-link" data-scroll-target="#section-1"></a></li>
+  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
   </ul>
 </nav>
     </div>
@@ -201,9 +201,12 @@ window.Quarto = {
 
 
 
+<section id="overview" class="level3">
+<h3 class="anchored" data-anchor-id="overview">Overview</h3>
 <p>The goal of this post is to give a quick introduction to measures of dispersion - which is a fancy way of saying, how can we use a single number to summarize the contents of a data set. The four quantities we are concerned with will be the <strong>standard deviation</strong>, <strong>variance</strong>, <strong>inter quartile range (IQR)</strong>, and <strong>range</strong>.</p>
 <p>The big question to answer is why do we care? Generally, data can be described with two measures - one of <a href="https://mathformedstudents.netlify.app/topics/2_central_tendency">central tendency</a> and one of spread, these two numbers together will give a sense of the distribution of the data.</p>
 <p>Lets start with a simple data set for illustrative purposes with only five numbers: <span class="math inline">\((1, 4, 5, 8, 35)\)</span></p>
+</section>
 <section id="range" class="level3">
 <h3 class="anchored" data-anchor-id="range">Range</h3>
 <p>Range is the simplest measure of the ones listed, representing the maximum extent of the data set and calculated very simply as the distance between the max and min.</p>
@@ -247,7 +250,7 @@ range = x_{max} - x_{min}
 </tr>
 </tbody>
 </table>
-<p>Now that the quartiles have been defined, IQR is straightforward - the difference between the 25 percentile and 75 percentile values.</p>
+<p>Now that the quartiles have been defined, IQR is straightforward - the difference between the 25th percentile and 75th percentile values.</p>
 <p>For our sample data - <span class="math inline">\((1, 4, 5, 8, 35)\)</span>, the 25 percentile value is <span class="math inline">\(4\)</span> and the 75 percentile is <span class="math inline">\(8\)</span>. IQR would be <span class="math inline">\(8 - 4 = 4\)</span>.</p>
 <p><span class="math display">\[
 IQR = x_{75\%} - x_{25\%}
@@ -257,7 +260,7 @@ IQR = x_{75\%} - x_{25\%}
 <section id="standard-deviation-and-variance" class="level3">
 <h3 class="anchored" data-anchor-id="standard-deviation-and-variance">Standard Deviation and Variance</h3>
 <p>Standard deviation (commonly represented by <span class="math inline">\(\sigma\)</span>) and variance (commonly represented by <span class="math inline">\(\sigma^2\)</span>) are related and ubiquitous when it comes to describing spread of data. Standard deviation is the square root of variance, as you may have guessed from the notation.</p>
-<p><strong>The conceptual definition of the variance is the “average” distance of any data point from the mean, squared</strong> (mean represented by mu <span class="math inline">\(\mu\)</span>). Variance is calculated by taking the distance of every data point from the mean, squaring it, and dividing it by the number of data points (<span class="math inline">\(n\)</span>).</p>
+<p><strong>The conceptual definition of the variance is the “average” distance of any data point from the mean, squared</strong> (mean represented by <span class="math inline">\(\mu\)</span>). Variance is calculated by taking the distance of every data point from the mean, squaring it, and dividing it by the number of data points (<span class="math inline">\(n\)</span>).</p>
 <p><span class="math display">\[
 Variance = \sigma^2 = \frac{\sum_{i}^{n}(x_i - \mu)^2}{n}
 \]</span> <span class="math display">\[
@@ -268,17 +271,14 @@ Standard Deviation = \sqrt{Variance} = \sqrt{\frac{\sum_{i}^{n}(x_i - \mu)^2}{n}
 <section id="applications" class="level3">
 <h3 class="anchored" data-anchor-id="applications">Applications</h3>
 <p>In datasets with outliers or skewed distributions the standard deviation and variance will be affected. IQR is often reported alongside median to give two measures (of spread and central tendency, respectively) which are less susceptible to extreme values.</p>
-</section>
-<section id="section" class="level3">
-<h3 class="anchored" data-anchor-id="section"></h3>
-<p>Ultimately the best measure to report will depend on your application - these measures are the first step to deeper statistical analysis.</p>
+<p>Ultimately the best measures to report will depend on your application - these measures are the first step to deeper statistical analysis.</p>
 </section>
 <section id="thank-you" class="level3">
 <h3 class="anchored" data-anchor-id="thank-you">Thank you!</h3>
 <p>Stay tuned for more posts diving deeper into those topics!</p>
 </section>
-<section id="section-1" class="level2">
-<h2 class="anchored" data-anchor-id="section-1"></h2>
+<section id="section" class="level2">
+<h2 class="anchored" data-anchor-id="section"></h2>
 <p><strong>References</strong></p>
 <ol type="1">
 <li><em>El Omda S, Sergent SR. Standard Deviation. [Updated 2023 Aug 14]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK574574/</em></li>
@@ -370,7 +370,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/mathformedstudents\.netlify\.app");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

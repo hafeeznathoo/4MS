@@ -193,7 +193,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="analysis">analysis <span class="quarto-category-count">(2)</span></div><div class="category" data-category="arithmetic">arithmetic <span class="quarto-category-count">(1)</span></div><div class="category" data-category="data">data <span class="quarto-category-count">(2)</span></div><div class="category" data-category="general">general <span class="quarto-category-count">(1)</span></div><div class="category" data-category="statistics">statistics <span class="quarto-category-count">(2)</span></div><div class="category" data-category="stats">stats <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="analysis">analysis <span class="quarto-category-count">(2)</span></div><div class="category" data-category="arithmetic">arithmetic <span class="quarto-category-count">(1)</span></div><div class="category" data-category="data">data <span class="quarto-category-count">(2)</span></div><div class="category" data-category="general">general <span class="quarto-category-count">(1)</span></div><div class="category" data-category="statistics">statistics <span class="quarto-category-count">(3)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
@@ -207,7 +207,7 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="statistics,analysis,data" data-listing-date-sort="1721714400000" data-listing-file-modified-sort="1721772647042" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="659">
+<div class="quarto-post image-right" data-index="0" data-categories="statistics,analysis,data" data-listing-date-sort="1721714400000" data-listing-file-modified-sort="1721772781416" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="659">
 <div class="thumbnail">
 <p><a href="./topics/3_measures_of_spread/index.html" class="no-external"></a></p><a href="./topics/3_measures_of_spread/index.html" class="no-external">
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -246,7 +246,7 @@ Hafeez Nathoo
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="general,stats,arithmetic" data-listing-date-sort="1719208800000" data-listing-file-modified-sort="1720570453374" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="190">
+<div class="quarto-post image-right" data-index="1" data-categories="general,statistics,arithmetic" data-listing-date-sort="1719208800000" data-listing-file-modified-sort="1722381526002" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="792">
 <div class="thumbnail">
 <p><a href="./topics/1_rolling_averages/index.html" class="no-external"></a></p><a href="./topics/1_rolling_averages/index.html" class="no-external">
 <p><img src="./topics/1_rolling_averages/image.jpg" class="thumbnail-image"></p>
@@ -263,15 +263,15 @@ Hafeez Nathoo
 <div class="listing-category" onclick="window.quartoListingCategory('general'); return false;">
 general
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('stats'); return false;">
-stats
+<div class="listing-category" onclick="window.quartoListingCategory('statistics'); return false;">
+statistics
 </div>
 <div class="listing-category" onclick="window.quartoListingCategory('arithmetic'); return false;">
 arithmetic
 </div>
 </div>
 <div class="listing-description">
-<a href="./topics/1_rolling_averages/index.html" class="no-external"><strong>Some Basics</strong></a>
+<a href="./topics/1_rolling_averages/index.html" class="no-external">The goal of this post is to go through the concept of a rolling average. A rolling average is an average which continually updates as new data comes in. A rolling average is…</a>
 </div>
 </div>
 <div class="metadata">
@@ -410,7 +410,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/mathformedstudents\.netlify\.app");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

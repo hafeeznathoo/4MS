@@ -1,5 +1,5 @@
 ---
-title: "MathForMedStudents"
+title: "ForMedStudents"
 ---
 
 This is our site
