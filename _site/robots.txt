@@ -1,1 +1,1 @@
-Sitemap: https://mathformedstudents.netlify.app/sitemap.xml
+Sitemap: https://formedstudents.netlify.app/sitemap.xml
