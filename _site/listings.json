@@ -1,17 +1,10 @@
 [
   {
-    "listing": "/topics.html",
-    "items": [
-      "/topics/3_measures_of_spread/index.html",
-      "/topics/1_rolling_averages/index.html",
-      "/topics/2_central_tendency/index.html"
-    ]
-  },
-  {
     "listing": "/applications.html",
     "items": [
-      "/applications/concept_1/index.html",
-      "/applications/concept_2/index.html"
+      "/applications/3_measures_of_spread/index.html",
+      "/applications/1_rolling_averages/index.html",
+      "/applications/2_central_tendency/index.html"
     ]
   }
 ]

@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Ali Hassan">
+<meta name="dcterms.date" content="2024-06-24">
 
-<title>ForMedStudents - About</title>
+<title>ForMedStudents - Rolling Averages</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,59 +22,25 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -101,18 +69,47 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="styles.css">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">ForMedStudents</span>
     </a>
   </div>
@@ -123,17 +120,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./applications.html"> 
+    <a class="nav-link" href="../../applications.html"> 
 <span class="menu-text">Applications</span></a>
   </li>  
   <li class="dropdown-header">
  <span class="menu-text">topics.qmd</span></li>
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -144,43 +141,105 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Rolling Averages</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">StatisticsForMedStudents</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Ali Hassan </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">June 24, 2024</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#setting-the-foundation---the-concept-of-an-average" id="toc-setting-the-foundation---the-concept-of-an-average" class="nav-link" data-scroll-target="#setting-the-foundation---the-concept-of-an-average">Setting the foundation - the concept of an average</a></li>
+  <li><a href="#the-rolling-average" id="toc-the-rolling-average" class="nav-link" data-scroll-target="#the-rolling-average">The rolling average</a></li>
+  <li><a href="#how-this-relates-clinically" id="toc-how-this-relates-clinically" class="nav-link" data-scroll-target="#how-this-relates-clinically">How this relates clinically</a></li>
+  <li><a href="#why-this-matters-for-the-clinician" id="toc-why-this-matters-for-the-clinician" class="nav-link" data-scroll-target="#why-this-matters-for-the-clinician">Why this matters for the clinician</a></li>
+  <li><a href="#thank-you" id="toc-thank-you" class="nav-link" data-scroll-target="#thank-you">Thank you!</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">About</h1>
-</div>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
 
 
-</header>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>The goal of this post is to go through the concept of a rolling average. A rolling average is an average which continually updates as new data comes in. A rolling average is comprised of two additional components compared to a regular average:</p>
+<ul>
+<li>A time frame in which data is averaged over (e.g., 3 months), this can be thought of the amount of time we look at and,</li>
+<li>When that time frame is applied to the data (e.g., the most recent 3 months, this can be though of as when we set the start/end point of the above amount of time</li>
+</ul>
+</section>
+<section id="setting-the-foundation---the-concept-of-an-average" class="level2">
+<h2 class="anchored" data-anchor-id="setting-the-foundation---the-concept-of-an-average">Setting the foundation - the concept of an average</h2>
+<p>An average is a common concept that you are likely already familiar with. It is a number which represents each data point within a range of numbers, giving equal weight to each number. While averages are fairly straightforward, the concept of rolling averages may not be as simple.</p>
+<p><span class="math display">\[
+average = \frac{\sum_{i=1}^n}{n}
+\]</span></p>
+<p>The formula above is how you calculate a fraction and it looks a lot more complicated than the idea of an average you may have in your head - the numbers within a set all added up divided by the amount of numbers. The formula is saying that the average of a dataset is the sum (indicated by the <span class="math inline">\(\sum\)</span> symbol) of all the numbers in a dataset (indicated by the <span class="math inline">\(n\)</span> above the <span class="math inline">\(\sum\)</span> symbol) starting at the first value in that data set (<span class="math inline">\(i\)</span> = 1) divided by the number of values (<span class="math inline">\(n\)</span>).</p>
+</section>
+<section id="the-rolling-average" class="level2">
+<h2 class="anchored" data-anchor-id="the-rolling-average">The rolling average</h2>
+<p>The rolling average is simply an average which is updated as new data comes in within a set time frame. The point that this average is <strong>updated</strong> is important; simply calculating an average that’s contrained to a certain time frame does not make an average <em>rolling</em>.</p>
+<p>Recall that the two important components of a rolling average are the amount of time we want to average over and when we want to set that amount of time to be set. Typically, rolling averages are conducted on the most recent values (the ‘when’ we want to set the amount of time to) so the end point is set to be the most recent data and the start point always moves forward in time.</p>
+<p>The amount of time looked at varies depending on what is important. Take finances for examples. If we wanted to get insight into how our spending is changing as we start to tighten up our budget, it would be better to look at the last 30 days rather than the last 300 days as we are very interested in how new data is affecting this average.</p>
+<p>Mathematically, a rolling average can looks like this:</p>
+<p><span class="math display">\[
+rolling\;average = \frac{\sum_{i=\:n-3}^n}{n}
+\]</span></p>
+<p>Suppose that the values in the above dataset are monthly blood tests for potassium. Based on the convention that we introduced above, the equation is telling us to average the last 3 months worth of blood work (3 data points) and to move that average to include the move recent blood work data point and to subsequently drop the latest blood work data (which would now be 4 months ago) as new potassium blood work comes in.</p>
+</section>
+<section id="how-this-relates-clinically" class="level2">
+<h2 class="anchored" data-anchor-id="how-this-relates-clinically">How this relates clinically</h2>
+<p>The most prominent area of medicine where the rolling average becomes important is in interpreting HbA1c values.</p>
+<p>HbA1c represents the proportion of red blood cells (RBCs) that are glycated (bound to sugar molecules). The gem of HbA1c is that sugar molecules in the blood that have bound to RBCs (glycated) never unbound themselves, RBCs act like a history book of how much sugar has been in the blood. With greater blood sugar concentrations, more glucose binds to the available RBCs and conversely, with lower blood sugar concentrations, less glucose binds to newly created RBCs. As time passes on, both glycated and non-glycated hemoglobin is destroyed in the spleen and those records are effectively ‘deleted’.</p>
+<p>Given the above, and that RBCs are created and destroyed approximately every 3 months, HbA1c is effectively an internally built in moving average of the blood glucose in the last ~3 months; at any particular moment the HbA1c concentration is a reflection of blood glucose in the last 3 months and updates continually.</p>
+</section>
+<section id="why-this-matters-for-the-clinician" class="level2">
+<h2 class="anchored" data-anchor-id="why-this-matters-for-the-clinician">Why this matters for the clinician</h2>
+<p>Since HbA1c is a 3-month rolling average of the latest blood glucose levels in a given patient, testing HbA1c should only be done every 3 months. If testing is done more frequently, there is going to be overlap between the ‘data’ being given between the current and prior HbA1c reading and clinically, we want to see how the body is changing rather than how it was.</p>
+</section>
+<section id="thank-you" class="level2">
+<h2 class="anchored" data-anchor-id="thank-you">Thank you!</h2>
+<p>Thanks for reading through this article. More articles connecting clinical practice and mathematics are coming soon.</p>
+<p><em>Image provided by Wikimedia Commons</em></p>
 
 
-<p>About this site</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
-</div>
-</div>
-
-
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

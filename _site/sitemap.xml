@@ -1,39 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://formedstudents.netlify.app/topics.html</loc>
-    <lastmod>2024-06-24T15:20:42.872Z</lastmod>
-  </url>
-  <url>
-    <loc>https://formedstudents.netlify.app/topics/2_central_tendency/index.html</loc>
-    <lastmod>2024-07-23T17:38:57.149Z</lastmod>
-  </url>
-  <url>
     <loc>https://formedstudents.netlify.app/index.html</loc>
     <lastmod>2024-08-01T13:53:35.487Z</lastmod>
   </url>
   <url>
-    <loc>https://formedstudents.netlify.app/applications/concept_2/index.html</loc>
-    <lastmod>2024-06-24T15:56:33.927Z</lastmod>
+    <loc>https://formedstudents.netlify.app/applications/3_measures_of_spread/index.html</loc>
+    <lastmod>2024-08-06T02:50:21.679Z</lastmod>
+  </url>
+  <url>
+    <loc>https://formedstudents.netlify.app/applications/1_rolling_averages/index.html</loc>
+    <lastmod>2024-08-06T02:49:56.678Z</lastmod>
   </url>
   <url>
     <loc>https://formedstudents.netlify.app/about.html</loc>
     <lastmod>2024-06-24T13:56:54.519Z</lastmod>
   </url>
   <url>
-    <loc>https://formedstudents.netlify.app/applications/concept_1/index.html</loc>
-    <lastmod>2024-06-25T18:28:23.970Z</lastmod>
+    <loc>https://formedstudents.netlify.app/applications/2_central_tendency/index.html</loc>
+    <lastmod>2024-08-06T02:50:08.963Z</lastmod>
   </url>
   <url>
     <loc>https://formedstudents.netlify.app/applications.html</loc>
     <lastmod>2024-06-24T15:42:16.342Z</lastmod>
-  </url>
-  <url>
-    <loc>https://formedstudents.netlify.app/topics/1_rolling_averages/index.html</loc>
-    <lastmod>2024-07-30T23:18:46.002Z</lastmod>
-  </url>
-  <url>
-    <loc>https://formedstudents.netlify.app/topics/3_measures_of_spread/index.html</loc>
-    <lastmod>2024-07-23T22:13:01.416Z</lastmod>
   </url>
 </urlset>
