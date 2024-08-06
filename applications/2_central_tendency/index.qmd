@@ -2,7 +2,7 @@
 title: "Measures of Central Tendency"
 author: "Hafeez Nathoo"
 date: "2024-06-24"
-categories: [ statistics, analysis, data]
+categories: [StatisticsForMedStudents]
 ---
 
 The goal of this post is to give a quick introduction to measures of central tendency - which is a fancy way of saying, how can we use a single number to summarize the contents of a data set. The three quantities we are concerned with will be the **mean (average)**, **median**, and **mode**.
