@@ -3,6 +3,12 @@ project:
 
 website:
   title: "ForMedStudents"
+  page-footer: 
+   left:
+    info.formedstudents@gmail.com
+   right:
+       - text: "About"
+         href: about.qmd
   navbar:
     left:
       - href: index.qmd
