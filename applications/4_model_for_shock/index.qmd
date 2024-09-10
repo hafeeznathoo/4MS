@@ -2,20 +2,50 @@
 title: "Tank-Pump-Pipe Model for the Four Categories of Shock"
 author: "Hafeez Nathoo"
 date: "2024-08-15"
-categories: [ PearlsForMedStudents]
+categories: [PhysicsForMedStudents]
 ---
 
 ### Overview
 
-![Normal Conditions](normal.png){fig-align="center"}
+Studying medicine involves the assimilation of a large amount of content and requires much effort from students to keep up and integrate this new knowledge on an ongoing basis.
 
-![The Four Categories of Shock](4types.png){fig-align="center"}
+Though memorization and studying of facts from slide shows and flash cards will form a large part of many students' studying, a great technique to promote better understanding over memorization is to model systems in intuitive but simple constructs.
+
+The Tank-Pump-Pipe Model for the Four Categories of Shock is a great example of this - and a useful model to visualize the categories of shock.
+
+### Tank-Pump-Pipe Model
+
+Shock is the result of circulatory collapse - i.e. when your organs can no longer be perfused with blood.
+
+There are many etiologies for shock - anaphylaxis, sepsis, neurogenic, hemorrhagic, mechanical, etc. but these can be broadly grouped into four categories.
+
+::: callout-tip
+## Four Categories of Shock
+
+Cardiogenic, Distributive, Hypovolemic, and Obstructive
+:::
+
+These can of course be memorized directly or with a mnemonic - but visualizing the body's circulatory system as simple tank-pump-pipe system is more straightforward in understanding the underlying mechanisms.
+
+-   The tank represents intravascular volume - the fluid available to perfuse end organs
+-   The piping represents the vasculature
+-   The pump represents the heart and corresponding cardiac output
+
+![Normal Conditions](normal.png)
+
+With this model in mind, it becomes intuitive to define the four categories of shock as follows:
+
+1.  **Cardiogenic** - Failure of the "pump", i.e nothing to pressurize the system to push fluid to end organs
+2.  **Distributive** - "Leaky Pipes", the vasculature is unable to maintain adequate pressure - this represents peripheral vasodilatation (in anaphylactic shock, for example)
+3.  **Hypovolemic -** The empty tank, all components functioning but a lack of volume (example - dehydration)
+4.  **Obstructive** - A blockage - representing any condition which impairs cardiac output leading to lack of perfusion (Example - impaired filling, pericardial tamponade)
+
+![The Four Categories of Shock](4types.png)
 
 ### Thank you!
 
-
-##
+Hope you found the above model useful for a more intuitive understanding!
 
 **References**
 
-1.  *Haseer Koya H, Paul M. Shock. [Updated 2023 Jul 24]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK531492/*
+1.  *Haseer Koya H, Paul M. Shock. \[Updated 2023 Jul 24\]. In: StatPearls \[Internet\]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK531492/*

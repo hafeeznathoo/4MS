@@ -2,6 +2,7 @@
   {
     "listing": "/applications.html",
     "items": [
+      "/applications/4_model_for_shock/index.html",
       "/applications/3_measures_of_spread/index.html",
       "/applications/1_rolling_averages/index.html",
       "/applications/2_central_tendency/index.html"

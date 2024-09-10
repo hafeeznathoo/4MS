@@ -4,35 +4,28 @@
     "href": "index.html",
     "title": "Welcome to ForMedStudents!",
     "section": "",
-    "text": "While a ton of great resources exist in the vastness of the world wide web, as medical students ourselves we know that concise explanations of concepts at the appropriate level with relevant examples can be the toughest thing to come by.\n\n\n\n\n\n\nOur goal was to create specific content to help medical students grasp core concepts in the most efficient way\n\n\n\nOur articles cover broad themes that are relevant to medical learners (Statistics, Physics, Finances, etc) - and present information using examples and visuals which we have found to be extremely useful in our own learning.\nThank you for stopping by!\nIf you have any questions or comments feel free to contact us at info.formedstudents@gmail.com"
+    "text": "While a ton of great resources exist in the vastness of the world wide web, as medical students ourselves we know that concise explanations of concepts at the appropriate level with relevant examples can be the toughest thing to come by.\n\n\n\n\n\n\nOur goal was to create specific content to help medical students grasp core concepts efficiently\n\n\n\nOur articles cover broad themes that are relevant to medical learners (Statistics, Physics, Finances, etc) - and present information using examples and visuals which we have found to be extremely useful in our own learning.\nThank you for stopping by!\nIf you have any questions or comments feel free to contact us at info.formedstudents@gmail.com"
   },
   {
     "objectID": "applications.html",
     "href": "applications.html",
     "title": "Applications",
     "section": "",
-    "text": "Measures of Dispersion\n\n\n\n\n\n\nStatisticsForMedStudents\n\n\n\n\n\n\n\n\n\nJul 23, 2024\n\n\nHafeez Nathoo\n\n\n\n\n\n\n\n\n\n\n\n\nRolling Averages\n\n\n\n\n\n\nStatisticsForMedStudents\n\n\n\n\n\n\n\n\n\nJun 24, 2024\n\n\nAli Hassan\n\n\n\n\n\n\n\n\n\n\n\n\nMeasures of Central Tendency\n\n\n\n\n\n\nStatisticsForMedStudents\n\n\n\n\n\n\n\n\n\nJun 24, 2024\n\n\nHafeez Nathoo\n\n\n\n\n\n\nNo matching items"
+    "text": "Tank-Pump-Pipe Model for the Four Categories of Shock\n\n\n\n\n\n\nPhysicsForMedStudents\n\n\n\n\n\n\n\n\n\nAug 15, 2024\n\n\nHafeez Nathoo\n\n\n\n\n\n\n\n\n\n\n\n\nMeasures of Dispersion\n\n\n\n\n\n\nStatisticsForMedStudents\n\n\n\n\n\n\n\n\n\nJul 23, 2024\n\n\nHafeez Nathoo\n\n\n\n\n\n\n\n\n\n\n\n\nRolling Averages\n\n\n\n\n\n\nStatisticsForMedStudents\n\n\n\n\n\n\n\n\n\nJun 24, 2024\n\n\nAli Hassan\n\n\n\n\n\n\n\n\n\n\n\n\nMeasures of Central Tendency\n\n\n\n\n\n\nStatisticsForMedStudents\n\n\n\n\n\n\n\n\n\nJun 24, 2024\n\n\nHafeez Nathoo\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "applications/2_central_tendency/index.html",
-    "href": "applications/2_central_tendency/index.html",
-    "title": "Measures of Central Tendency",
+    "objectID": "applications/3_measures_of_spread/index.html",
+    "href": "applications/3_measures_of_spread/index.html",
+    "title": "Measures of Dispersion",
     "section": "",
-    "text": "The goal of this post is to give a quick introduction to measures of central tendency - which is a fancy way of saying, how can we use a single number to summarize the contents of a data set. The three quantities we are concerned with will be the mean (average), median, and mode.\nThese are widely taught in pretty much every stats class, so here we will focus on conceptual meaning and interpretation.\nLets start with a simple data set for illustrative purposes with only five numbers: \\((1, 4, 5, 10, 10)\\)"
+    "text": "The goal of this post is to give a quick introduction to measures of dispersion - which is a fancy way of saying, how can we use a single number to summarize the contents of a data set. The four quantities we are concerned with will be the standard deviation, variance, inter quartile range (IQR), and range.\nThe big question to answer is why do we care? Generally, data can be described with two measures - one of central tendency and one of spread, these two numbers together will give a sense of the distribution of the data.\nLets start with a simple data set for illustrative purposes with only five numbers: \\((1, 4, 5, 8, 35)\\)"
   },
   {
-    "objectID": "applications/2_central_tendency/index.html#section",
-    "href": "applications/2_central_tendency/index.html#section",
-    "title": "Measures of Central Tendency",
+    "objectID": "applications/3_measures_of_spread/index.html#section",
+    "href": "applications/3_measures_of_spread/index.html#section",
+    "title": "Measures of Dispersion",
     "section": "",
-    "text": "References\n\nHurley M, Tenny S. Mean. [Updated 2023 Jul 17]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-.Available from: https://www.ncbi.nlm.nih.gov/books/NBK546702\nTenny S, Hoffman MR. Median. [Updated 2022 Sep 19]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-.Available from: https://www.ncbi.nlm.nih.gov/books/NBK470533\nMercadante AA, Tenny S. Mode. [Updated 2023 Jul 17]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-.Available from: https://www.ncbi.nlm.nih.gov/books/NBK540990"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "References\n\nEl Omda S, Sergent SR. Standard Deviation. [Updated 2023 Aug 14]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK574574/\nWadhwa RR, Azzam D. Variance. [Updated 2023 Jul 17]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK551689/"
   },
   {
     "objectID": "applications/1_rolling_averages/index.html",
@@ -84,17 +77,31 @@
     "text": "Thank you!\nThanks for reading through this article. More articles connecting clinical practice and mathematics are coming soon.\nImage provided by Wikimedia Commons"
   },
   {
-    "objectID": "applications/3_measures_of_spread/index.html",
-    "href": "applications/3_measures_of_spread/index.html",
-    "title": "Measures of Dispersion",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "The goal of this post is to give a quick introduction to measures of dispersion - which is a fancy way of saying, how can we use a single number to summarize the contents of a data set. The four quantities we are concerned with will be the standard deviation, variance, inter quartile range (IQR), and range.\nThe big question to answer is why do we care? Generally, data can be described with two measures - one of central tendency and one of spread, these two numbers together will give a sense of the distribution of the data.\nLets start with a simple data set for illustrative purposes with only five numbers: \\((1, 4, 5, 8, 35)\\)"
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
   },
   {
-    "objectID": "applications/3_measures_of_spread/index.html#section",
-    "href": "applications/3_measures_of_spread/index.html#section",
-    "title": "Measures of Dispersion",
+    "objectID": "applications/2_central_tendency/index.html",
+    "href": "applications/2_central_tendency/index.html",
+    "title": "Measures of Central Tendency",
     "section": "",
-    "text": "References\n\nEl Omda S, Sergent SR. Standard Deviation. [Updated 2023 Aug 14]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK574574/\nWadhwa RR, Azzam D. Variance. [Updated 2023 Jul 17]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK551689/"
+    "text": "The goal of this post is to give a quick introduction to measures of central tendency - which is a fancy way of saying, how can we use a single number to summarize the contents of a data set. The three quantities we are concerned with will be the mean (average), median, and mode.\nThese are widely taught in pretty much every stats class, so here we will focus on conceptual meaning and interpretation.\nLets start with a simple data set for illustrative purposes with only five numbers: \\((1, 4, 5, 10, 10)\\)"
+  },
+  {
+    "objectID": "applications/2_central_tendency/index.html#section",
+    "href": "applications/2_central_tendency/index.html#section",
+    "title": "Measures of Central Tendency",
+    "section": "",
+    "text": "References\n\nHurley M, Tenny S. Mean. [Updated 2023 Jul 17]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-.Available from: https://www.ncbi.nlm.nih.gov/books/NBK546702\nTenny S, Hoffman MR. Median. [Updated 2022 Sep 19]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-.Available from: https://www.ncbi.nlm.nih.gov/books/NBK470533\nMercadante AA, Tenny S. Mode. [Updated 2023 Jul 17]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-.Available from: https://www.ncbi.nlm.nih.gov/books/NBK540990"
+  },
+  {
+    "objectID": "applications/4_model_for_shock/index.html",
+    "href": "applications/4_model_for_shock/index.html",
+    "title": "Tank-Pump-Pipe Model for the Four Categories of Shock",
+    "section": "",
+    "text": "Overview\nStudying medicine involves the assimilation of a large amount of content and requires much effort from students to keep up and integrate this new knowledge on an ongoing basis.\nThough memorization and studying of facts from slide shows and flash cards will form a large part of many students’ studying, a great technique to promote better understanding over memorization is to model systems in intuitive but simple constructs.\nThe Tank-Pump-Pipe Model for the Four Categories of Shock is a great example of this - and a useful model to visualize the categories of shock.\n\n\nTank-Pump-Pipe Model\nShock is the result of circulatory collapse - i.e. when your organs can no longer be perfused with blood.\nThere are many etiologies for shock - anaphylaxis, sepsis, neurogenic, hemorrhagic, mechanical, etc. but these can be broadly grouped into four categories.\n\n\n\n\n\n\nFour Categories of Shock\n\n\n\nCardiogenic, Distributive, Hypovolemic, and Obstructive\n\n\nThese can of course be memorized directly or with a mnemonic - but visualizing the body’s circulatory system as simple tank-pump-pipe system is more straightforward in understanding the underlying mechanisms.\n\nThe tank represents intravascular volume - the fluid available to perfuse end organs\nThe piping represents the vasculature\nThe pump represents the heart and corresponding cardiac output\n\n\n\n\nNormal Conditions\n\n\nWith this model in mind, it becomes intuitive to define the four categories of shock as follows:\n\nCardiogenic - Failure of the “pump”, i.e nothing to pressurize the system to push fluid to end organs\nDistributive - “Leaky Pipes”, the vasculature is unable to maintain adequate pressure - this represents peripheral vasodilatation (in anaphylactic shock, for example)\nHypovolemic - The empty tank, all components functioning but a lack of volume (example - dehydration)\nObstructive - A blockage - representing any condition which impairs cardiac output leading to lack of perfusion (Example - impaired filling, pericardial tamponade)\n\n\n\n\nThe Four Categories of Shock\n\n\n\n\nThank you!\nHope you found the above model useful for a more intuitive understanding!\nReferences\n\nHaseer Koya H, Paul M. Shock. [Updated 2023 Jul 24]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK531492/"
   }
 ]
