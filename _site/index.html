@@ -149,7 +149,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <p>Our <a href="https://formedstudents.netlify.app/applications.html">articles</a> cover broad themes that are relevant to medical learners (Statistics, Physics, Finances, etc) - and present information using examples and visuals which we have found to be extremely useful in our own learning.</p>
 <p>Thank you for stopping by!</p>
-<p>If you have any questions or comments feel free to contact us at *info.formedstudents@gmail.com*</p>
+<p>If you have any questions or comments feel free to contact us at <em>info.formedstudents@gmail.com</em></p>
 
 
 
@@ -235,7 +235,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/formedstudents\.netlify\.app");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

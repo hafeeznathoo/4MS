@@ -1,0 +1,21 @@
+---
+title: "Tank-Pump-Pipe Model for the Four Categories of Shock"
+author: "Hafeez Nathoo"
+date: "2024-08-15"
+categories: [ PearlsForMedStudents]
+---
+
+### Overview
+
+![Normal Conditions](normal.png){fig-align="center"}
+
+![The Four Categories of Shock](4types.png){fig-align="center"}
+
+### Thank you!
+
+
+##
+
+**References**
+
+1.  *Haseer Koya H, Paul M. Shock. [Updated 2023 Jul 24]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK531492/*
