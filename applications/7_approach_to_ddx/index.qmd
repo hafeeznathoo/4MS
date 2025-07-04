@@ -12,13 +12,13 @@ The term differential diagnosis refers to both the process of, and end product o
 
 The differential diagnosis (ddx) is important because we can never be too certain a given diagnosis explains a patient's clinical presentation.
 
-It is also important because it gives us an existing framework to modify what we use as the working diagnosis as new information comes in (e.g new symptoms, CT scan findings, labwork).
+It is also important because it gives us an existing framework to modify what we use as the working diagnosis as new information comes in (e.g new symptoms, CT scan findings, lab work).
 
 In this article we will provide an approach for developing a ddx and frameworks for organizing your thinking around possible explanations of a given clinical presentation.
 
 ## An Approach to the Differential Diagnosis
 
-A 58 year old man with a 8 year history of osteoarthritis presents to you with a 2 day history of epigastric pain and malena. The patient does endorse alcohol use. The patient is otherwise well aside from the osteoarthritis.
+A 58 year old man with a 8 year history of osteoarthritis presents to you with a 2 day history of epigastric pain and melena. The patient does endorse alcohol use. The patient is otherwise well aside from the osteoarthritis.
 
 While this clinical vignette is short, the purpose is to outline how one would approach creating a ddx.
 
@@ -48,34 +48,34 @@ Let's walk through each diagnosis and examine what makes each diagnosis more lik
 #### Peptic Ulcer Disease
 
 -   Peptic ulcer disease is common
-- Peptic ulcer disease causes GI bleeding which explains the malena and activates visceral pain signals in the stomach which explains the epigastric pain
+-   Peptic ulcer disease causes GI bleeding which explains the melena and activates visceral pain signals in the stomach which explains the epigastric pain
 -   The patient has osteoarthritis, NSAIDs are a first-line treatment for this condition and these also cause thinning of the gastric lining, making one more susceptible to peptic ulcer disease
--   The malena suggests that there is GI bleeding, coming from a proximal source.
-- The onset of symptoms is acute
+-   The melena suggests that there is GI bleeding, coming from a proximal source.
+-   The onset of symptoms is acute
 
 #### Stomach Cancer
 
-- Stomach cancer can cause GI bleeding, which manifests as malena in this patient
-- The expansion of a tumour into the surrounding viscera (e.g. stomach, gallbladder) can cause epigastric pain
+-   Stomach cancer can cause GI bleeding, which manifests as melena in this patient
+-   The expansion of a tumour into the surrounding viscera (e.g. stomach, gallbladder) can cause epigastric pain
 
 #### Esophageal Variceal Bleeding
 
-- Distended varices can cause GI bleeding, which manifests as malena in this patient
-- The activation of visceral pain receptors in the esophagus can cause epigastric pain.
+-   Distended varices can cause GI bleeding, which manifests as malena in this patient
+-   The activation of visceral pain receptors in the esophagus can cause epigastric pain.
 
 ### Aspects which make a given diagnosis less likely
 
 #### Stomach Cancer
 
-- Stomach cancer is relatively rare
-- There are no reported malignancy-associated symptoms (e.g., weight loss, night sweats)
-- Acute presentation; stomach cancer symptoms tend to manifest more chronically
-- No mass effect symptoms of a tumour (e.g., early satiety)
+-   Stomach cancer is relatively rare
+-   There are no reported malignancy-associated symptoms (e.g., weight loss, night sweats)
+-   Acute presentation; stomach cancer symptoms tend to manifest more chronically
+-   No mass effect symptoms of a tumour (e.g., early satiety)
 
 #### Esophageal Variceal Bleeding
 
-- Variceal bleeding tends to occur in those with portal hypertension, a likely cause is cirrhosis but the patient does not endorse alcohol use.
-- Variceal bleeding tends to produce a large volume of blood which presents as hemetemesis which is not present in this patient
+-   Variceal bleeding tends to occur in those with portal hypertension, a likely cause is cirrhosis but the patient does not endorse alcohol use.
+-   Variceal bleeding tends to produce a large volume of blood which presents as hematemesis which is not present in this patient
 
 ### Relative Ranking of Diagnoses
 
@@ -83,36 +83,36 @@ Given the above pertinent features which make the diagnoses more and less likely
 
 Given that peptic ulcer disease has many 'more likely' factors and no 'less likely' factors, it is our most likely diagnosis.
 
-Both stomach cancer and variceal bleeding are both unlikely given the 'more' and 'less' likely features. Clinically, a more in depth history and physical would be needed. However given the chronicity of symptoms and the lack of malignancy and mass effect symptoms, we will rank variceal bleeding as more likely than stomach cancer. 
+Both stomach cancer and variceal bleeding are both unlikely given the 'more' and 'less' likely features. Clinically, a more in depth history and physical would be needed. However given the chronicity of symptoms and the lack of malignancy and mass effect symptoms, we will rank variceal bleeding as more likely than stomach cancer.
 
 The process of creating the relative ranking early on in the process is difficult given the lack of information, however it helps guide which investigations to order and how to interpret the results of those results.
 
-So, here is our current ranking of which diagnoses are most likely: 
+So, here is our current ranking of which diagnoses are most likely:
 
-1) Peptic Ulcer Disease
-2) Variceal Bleeding
-3) Stomach Cancer
+1)  Peptic Ulcer Disease
+2)  Variceal Bleeding
+3)  Stomach Cancer
 
 This process has given us an idea of what our working diagnosis is, if there are any immediate treatments we should consider and how we should guide additional history taking, physical exam and investigations going forward. Once those are determined, it gives us an existing framework to update with new information.
 
 ## Frameworks
 
-While we provided a truncated list of potential diagnoses, there are many more diagnoses that could be considered. Furthermore, how does one generate these diagnoses in the first place? That is where frameworks can help us generate diagnoses. 
+While we provided a truncated list of potential diagnoses, there are many more diagnoses that could be considered. Furthermore, how does one generate these diagnoses in the first place? That is where frameworks can help us generate diagnoses.
 
 Below, we present a framework often used to generate potential diagnoses based on presenting symptoms and complaints.
 
 ### Framework: VITAMIN CDE
 
-- V: Vascular  
-- I: Infectious and/or Inflammatory
-- T: Traumatic and/or Toxic
-- A: Autoimmune or Anatomic Variant
-- M: Metabolic
-- I: Iatrogenic or Idiopathic
-- N: Neoplastic
-- C: Congenital
-- D: Degenerative
-- E: Endocrine and/or Environmental
+-   V: Vascular\
+-   I: Infectious and/or Inflammatory
+-   T: Traumatic and/or Toxic
+-   A: Autoimmune or Anatomic Variant
+-   M: Metabolic
+-   I: Iatrogenic or Idiopathic
+-   N: Neoplastic
+-   C: Congenital
+-   D: Degenerative
+-   E: Endocrine and/or Environmental
 
 Note: it is often best to consider congenital causes more so in pediatric patients because this is when their first presentation will likely be. However adults can have their first presentation of congenital issues and children can have many other causes to their presenting illnesses.
 
