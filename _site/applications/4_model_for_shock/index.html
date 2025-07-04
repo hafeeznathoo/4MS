@@ -2,14 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.555">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Hafeez Nathoo">
-<meta name="dcterms.date" content="2024-07-23">
+<meta name="dcterms.date" content="2024-08-15">
 
-<title>ForMedStudents - Measures of Dispersion</title>
+<title>Tank-Pump-Pipe Model for the Four Categories of Shock – ForMedStudents</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -69,35 +69,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -114,7 +85,7 @@ window.Quarto = {
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -128,16 +99,12 @@ window.Quarto = {
 <span class="menu-text">Applications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../topics.html"> 
-<span class="menu-text">Topics</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
-          <div class="quarto-navbar-tools">
+            <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -146,11 +113,9 @@ window.Quarto = {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Measures of Dispersion</h1>
+      <h1 class="title">Tank-Pump-Pipe Model for the Four Categories of Shock</h1>
                                 <div class="quarto-categories">
-                <div class="quarto-category">statistics</div>
-                <div class="quarto-category">analysis</div>
-                <div class="quarto-category">data</div>
+                <div class="quarto-category">PhysicsForMedStudents</div>
               </div>
                   </div>
   </div>
@@ -168,7 +133,7 @@ window.Quarto = {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">July 23, 2024</p>
+        <p class="date">August 15, 2024</p>
       </div>
     </div>
     
@@ -185,12 +150,8 @@ window.Quarto = {
    
   <ul>
   <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
-  <li><a href="#range" id="toc-range" class="nav-link" data-scroll-target="#range">Range</a></li>
-  <li><a href="#inter-quartile-range-iqr" id="toc-inter-quartile-range-iqr" class="nav-link" data-scroll-target="#inter-quartile-range-iqr">Inter Quartile Range (IQR)</a></li>
-  <li><a href="#standard-deviation-and-variance" id="toc-standard-deviation-and-variance" class="nav-link" data-scroll-target="#standard-deviation-and-variance">Standard Deviation and Variance</a></li>
-  <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications">Applications</a></li>
+  <li><a href="#tank-pump-pipe-model" id="toc-tank-pump-pipe-model" class="nav-link" data-scroll-target="#tank-pump-pipe-model">Tank-Pump-Pipe Model</a></li>
   <li><a href="#thank-you" id="toc-thank-you" class="nav-link" data-scroll-target="#thank-you">Thank you!</a></li>
-  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
   </ul>
 </nav>
     </div>
@@ -203,86 +164,59 @@ window.Quarto = {
 
 <section id="overview" class="level3">
 <h3 class="anchored" data-anchor-id="overview">Overview</h3>
-<p>The goal of this post is to give a quick introduction to measures of dispersion - which is a fancy way of saying, how can we use a single number to summarize the contents of a data set. The four quantities we are concerned with will be the <strong>standard deviation</strong>, <strong>variance</strong>, <strong>inter quartile range (IQR)</strong>, and <strong>range</strong>.</p>
-<p>The big question to answer is why do we care? Generally, data can be described with two measures - one of <a href="https://mathformedstudents.netlify.app/topics/2_central_tendency">central tendency</a> and one of spread, these two numbers together will give a sense of the distribution of the data.</p>
-<p>Lets start with a simple data set for illustrative purposes with only five numbers: <span class="math inline">\((1, 4, 5, 8, 35)\)</span></p>
+<p>Studying medicine involves the assimilation of a large amount of content and requires much effort from students to keep up and integrate this new knowledge on an ongoing basis.</p>
+<p>Though memorization and studying of facts from slide shows and flash cards will form a large part of many students’ studying, a great technique to promote better understanding over memorization is to model systems in intuitive but simple constructs.</p>
+<p>The Tank-Pump-Pipe Model for the Four Categories of Shock is a great example of this - and a useful model to visualize the categories of shock.</p>
 </section>
-<section id="range" class="level3">
-<h3 class="anchored" data-anchor-id="range">Range</h3>
-<p>Range is the simplest measure of the ones listed, representing the maximum extent of the data set and calculated very simply as the distance between the max and min.</p>
-<p><span class="math display">\[
-range = x_{max} - x_{min}
-\]</span></p>
-<p>In our example data <span class="math inline">\(x_{max} = 35\)</span> and <span class="math inline">\(x_{min}=1\)</span>, so the range will be <span class="math inline">\(35-1 = 34\)</span>.</p>
-</section>
-<section id="inter-quartile-range-iqr" class="level3">
-<h3 class="anchored" data-anchor-id="inter-quartile-range-iqr">Inter Quartile Range (IQR)</h3>
-<p>A given data set can be arranged in quartiles - segmentation of the data into four groups by increasing value (bottom 25%, top 25%, and the two middle ranges).</p>
-<p>For example, the data set <span class="math inline">\((1, 4, 5, 8, 35)\)</span> when divided into quartiles is the below, with the corresponding percentiles noted (i.e.&nbsp;what position do these values occupy in the ordered data).</p>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Quartile</th>
-<th>Percentiles</th>
-<th>Values</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>First</td>
-<td>0 - 25%</td>
-<td>1 - 4</td>
-</tr>
-<tr class="even">
-<td>Second</td>
-<td>25% - 50%</td>
-<td>4 - 5</td>
-</tr>
-<tr class="odd">
-<td>Third</td>
-<td>50% - 75%</td>
-<td>5 - 8</td>
-</tr>
-<tr class="even">
-<td>Fourth</td>
-<td>75% - 100%</td>
-<td>8 - 35</td>
-</tr>
-</tbody>
-</table>
-<p>Now that the quartiles have been defined, IQR is straightforward - the difference between the 25th percentile and 75th percentile values.</p>
-<p>For our sample data - <span class="math inline">\((1, 4, 5, 8, 35)\)</span>, the 25 percentile value is <span class="math inline">\(4\)</span> and the 75 percentile is <span class="math inline">\(8\)</span>. IQR would be <span class="math inline">\(8 - 4 = 4\)</span>.</p>
-<p><span class="math display">\[
-IQR = x_{75\%} - x_{25\%}
-\]</span></p>
-<p>A great advantage to IQR is its resistance to extreme values, it is often reported in literature for this reason.</p>
-</section>
-<section id="standard-deviation-and-variance" class="level3">
-<h3 class="anchored" data-anchor-id="standard-deviation-and-variance">Standard Deviation and Variance</h3>
-<p>Standard deviation (commonly represented by <span class="math inline">\(\sigma\)</span>) and variance (commonly represented by <span class="math inline">\(\sigma^2\)</span>) are related and ubiquitous when it comes to describing spread of data. Standard deviation is the square root of variance, as you may have guessed from the notation.</p>
-<p><strong>The conceptual definition of the variance is the “average” distance of any data point from the mean, squared</strong> (mean represented by <span class="math inline">\(\mu\)</span>). Variance is calculated by taking the distance of every data point from the mean, squaring it, and dividing it by the number of data points (<span class="math inline">\(n\)</span>).</p>
-<p><span class="math display">\[
-Variance = \sigma^2 = \frac{\sum_{i}^{n}(x_i - \mu)^2}{n}
-\]</span> <span class="math display">\[
-Standard Deviation = \sqrt{Variance} = \sqrt{\frac{\sum_{i}^{n}(x_i - \mu)^2}{n}}
-\]</span> Standard deviation and variance are tedious to calculate by hand even for very small datasets, software is almost always used to get these metrics.</p>
-<p>The variance and standard deviation provide quantitative measures of the data dispersion around the mean and are essential to understanding the dispersion of your data.</p>
-</section>
-<section id="applications" class="level3">
-<h3 class="anchored" data-anchor-id="applications">Applications</h3>
-<p>In datasets with outliers or skewed distributions the standard deviation and variance will be affected. IQR is often reported alongside median to give two measures (of spread and central tendency, respectively) which are less susceptible to extreme values.</p>
-<p>Ultimately the best measures to report will depend on your application - these measures are the first step to deeper statistical analysis.</p>
+<section id="tank-pump-pipe-model" class="level3">
+<h3 class="anchored" data-anchor-id="tank-pump-pipe-model">Tank-Pump-Pipe Model</h3>
+<p>Shock is the result of circulatory collapse - i.e.&nbsp;when your organs can no longer be perfused with blood.</p>
+<p>There are many etiologies for shock - anaphylaxis, sepsis, neurogenic, hemorrhagic, mechanical, etc. but these can be broadly grouped into four categories.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Four Categories of Shock
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Cardiogenic, Distributive, Hypovolemic, and Obstructive</p>
+</div>
+</div>
+<p>These can of course be memorized directly or with a mnemonic - but visualizing the body’s circulatory system as simple tank-pump-pipe system is more straightforward in understanding the underlying mechanisms.</p>
+<ul>
+<li>The tank represents intravascular volume - the fluid available to perfuse end organs</li>
+<li>The piping represents the vasculature</li>
+<li>The pump represents the heart and corresponding cardiac output</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="normal.png" class="img-fluid figure-img"></p>
+<figcaption>Normal Conditions</figcaption>
+</figure>
+</div>
+<p>With this model in mind, it becomes intuitive to define the four categories of shock as follows:</p>
+<ol type="1">
+<li><strong>Cardiogenic</strong> - Failure of the “pump”, i.e nothing to pressurize the system to push fluid to end organs</li>
+<li><strong>Distributive</strong> - “Leaky Pipes”, the vasculature is unable to maintain adequate pressure - this represents peripheral vasodilatation (in anaphylactic shock, for example)</li>
+<li><strong>Hypovolemic -</strong> The empty tank, all components functioning but a lack of volume (example - dehydration)</li>
+<li><strong>Obstructive</strong> - A blockage - representing any condition which impairs cardiac output leading to lack of perfusion (Example - impaired filling, pericardial tamponade)</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="4types.png" class="img-fluid figure-img"></p>
+<figcaption>The Four Categories of Shock</figcaption>
+</figure>
+</div>
 </section>
 <section id="thank-you" class="level3">
 <h3 class="anchored" data-anchor-id="thank-you">Thank you!</h3>
-<p>Stay tuned for more posts diving deeper into those topics!</p>
-</section>
-<section id="section" class="level2">
-<h2 class="anchored" data-anchor-id="section"></h2>
+<p>Hope you found the above model useful for a more intuitive understanding!</p>
 <p><strong>References</strong></p>
 <ol type="1">
-<li><em>El Omda S, Sergent SR. Standard Deviation. [Updated 2023 Aug 14]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK574574/</em></li>
-<li><em>Wadhwa RR, Azzam D. Variance. [Updated 2023 Jul 17]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK551689/</em></li>
+<li><em>Haseer Koya H, Paul M. Shock. [Updated 2023 Jul 24]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK531492/</em></li>
 </ol>
 
 
@@ -324,18 +258,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -367,7 +290,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
       var filterRegex = new RegExp("https:\/\/formedstudents\.netlify\.app");
@@ -375,7 +320,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {
@@ -699,6 +644,25 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>info.formedstudents@gmail.com</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="../../about.html">
+<p>About</p>
+</a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
 
 
 

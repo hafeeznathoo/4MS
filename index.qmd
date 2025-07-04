@@ -1,13 +1,15 @@
 ---
-title: "MathForMedStudents"
+title: "Welcome to ForMedStudents!"
 ---
 
-This is our site
+While a ton of great resources exist in the vastness of the world wide web, as medical students ourselves we know that **concise** explanations of concepts **at the appropriate level** with **relevant examples** can be the toughest thing to come by.
 
-Landing page here,
+::: {.callout-note appearance="simple"}
+***Our goal was to create specific content to help medical students grasp core concepts efficiently***
+:::
 
-add a 'why'
+Our [articles](https://formedstudents.netlify.app/applications.html) cover broad themes that are relevant to medical learners (Statistics, Physics, Finances, etc) - and present information using examples and visuals which we have found to be extremely useful in our own learning.
 
-direct to site links
+Thank you for stopping by!
 
-a large graphic here
+If you have any questions or comments feel free to contact us at *info.formedstudents\@gmail.com*

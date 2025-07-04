@@ -2,7 +2,7 @@
 title: "Measures of Dispersion"
 author: "Hafeez Nathoo"
 date: "2024-07-23"
-categories: [ statistics, analysis, data]
+categories: [ StatisticsForMedStudents]
 ---
 
 ### Overview
