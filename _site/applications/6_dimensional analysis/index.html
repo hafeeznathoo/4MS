@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Ali Hassan">
+<meta name="dcterms.date" content="2024-07-30">
 
-<title>info.formedstudents@gmail.com – ForMedStudents</title>
+<title>Dimensional Analysis – ForMedStudents</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,22 +25,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -67,18 +69,47 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="styles.css">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">ForMedStudents</span>
     </a>
   </div>
@@ -89,15 +120,15 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./applications.html"> 
+    <a class="nav-link" href="../../applications.html"> 
 <span class="menu-text">Applications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About Us</span></a>
   </li>  
 </ul>
@@ -108,36 +139,114 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Dimensional Analysis</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">general</div>
+                <div class="quarto-category">arithmetic</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Ali Hassan </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">July 30, 2024</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a>
+  <ul class="collapse">
+  <li><a href="#why-is-it-called-dimensional-analysis" id="toc-why-is-it-called-dimensional-analysis" class="nav-link" data-scroll-target="#why-is-it-called-dimensional-analysis">Why is it called dimensional analysis?</a></li>
+  </ul></li>
+  <li><a href="#why-is-dimensional-analysis-useful" id="toc-why-is-dimensional-analysis-useful" class="nav-link" data-scroll-target="#why-is-dimensional-analysis-useful">Why is dimensional analysis useful?</a></li>
+  <li><a href="#takeaways" id="toc-takeaways" class="nav-link" data-scroll-target="#takeaways">Takeaways</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">info.formedstudents@gmail.com</h1>
-</div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
+
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>The goal of this post is to introduce the concept (perhaps better referred to as technique) of dimensional analysis. Dimensional analysis is the process of using the position of units (e.g., grams, litres, days) within a ratio to convert between units, typically using conversion factors (e.g., grams per litre, micrograms per day). Keeping it simple, it means manipulating ratios to cancel out units we don’t need to find units we would like to know.</p>
+<section id="why-is-it-called-dimensional-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="why-is-it-called-dimensional-analysis">Why is it called dimensional analysis?</h3>
+<p>Using conversion factors to convert between units is called dimensional analysis because the different units are referred to as dimensions and the analysis is the conversion between the dimensions.</p>
+</section>
+</section>
+<section id="why-is-dimensional-analysis-useful" class="level2">
+<h2 class="anchored" data-anchor-id="why-is-dimensional-analysis-useful">Why is dimensional analysis useful?</h2>
+<p>Intuitively, it may seem easier to focus on memorizing that you need to multiple a unit by a conversion factor to convert it - so why bother with dimensional analysis? While it may seem relatively straight-forward to use a conversion factor to convert between units, it becomes a little more difficult when:</p>
+<ul>
+<li>You have to reverse the conversion and,</li>
+<li>There are complex conversion factors and units that have multiple units in them (e.g., grams per litre per day)</li>
+</ul>
+<p>Here’s an example:</p>
+<p>A bolus of Drug X needs to be delivered to patient A.</p>
+<ul>
+<li>It needs to be dosed at 20mg per kilogram of bodyweight</li>
+<li>Patient A weights 172 pounds</li>
+</ul>
+<p>How many grams of Drug X does patient A need?</p>
+<p><span class="math display">\[
+Dosing\:requirement = \frac{20 mg}{kg}
+\]</span> <span class="math display">\[
+Patient\: weight = 172lbs
+\]</span></p>
+<p><span class="math display">\[
+Milligrams\:to\:grams = \frac{1000mg}{1g}
+\]</span></p>
+<p><span class="math display">\[
+Pounds\:to\:kilograms = \frac{1lbs}{2.2kg}
+\]</span></p>
+<p>In this example, it would be cumbersome to individually run through all the conversions and difficult to conceptualize which conversions go where. We can use dimensional analysis to make this a lot easier!</p>
+<p>Essentially, we need to turn Patient A’s weight into grams of drug. So his weight would be a good term to start with.</p>
+<p>Then, we turn his weight into kilograms as the conversion unit we were given of drug weight to human weight is in kilograms, not pounds.</p>
+<p>Then we use the remaining conversion factor of 1000mg to 1g to convert milligrams of drug into grams of drug, which we were asked to provide.</p>
+<p><span class="math display">\[
+172lbs \cdot \frac{2.2kg}{1lbs} \cdot \frac{20mg}{kg} \cdot \frac{1g}{1000mg}
+\]</span> The guiding principle to set the above equation up is to orient units such that two adjacent terms should have like units (e.g., pounds, kilograms, etc.) in the numerator and denominator. This will ‘cancel’ out the untis and you will be left with the unit in the numerator in the rightmost term.</p>
+</section>
+<section id="takeaways" class="level2">
+<h2 class="anchored" data-anchor-id="takeaways">Takeaways</h2>
+<p>Dimensional analysis is a useful framework for converting between units of measurement which may be otherwise cumbersome to do with a preset forumla and/or there isn’t a formula available to do so.</p>
+<p>The principles of dimensional analysis are as follows:</p>
+<ul>
+<li>Organize conversion factors left to right in the logical order of conversion. For example, in our above example we converted our patient’s weight to kilograms before using the conversion factor which required kilograms.</li>
+<li>Always flip the conversion factor you are using (e.g.&nbsp;100cm over 1m vs 1m over 100cm) such that adjacent terms in the analysis ‘cancel’ out (i.e., one is in the numerator and one is in the denominator)</li>
+</ul>
+
+
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -572,7 +681,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="./about.html">
+    <a class="nav-link" href="../../about.html">
 <p>About</p>
 </a>
   </li>  

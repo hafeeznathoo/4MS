@@ -2,11 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://formedstudents.netlify.app/index.html</loc>
-    <lastmod>2024-09-10T18:13:44.251Z</lastmod>
+    <lastmod>2025-07-04T15:48:15.043Z</lastmod>
   </url>
   <url>
     <loc>https://formedstudents.netlify.app/applications.html</loc>
     <lastmod>2024-06-24T15:42:16.342Z</lastmod>
+  </url>
+  <url>
+    <loc>https://formedstudents.netlify.app/applications/5_useful_resources/index.html</loc>
+    <lastmod>2025-07-04T16:38:50.887Z</lastmod>
   </url>
   <url>
     <loc>https://formedstudents.netlify.app/applications/3_measures_of_spread/index.html</loc>
@@ -18,7 +22,7 @@
   </url>
   <url>
     <loc>https://formedstudents.netlify.app/about.html</loc>
-    <lastmod>2024-06-24T13:56:54.519Z</lastmod>
+    <lastmod>2025-07-04T15:52:38.796Z</lastmod>
   </url>
   <url>
     <loc>https://formedstudents.netlify.app/applications/2_central_tendency/index.html</loc>
@@ -26,7 +30,11 @@
   </url>
   <url>
     <loc>https://formedstudents.netlify.app/applications/4_model_for_shock/index.html</loc>
-    <lastmod>2024-09-10T18:32:38.572Z</lastmod>
+    <lastmod>2025-07-04T16:44:32.232Z</lastmod>
+  </url>
+  <url>
+    <loc>https://formedstudents.netlify.app/applications/6_dimensional analysis/index.html</loc>
+    <lastmod>2025-07-04T16:44:57.215Z</lastmod>
   </url>
   <url>
     <loc>https://formedstudents.netlify.app/footer.html</loc>
