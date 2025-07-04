@@ -1,5 +1,5 @@
 ---
-title: "Top 5 Helpful Resources for Years 1 and 2 of Med School"
+title: "5 Helpful Resources for Years 1 and 2 of Med School"
 author: "Hafeez Nathoo"
 date: "2024-11-10"
 categories: [BertaBriefs]
@@ -13,22 +13,50 @@ Over the last two years in medical school pre clerkship program we have come acr
 
 The below list is not in a rank order, as each resource has it pros and cons.
 
+*Note, we are at a Canadian medical school - USMLE specific resources are not as emphasized*
+
 ## The List:
 
-\*[Statpearls](https://www.ncbi.nlm.nih.gov/books/NBK430685/)
+[Statpearls](https://www.ncbi.nlm.nih.gov/books/NBK430685/)
 
--   **Pros:** - A solid resource out of the NIH, lots of content with great pathophysiology details and overviews of findings/management
-
--   **Cons:** - Lack of figures/visual material can be challenging at times
-
--   **Use case:** For us, statpearls primarily served as a good starting point on a given condition and a good pathophysiology summary.
-
-\*[Statpearls](https://www.ncbi.nlm.nih.gov/books/NBK430685/)
-
--   **Pros:** - A solid resource out of the NIH, lots of content with great pathophysiology details and overviews of findings/management
+-   **Pros:** - A solid resource out of the NIH, lots of content with great pathophysiology details and overviews of findings/management. Also its FREE!
 
 -   **Cons:** - Lack of figures/visual material can be challenging at times
 
 -   **Use case:** For us, statpearls primarily served as a good starting point on a given condition and a good pathophysiology summary.
+
+[Toronto Notes](https://torontonotes.ca/)
+
+-   **Pros:** - Comprehensive and very concise. Has a great layout making it easy to follow along in a given course/lecture.
+
+-   **Cons:** - The books/PDF do have a cost associated, unless you can borrow/get it second hand. The notes are very concise and good for a summary but can be hard to learn from for the first time.
+
+-   **Use case:** For us, primarily served as a resource during lectures to fill any gaps and as a quick review when looking up diseases/high yield information.
+
+[UBC Clinical Anatomy](https://www.clinicalanatomy.ca/index.html)
+
+-   **Pros:** - Truly an excellent visual resource for learning anatomy, and getting context when learning. Animations and cadaver diagrams are extremely helpful. Also its FREE!
+
+-   **Cons:** - The website and modules are great, though they do not cover every detail, and limited relationships to clinical applications (though that's not really the point of it).
+
+-   **Use case:** For us, this was a great first stop when looking at the anatomy of a given area, and then having gone through this we could supplement with more detailed lectures. Also a good quick reference.
+
+[Calgary Black Book](https://blackbook.ucalgary.ca/)
+
+-   **Pros:** - The place CBB shines is getting a differential diagnosis for a presentation, especially in case based learning.
+
+-   **Cons:** - Great for its use case, but you will need to dig in with other resources to get more details on the conditions mentioned.
+
+-   **Use case:** During case based learning a great jumping off point when starting the case from a presentation.
+
+[Ninja Nerd - Youtube](https://www.youtube.com/@NinjaNerdOfficial)
+
+-   **Pros:** - It's likely these videos have already shown up on your feed via the algorithm, these high quality videos offer great insight into pathophysiology and clinical applications. We find the whiteboard diagrams helpful for simplifying concepts.
+
+-   **Cons:** - Videos are longer form resources and can take some time to watch/process into notes. Not ideal if you are cramming the night before an assessment, or looking for a very quick review.
+
+-   **Use case:** Looking up concepts that were difficult to understand or unclear in lecture, great as a comprehensive gap filler.
 
 ### Thank you!
+
+We hope you found this useful, and owing to the huge number of learning resources available will be posting another list soon of 5 more key resources!
