@@ -11,42 +11,63 @@
     "href": "applications.html",
     "title": "Applications",
     "section": "",
-    "text": "5 Helpful Resources for Years 1 and 2 of Med School\n\n\n\n\n\n\nBertaBriefs\n\n\n\n\n\n\n\n\n\nNov 10, 2024\n\n\nHafeez Nathoo\n\n\n\n\n\n\n\n\n\n\n\n\nTank-Pump-Pipe Model for the Four Categories of Shock\n\n\n\n\n\n\nPhysicsForMedStudents\n\n\n\n\n\n\n\n\n\nAug 15, 2024\n\n\nHafeez Nathoo\n\n\n\n\n\n\n\n\n\n\n\n\nDimensional Analysis\n\n\n\n\n\n\ngeneral\n\n\narithmetic\n\n\n\n\n\n\n\n\n\nJul 30, 2024\n\n\nAli Hassan\n\n\n\n\n\n\n\n\n\n\n\n\nMeasures of Dispersion\n\n\n\n\n\n\nStatisticsForMedStudents\n\n\n\n\n\n\n\n\n\nJul 23, 2024\n\n\nHafeez Nathoo\n\n\n\n\n\n\n\n\n\n\n\n\nRolling Averages\n\n\n\n\n\n\nStatisticsForMedStudents\n\n\n\n\n\n\n\n\n\nJun 24, 2024\n\n\nAli Hassan\n\n\n\n\n\n\n\n\n\n\n\n\nMeasures of Central Tendency\n\n\n\n\n\n\nStatisticsForMedStudents\n\n\n\n\n\n\n\n\n\nJun 24, 2024\n\n\nHafeez Nathoo\n\n\n\n\n\n\nNo matching items"
+    "text": "Sensitivity and Specificity\n\n\n\n\n\n\nStatisticsForMedStudents\n\n\n\n\n\n\n\n\n\nMay 5, 2025\n\n\nHafeez Nathoo\n\n\n\n\n\n\n\n\n\n\n\n\nDimensional Analysis\n\n\n\n\n\n\nMathForMedStudents\n\n\n\n\n\n\n\n\n\nJan 21, 2025\n\n\nAli Hassan\n\n\n\n\n\n\n\n\n\n\n\n\n5 Helpful Resources for Years 1 and 2 of Med School\n\n\n\n\n\n\nResourcesForMedStudents\n\n\n\n\n\n\n\n\n\nNov 10, 2024\n\n\nHafeez Nathoo\n\n\n\n\n\n\n\n\n\n\n\n\nTank-Pump-Pipe Model for the Four Categories of Shock\n\n\n\n\n\n\nPhysicsForMedStudents\n\n\n\n\n\n\n\n\n\nAug 15, 2024\n\n\nHafeez Nathoo\n\n\n\n\n\n\n\n\n\n\n\n\nMeasures of Dispersion\n\n\n\n\n\n\nStatisticsForMedStudents\n\n\n\n\n\n\n\n\n\nJul 23, 2024\n\n\nHafeez Nathoo\n\n\n\n\n\n\n\n\n\n\n\n\nRolling Averages\n\n\n\n\n\n\nStatisticsForMedStudents\n\n\n\n\n\n\n\n\n\nJun 24, 2024\n\n\nAli Hassan\n\n\n\n\n\n\n\n\n\n\n\n\nMeasures of Central Tendency\n\n\n\n\n\n\nStatisticsForMedStudents\n\n\n\n\n\n\n\n\n\nJun 24, 2024\n\n\nHafeez Nathoo\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "applications/5_useful_resources/index.html",
-    "href": "applications/5_useful_resources/index.html",
-    "title": "5 Helpful Resources for Years 1 and 2 of Med School",
+    "objectID": "applications/6_dimensional analysis/index.html",
+    "href": "applications/6_dimensional analysis/index.html",
+    "title": "Dimensional Analysis",
     "section": "",
-    "text": "As you progress through medical school you will see much variation in didactic content, often delivered to you via powerpoint. While some lecturers strike a perfect balance - oftentimes there can be too much or too little detail, or a lack of clarity.\nOver the last two years in medical school pre clerkship program we have come across several third party resources which have helped us fill in the gaps and explore content to a deeper level.\nThe below list is not in a rank order, as each resource has it pros and cons.\nNote, we are at a Canadian medical school - USMLE specific resources are not as emphasized"
+    "text": "The goal of this post is to introduce the concept (perhaps better referred to as technique) of dimensional analysis. Dimensional analysis is the process of using the position of units (e.g., grams, litres, days) within a ratio to convert between units, typically using conversion factors (e.g., grams per litre, micrograms per day). Keeping it simple, it means manipulating ratios to cancel out units we don’t need to find units we would like to know.\n\n\nUsing conversion factors to convert between units is called dimensional analysis because the different units are referred to as dimensions and the analysis is the conversion between the dimensions."
   },
   {
-    "objectID": "applications/5_useful_resources/index.html#why-bother-using-anything-outside-lecture-notes",
-    "href": "applications/5_useful_resources/index.html#why-bother-using-anything-outside-lecture-notes",
-    "title": "5 Helpful Resources for Years 1 and 2 of Med School",
+    "objectID": "applications/6_dimensional analysis/index.html#overview",
+    "href": "applications/6_dimensional analysis/index.html#overview",
+    "title": "Dimensional Analysis",
     "section": "",
-    "text": "As you progress through medical school you will see much variation in didactic content, often delivered to you via powerpoint. While some lecturers strike a perfect balance - oftentimes there can be too much or too little detail, or a lack of clarity.\nOver the last two years in medical school pre clerkship program we have come across several third party resources which have helped us fill in the gaps and explore content to a deeper level.\nThe below list is not in a rank order, as each resource has it pros and cons.\nNote, we are at a Canadian medical school - USMLE specific resources are not as emphasized"
+    "text": "The goal of this post is to introduce the concept (perhaps better referred to as technique) of dimensional analysis. Dimensional analysis is the process of using the position of units (e.g., grams, litres, days) within a ratio to convert between units, typically using conversion factors (e.g., grams per litre, micrograms per day). Keeping it simple, it means manipulating ratios to cancel out units we don’t need to find units we would like to know.\n\n\nUsing conversion factors to convert between units is called dimensional analysis because the different units are referred to as dimensions and the analysis is the conversion between the dimensions."
   },
   {
-    "objectID": "applications/5_useful_resources/index.html#the-list",
-    "href": "applications/5_useful_resources/index.html#the-list",
-    "title": "5 Helpful Resources for Years 1 and 2 of Med School",
-    "section": "The List:",
-    "text": "The List:\nStatpearls\n\nPros: - A solid resource out of the NIH, lots of content with great pathophysiology details and overviews of findings/management. Also its FREE!\nCons: - Lack of figures/visual material can be challenging at times\nUse case: For us, statpearls primarily served as a good starting point on a given condition and a good pathophysiology summary.\n\nToronto Notes\n\nPros: - Comprehensive and very concise. Has a great layout making it easy to follow along in a given course/lecture.\nCons: - The books/PDF do have a cost associated, unless you can borrow/get it second hand. The notes are very concise and good for a summary but can be hard to learn from for the first time.\nUse case: For us, primarily served as a resource during lectures to fill any gaps and as a quick review when looking up diseases/high yield information.\n\nUBC Clinical Anatomy\n\nPros: - Truly an excellent visual resource for learning anatomy, and getting context when learning. Animations and cadaver diagrams are extremely helpful. Also its FREE!\nCons: - The website and modules are great, though they do not cover every detail, and limited relationships to clinical applications (though that’s not really the point of it).\nUse case: For us, this was a great first stop when looking at the anatomy of a given area, and then having gone through this we could supplement with more detailed lectures. Also a good quick reference.\n\nCalgary Black Book\n\nPros: - The place CBB shines is getting a differential diagnosis for a presentation, especially in case based learning.\nCons: - Great for its use case, but you will need to dig in with other resources to get more details on the conditions mentioned.\nUse case: During case based learning a great jumping off point when starting the case from a presentation.\n\nNinja Nerd - Youtube\n\nPros: - It’s likely these videos have already shown up on your feed via the algorithm, these high quality videos offer great insight into pathophysiology and clinical applications. We find the whiteboard diagrams helpful for simplifying concepts.\nCons: - Videos are longer form resources and can take some time to watch/process into notes. Not ideal if you are cramming the night before an assessment, or looking for a very quick review.\nUse case: Looking up concepts that were difficult to understand or unclear in lecture, great as a comprehensive gap filler.\n\n\nThank you!\nWe hope you found this useful, and owing to the huge number of learning resources available will be posting another list soon of 5 more key resources!"
+    "objectID": "applications/6_dimensional analysis/index.html#why-is-dimensional-analysis-useful",
+    "href": "applications/6_dimensional analysis/index.html#why-is-dimensional-analysis-useful",
+    "title": "Dimensional Analysis",
+    "section": "Why is dimensional analysis useful?",
+    "text": "Why is dimensional analysis useful?\nIntuitively, it may seem easier to focus on memorizing that you need to multiple a unit by a conversion factor to convert it - so why bother with dimensional analysis? While it may seem relatively straight-forward to use a conversion factor to convert between units, it becomes a little more difficult when:\n\nYou have to reverse the conversion and,\nThere are complex conversion factors and units that have multiple units in them (e.g., grams per litre per day)\n\nHere’s an example:\nA bolus of Drug X needs to be delivered to patient A.\n\nIt needs to be dosed at 20mg per kilogram of bodyweight\nPatient A weights 172 pounds\n\nHow many grams of Drug X does patient A need?\n\\[\nDosing\\:requirement = \\frac{20 mg}{kg}\n\\] \\[\nPatient\\: weight = 172lbs\n\\]\n\\[\nMilligrams\\:to\\:grams = \\frac{1000mg}{1g}\n\\]\n\\[\nPounds\\:to\\:kilograms = \\frac{1lbs}{2.2kg}\n\\]\nIn this example, it would be cumbersome to individually run through all the conversions and difficult to conceptualize which conversions go where. We can use dimensional analysis to make this a lot easier!\nEssentially, we need to turn Patient A’s weight into grams of drug. So his weight would be a good term to start with.\nThen, we turn his weight into kilograms as the conversion unit we were given of drug weight to human weight is in kilograms, not pounds.\nThen we use the remaining conversion factor of 1000mg to 1g to convert milligrams of drug into grams of drug, which we were asked to provide.\n\\[\n172lbs \\cdot \\frac{2.2kg}{1lbs} \\cdot \\frac{20mg}{kg} \\cdot \\frac{1g}{1000mg}\n\\] The guiding principle to set the above equation up is to orient units such that two adjacent terms should have like units (e.g., pounds, kilograms, etc.) in the numerator and denominator. This will ‘cancel’ out the untis and you will be left with the unit in the numerator in the rightmost term."
   },
   {
-    "objectID": "applications/3_measures_of_spread/index.html",
-    "href": "applications/3_measures_of_spread/index.html",
-    "title": "Measures of Dispersion",
+    "objectID": "applications/6_dimensional analysis/index.html#takeaways",
+    "href": "applications/6_dimensional analysis/index.html#takeaways",
+    "title": "Dimensional Analysis",
+    "section": "Takeaways",
+    "text": "Takeaways\nDimensional analysis is a useful framework for converting between units of measurement which may be otherwise cumbersome to do with a preset forumla and/or there isn’t a formula available to do so.\nThe principles of dimensional analysis are as follows:\n\nOrganize conversion factors left to right in the logical order of conversion. For example, in our above example we converted our patient’s weight to kilograms before using the conversion factor which required kilograms.\nAlways flip the conversion factor you are using (e.g. 100cm over 1m vs 1m over 100cm) such that adjacent terms in the analysis ‘cancel’ out (i.e., one is in the numerator and one is in the denominator)"
+  },
+  {
+    "objectID": "applications/4_model_for_shock/index.html",
+    "href": "applications/4_model_for_shock/index.html",
+    "title": "Tank-Pump-Pipe Model for the Four Categories of Shock",
     "section": "",
-    "text": "The goal of this post is to give a quick introduction to measures of dispersion - which is a fancy way of saying, how can we use a single number to summarize the contents of a data set. The four quantities we are concerned with will be the standard deviation, variance, inter quartile range (IQR), and range.\nThe big question to answer is why do we care? Generally, data can be described with two measures - one of central tendency and one of spread, these two numbers together will give a sense of the distribution of the data.\nLets start with a simple data set for illustrative purposes with only five numbers: \\((1, 4, 5, 8, 35)\\)"
+    "text": "Overview\nStudying medicine involves the assimilation of a large amount of content and requires much effort from students to keep up and integrate this new knowledge on an ongoing basis.\nThough memorization and studying of facts from slide shows and flash cards will form a large part of many students’ studying, a great technique to promote better understanding over memorization is to model systems in intuitive but simple constructs.\nThe Tank-Pump-Pipe Model for the Four Categories of Shock is a great example of this - and a useful model to visualize the categories of shock.\n\n\nTank-Pump-Pipe Model\nShock is the result of circulatory collapse - i.e. when your organs can no longer be perfused with blood.\nThere are many etiologies for shock - anaphylaxis, sepsis, neurogenic, hemorrhagic, mechanical, etc. but these can be broadly grouped into four categories.\n\n\n\n\n\n\nFour Categories of Shock\n\n\n\nCardiogenic, Distributive, Hypovolemic, and Obstructive\n\n\nThese can of course be memorized directly or with a mnemonic - but visualizing the body’s circulatory system as simple tank-pump-pipe system is more straightforward in understanding the underlying mechanisms.\n\nThe tank represents intravascular volume - the fluid available to perfuse end organs\nThe piping represents the vasculature\nThe pump represents the heart and corresponding cardiac output\n\n\n\n\nNormal Conditions\n\n\nWith this model in mind, it becomes intuitive to define the four categories of shock as follows:\n\nCardiogenic - Failure of the “pump”, i.e nothing to pressurize the system to push fluid to end organs\nDistributive - “Leaky Pipes”, the vasculature is unable to maintain adequate pressure - this represents peripheral vasodilatation (in anaphylactic shock, for example)\nHypovolemic - The empty tank, all components functioning but a lack of volume (example - dehydration)\nObstructive - A blockage - representing any condition which impairs cardiac output leading to lack of perfusion (Example - impaired filling, pericardial tamponade)\n\n\n\n\nThe Four Categories of Shock\n\n\n\n\nThank you!\nHope you found the above model useful for a more intuitive understanding!\nReferences\n\nHaseer Koya H, Paul M. Shock. [Updated 2023 Jul 24]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK531492/"
   },
   {
-    "objectID": "applications/3_measures_of_spread/index.html#section",
-    "href": "applications/3_measures_of_spread/index.html#section",
-    "title": "Measures of Dispersion",
+    "objectID": "applications/2_central_tendency/index.html",
+    "href": "applications/2_central_tendency/index.html",
+    "title": "Measures of Central Tendency",
     "section": "",
-    "text": "References\n\nEl Omda S, Sergent SR. Standard Deviation. [Updated 2023 Aug 14]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK574574/\nWadhwa RR, Azzam D. Variance. [Updated 2023 Jul 17]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK551689/"
+    "text": "The goal of this post is to give a quick introduction to measures of central tendency - which is a fancy way of saying, how can we use a single number to summarize the contents of a data set. The three quantities we are concerned with will be the mean (average), median, and mode.\nThese are widely taught in pretty much every stats class, so here we will focus on conceptual meaning and interpretation.\nLets start with a simple data set for illustrative purposes with only five numbers: \\((1, 4, 5, 10, 10)\\)"
+  },
+  {
+    "objectID": "applications/2_central_tendency/index.html#section",
+    "href": "applications/2_central_tendency/index.html#section",
+    "title": "Measures of Central Tendency",
+    "section": "",
+    "text": "References\n\nHurley M, Tenny S. Mean. [Updated 2023 Jul 17]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-.Available from: https://www.ncbi.nlm.nih.gov/books/NBK546702\nTenny S, Hoffman MR. Median. [Updated 2022 Sep 19]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-.Available from: https://www.ncbi.nlm.nih.gov/books/NBK470533\nMercadante AA, Tenny S. Mode. [Updated 2023 Jul 17]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-.Available from: https://www.ncbi.nlm.nih.gov/books/NBK540990"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Us",
+    "section": "",
+    "text": "Ali Hassan\nLinkedIn - Class of 2027 medical student at the University of Alberta, with a background in Psychology and FinTech.\n\n\nHafeez Nathoo\nLinkedIn - Class of 2027 medical student at the University of Alberta, with a background in Mechanical Engineering and Data Analytics."
   },
   {
     "objectID": "applications/1_rolling_averages/index.html",
@@ -98,52 +119,73 @@
     "text": "Thank you!\nThanks for reading through this article. More articles connecting clinical practice and mathematics are coming soon.\nImage provided by Wikimedia Commons"
   },
   {
-    "objectID": "applications/2_central_tendency/index.html",
-    "href": "applications/2_central_tendency/index.html",
-    "title": "Measures of Central Tendency",
+    "objectID": "applications/3_measures_of_spread/index.html",
+    "href": "applications/3_measures_of_spread/index.html",
+    "title": "Measures of Dispersion",
     "section": "",
-    "text": "The goal of this post is to give a quick introduction to measures of central tendency - which is a fancy way of saying, how can we use a single number to summarize the contents of a data set. The three quantities we are concerned with will be the mean (average), median, and mode.\nThese are widely taught in pretty much every stats class, so here we will focus on conceptual meaning and interpretation.\nLets start with a simple data set for illustrative purposes with only five numbers: \\((1, 4, 5, 10, 10)\\)"
+    "text": "The goal of this post is to give a quick introduction to measures of dispersion - which is a fancy way of saying, how can we use a single number to summarize the contents of a data set. The four quantities we are concerned with will be the standard deviation, variance, inter quartile range (IQR), and range.\nThe big question to answer is why do we care? Generally, data can be described with two measures - one of central tendency and one of spread, these two numbers together will give a sense of the distribution of the data.\nLets start with a simple data set for illustrative purposes with only five numbers: \\((1, 4, 5, 8, 35)\\)"
   },
   {
-    "objectID": "applications/2_central_tendency/index.html#section",
-    "href": "applications/2_central_tendency/index.html#section",
-    "title": "Measures of Central Tendency",
+    "objectID": "applications/3_measures_of_spread/index.html#section",
+    "href": "applications/3_measures_of_spread/index.html#section",
+    "title": "Measures of Dispersion",
     "section": "",
-    "text": "References\n\nHurley M, Tenny S. Mean. [Updated 2023 Jul 17]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-.Available from: https://www.ncbi.nlm.nih.gov/books/NBK546702\nTenny S, Hoffman MR. Median. [Updated 2022 Sep 19]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-.Available from: https://www.ncbi.nlm.nih.gov/books/NBK470533\nMercadante AA, Tenny S. Mode. [Updated 2023 Jul 17]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-.Available from: https://www.ncbi.nlm.nih.gov/books/NBK540990"
+    "text": "References\n\nEl Omda S, Sergent SR. Standard Deviation. [Updated 2023 Aug 14]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK574574/\nWadhwa RR, Azzam D. Variance. [Updated 2023 Jul 17]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK551689/"
   },
   {
-    "objectID": "applications/4_model_for_shock/index.html",
-    "href": "applications/4_model_for_shock/index.html",
-    "title": "Tank-Pump-Pipe Model for the Four Categories of Shock",
+    "objectID": "applications/5_useful_resources/index.html",
+    "href": "applications/5_useful_resources/index.html",
+    "title": "5 Helpful Resources for Years 1 and 2 of Med School",
     "section": "",
-    "text": "Overview\nStudying medicine involves the assimilation of a large amount of content and requires much effort from students to keep up and integrate this new knowledge on an ongoing basis.\nThough memorization and studying of facts from slide shows and flash cards will form a large part of many students’ studying, a great technique to promote better understanding over memorization is to model systems in intuitive but simple constructs.\nThe Tank-Pump-Pipe Model for the Four Categories of Shock is a great example of this - and a useful model to visualize the categories of shock.\n\n\nTank-Pump-Pipe Model\nShock is the result of circulatory collapse - i.e. when your organs can no longer be perfused with blood.\nThere are many etiologies for shock - anaphylaxis, sepsis, neurogenic, hemorrhagic, mechanical, etc. but these can be broadly grouped into four categories.\n\n\n\n\n\n\nFour Categories of Shock\n\n\n\nCardiogenic, Distributive, Hypovolemic, and Obstructive\n\n\nThese can of course be memorized directly or with a mnemonic - but visualizing the body’s circulatory system as simple tank-pump-pipe system is more straightforward in understanding the underlying mechanisms.\n\nThe tank represents intravascular volume - the fluid available to perfuse end organs\nThe piping represents the vasculature\nThe pump represents the heart and corresponding cardiac output\n\n\n\n\nNormal Conditions\n\n\nWith this model in mind, it becomes intuitive to define the four categories of shock as follows:\n\nCardiogenic - Failure of the “pump”, i.e nothing to pressurize the system to push fluid to end organs\nDistributive - “Leaky Pipes”, the vasculature is unable to maintain adequate pressure - this represents peripheral vasodilatation (in anaphylactic shock, for example)\nHypovolemic - The empty tank, all components functioning but a lack of volume (example - dehydration)\nObstructive - A blockage - representing any condition which impairs cardiac output leading to lack of perfusion (Example - impaired filling, pericardial tamponade)\n\n\n\n\nThe Four Categories of Shock\n\n\n\n\nThank you!\nHope you found the above model useful for a more intuitive understanding!\nReferences\n\nHaseer Koya H, Paul M. Shock. [Updated 2023 Jul 24]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK531492/"
+    "text": "As you progress through medical school you will see much variation in didactic content, often delivered to you via powerpoint. While some lecturers strike a perfect balance - oftentimes there can be too much or too little detail, or a lack of clarity.\nOver the last two years in medical school pre clerkship program we have come across several third party resources which have helped us fill in the gaps and explore content to a deeper level.\nThe below list is not in a rank order, as each resource has it pros and cons.\nNote, we are at a Canadian medical school - USMLE specific resources are not as emphasized"
   },
   {
-    "objectID": "applications/6_dimensional analysis/index.html",
-    "href": "applications/6_dimensional analysis/index.html",
-    "title": "Dimensional Analysis",
+    "objectID": "applications/5_useful_resources/index.html#why-bother-using-anything-outside-lecture-notes",
+    "href": "applications/5_useful_resources/index.html#why-bother-using-anything-outside-lecture-notes",
+    "title": "5 Helpful Resources for Years 1 and 2 of Med School",
     "section": "",
-    "text": "The goal of this post is to introduce the concept (perhaps better referred to as technique) of dimensional analysis. Dimensional analysis is the process of using the position of units (e.g., grams, litres, days) within a ratio to convert between units, typically using conversion factors (e.g., grams per litre, micrograms per day). Keeping it simple, it means manipulating ratios to cancel out units we don’t need to find units we would like to know.\n\n\nUsing conversion factors to convert between units is called dimensional analysis because the different units are referred to as dimensions and the analysis is the conversion between the dimensions."
+    "text": "As you progress through medical school you will see much variation in didactic content, often delivered to you via powerpoint. While some lecturers strike a perfect balance - oftentimes there can be too much or too little detail, or a lack of clarity.\nOver the last two years in medical school pre clerkship program we have come across several third party resources which have helped us fill in the gaps and explore content to a deeper level.\nThe below list is not in a rank order, as each resource has it pros and cons.\nNote, we are at a Canadian medical school - USMLE specific resources are not as emphasized"
   },
   {
-    "objectID": "applications/6_dimensional analysis/index.html#overview",
-    "href": "applications/6_dimensional analysis/index.html#overview",
-    "title": "Dimensional Analysis",
+    "objectID": "applications/5_useful_resources/index.html#the-list",
+    "href": "applications/5_useful_resources/index.html#the-list",
+    "title": "5 Helpful Resources for Years 1 and 2 of Med School",
+    "section": "The List:",
+    "text": "The List:\nStatpearls\n\nPros: - A solid resource out of the NIH, lots of content with great pathophysiology details and overviews of findings/management. Also its FREE!\nCons: - Lack of figures/visual material can be challenging at times\nUse case: For us, statpearls primarily served as a good starting point on a given condition and a good pathophysiology summary.\n\nToronto Notes\n\nPros: - Comprehensive and very concise. Has a great layout making it easy to follow along in a given course/lecture.\nCons: - The books/PDF do have a cost associated, unless you can borrow/get it second hand. The notes are very concise and good for a summary but can be hard to learn from for the first time.\nUse case: For us, primarily served as a resource during lectures to fill any gaps and as a quick review when looking up diseases/high yield information.\n\nUBC Clinical Anatomy\n\nPros: - Truly an excellent visual resource for learning anatomy, and getting context when learning. Animations and cadaver diagrams are extremely helpful. Also its FREE!\nCons: - The website and modules are great, though they do not cover every detail, and limited relationships to clinical applications (though that’s not really the point of it).\nUse case: For us, this was a great first stop when looking at the anatomy of a given area, and then having gone through this we could supplement with more detailed lectures. Also a good quick reference.\n\nCalgary Black Book\n\nPros: - The place CBB shines is getting a differential diagnosis for a presentation, especially in case based learning.\nCons: - Great for its use case, but you will need to dig in with other resources to get more details on the conditions mentioned.\nUse case: During case based learning a great jumping off point when starting the case from a presentation.\n\nNinja Nerd - Youtube\n\nPros: - It’s likely these videos have already shown up on your feed via the algorithm, these high quality videos offer great insight into pathophysiology and clinical applications. We find the whiteboard diagrams helpful for simplifying concepts.\nCons: - Videos are longer form resources and can take some time to watch/process into notes. Not ideal if you are cramming the night before an assessment, or looking for a very quick review.\nUse case: Looking up concepts that were difficult to understand or unclear in lecture, great as a comprehensive gap filler.\n\n\nThank you!\nWe hope you found this useful, and owing to the huge number of learning resources available will be posting another list soon of 5 more key resources!"
+  },
+  {
+    "objectID": "applications/8_sensitivity and specificity/index.html",
+    "href": "applications/8_sensitivity and specificity/index.html",
+    "title": "Sensitivity and Specificity",
     "section": "",
-    "text": "The goal of this post is to introduce the concept (perhaps better referred to as technique) of dimensional analysis. Dimensional analysis is the process of using the position of units (e.g., grams, litres, days) within a ratio to convert between units, typically using conversion factors (e.g., grams per litre, micrograms per day). Keeping it simple, it means manipulating ratios to cancel out units we don’t need to find units we would like to know.\n\n\nUsing conversion factors to convert between units is called dimensional analysis because the different units are referred to as dimensions and the analysis is the conversion between the dimensions."
+    "text": "Sensitivity and specificity are terms you will run into on a daily basis when discussing test and physical exam maneuvers, and should be familiar with.\nThe goal of this post is to clearly define these terms with some basic examples to help you get your head around them."
   },
   {
-    "objectID": "applications/6_dimensional analysis/index.html#why-is-dimensional-analysis-useful",
-    "href": "applications/6_dimensional analysis/index.html#why-is-dimensional-analysis-useful",
-    "title": "Dimensional Analysis",
-    "section": "Why is dimensional analysis useful?",
-    "text": "Why is dimensional analysis useful?\nIntuitively, it may seem easier to focus on memorizing that you need to multiple a unit by a conversion factor to convert it - so why bother with dimensional analysis? While it may seem relatively straight-forward to use a conversion factor to convert between units, it becomes a little more difficult when:\n\nYou have to reverse the conversion and,\nThere are complex conversion factors and units that have multiple units in them (e.g., grams per litre per day)\n\nHere’s an example:\nA bolus of Drug X needs to be delivered to patient A.\n\nIt needs to be dosed at 20mg per kilogram of bodyweight\nPatient A weights 172 pounds\n\nHow many grams of Drug X does patient A need?\n\\[\nDosing\\:requirement = \\frac{20 mg}{kg}\n\\] \\[\nPatient\\: weight = 172lbs\n\\]\n\\[\nMilligrams\\:to\\:grams = \\frac{1000mg}{1g}\n\\]\n\\[\nPounds\\:to\\:kilograms = \\frac{1lbs}{2.2kg}\n\\]\nIn this example, it would be cumbersome to individually run through all the conversions and difficult to conceptualize which conversions go where. We can use dimensional analysis to make this a lot easier!\nEssentially, we need to turn Patient A’s weight into grams of drug. So his weight would be a good term to start with.\nThen, we turn his weight into kilograms as the conversion unit we were given of drug weight to human weight is in kilograms, not pounds.\nThen we use the remaining conversion factor of 1000mg to 1g to convert milligrams of drug into grams of drug, which we were asked to provide.\n\\[\n172lbs \\cdot \\frac{2.2kg}{1lbs} \\cdot \\frac{20mg}{kg} \\cdot \\frac{1g}{1000mg}\n\\] The guiding principle to set the above equation up is to orient units such that two adjacent terms should have like units (e.g., pounds, kilograms, etc.) in the numerator and denominator. This will ‘cancel’ out the untis and you will be left with the unit in the numerator in the rightmost term."
+    "objectID": "applications/8_sensitivity and specificity/index.html#overview",
+    "href": "applications/8_sensitivity and specificity/index.html#overview",
+    "title": "Sensitivity and Specificity",
+    "section": "",
+    "text": "Sensitivity and specificity are terms you will run into on a daily basis when discussing test and physical exam maneuvers, and should be familiar with.\nThe goal of this post is to clearly define these terms with some basic examples to help you get your head around them."
   },
   {
-    "objectID": "applications/6_dimensional analysis/index.html#takeaways",
-    "href": "applications/6_dimensional analysis/index.html#takeaways",
-    "title": "Dimensional Analysis",
-    "section": "Takeaways",
-    "text": "Takeaways\nDimensional analysis is a useful framework for converting between units of measurement which may be otherwise cumbersome to do with a preset forumla and/or there isn’t a formula available to do so.\nThe principles of dimensional analysis are as follows:\n\nOrganize conversion factors left to right in the logical order of conversion. For example, in our above example we converted our patient’s weight to kilograms before using the conversion factor which required kilograms.\nAlways flip the conversion factor you are using (e.g. 100cm over 1m vs 1m over 100cm) such that adjacent terms in the analysis ‘cancel’ out (i.e., one is in the numerator and one is in the denominator)"
+    "objectID": "applications/8_sensitivity and specificity/index.html#the-set-up",
+    "href": "applications/8_sensitivity and specificity/index.html#the-set-up",
+    "title": "Sensitivity and Specificity",
+    "section": "The Set Up",
+    "text": "The Set Up\nThe core idea is that a test (like a blood test, physical exam maneuver, etc.) is not perfect, and will not catch every result. So when using tests in practice we must be able to compare their performance and have a good idea of when they are helpful or not.\nLets start with a scenario - you have a blood test for a given marker. There are four quantities that you are concerned with, that can be summarized into the below “2 by 2” table.\n\nA is the number of people who are positive for both the marker and the test, True Positives\nB is the number of people who have the marker but tested negative, False Negatives\nC is the number of people who have a positive test but no marker, False Positives\nD is the number of people who have a negative test and no marker, True Negatives"
+  },
+  {
+    "objectID": "applications/8_sensitivity and specificity/index.html#definitions",
+    "href": "applications/8_sensitivity and specificity/index.html#definitions",
+    "title": "Sensitivity and Specificity",
+    "section": "Definitions",
+    "text": "Definitions\nOK so now we have context, what does all this have to do with the definitions of sensitivity and specificity?\nWe mentioned that the point of these terms is to quantify how good a test is and this is done using the quantities A, B, C, D defined above.\n\nSensitivity is defined as the true positive rate, or in simpler terms - how many of the people who have the marker do we actually catch with the test.\nEssentially, if someone has the marker, what is the chance this test will tell me they are positive.\n\\[\nSensitivity = \\frac{A}{A+B} = \\frac{True Positives}{True Positives + False Negatives}\n\\]\n\nSpecificity is defined as the True Negative Rate, or how many people who do not have the marker will our test accurately identify as negative.\nEssentially, if someone does not have the marker, what is the chance this test will tell me they are negative.\n\\[\nSpecificity = \\frac{D}{C+D} = \\frac{True Negatives}{True Negatives + False Positives}\n\\]\n\nAn Example\nWe have a test for a disease which has a sensitivity of 80% and a specificity of 80%. We use this test on 100 people.\nIf 50 of them test positive, how many of these actually have the disease?\nAnswer With 50 positive tests and a sensitivity of 80% we can calculate true positives as below\n\\[\nSensitivity = \\frac{True Positives}{True Positives + False Negatives} = \\frac{True Positives}{All test positive results}\n\\] \\[\n0.8 = \\frac{True Positives}{50 people}\n\\] \\[\n0.80 * 50 people  = True Positives\n\\] \\[\nTrue Positives = 40 people\n\\]\n\nThese concepts seem simple but can take some time to get fluent speaking about, especially in complex clinical contexts. A solid foundational understanding is key!"
+  },
+  {
+    "objectID": "applications/8_sensitivity and specificity/index.html#thank-you",
+    "href": "applications/8_sensitivity and specificity/index.html#thank-you",
+    "title": "Sensitivity and Specificity",
+    "section": "Thank you!",
+    "text": "Thank you!\nThanks for reading through this article. More articles connecting clinical practice and mathematics are coming soon."
   }
 ]
