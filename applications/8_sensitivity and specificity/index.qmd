@@ -53,20 +53,20 @@ $$
 
 ### An Example
 
-We have a test for a disease which has a sensitivity of 80% and a specificity of 80%. We use this test on 100 people.
+We have a test for a disease which has a sensitivity of 80%. We use this test on 100 people.
 
-If 50 of them test positive, how many of these actually have the disease?
+If 50 of them test positive and are actually positive with the disease (assume we have a guaranteed way of determining this), how many people in the population have the disease?
 
 **Answer** With 50 positive tests and a sensitivity of 80% we can calculate true positives as below
 
 $$
-Sensitivity = \frac{True Positives}{True Positives + False Negatives} = \frac{True Positives}{All test positive results}
+Sensitivity = \frac{True Positives}{True Positives + False Negatives} 
 $$ $$
-0.8 = \frac{True Positives}{50 people}
+0.8 = \frac{50people}{True Positives + False Negatives}
 $$ $$
-0.80 * 50 people  = True Positives
+\frac{50 people}{0.8}= True Positives + False Negatives
 $$ $$
-True Positives = 40 people
+True Positives + False Negatives = 62.5 people \simeq 63 people
 $$
 
 ------------------------------------------------------------------------
