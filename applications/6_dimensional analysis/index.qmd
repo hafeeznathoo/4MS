@@ -1,8 +1,8 @@
 ---
 title: "Dimensional Analysis"
 author: "Ali Hassan"
-date: "2024-07-30"
-categories: [general, arithmetic]
+date: "2025-01-21"
+categories: [MATHFORMEDSTUDENTS]
 image: "image.jpg"
 ---
 
