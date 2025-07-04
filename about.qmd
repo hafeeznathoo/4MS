@@ -1,3 +1,11 @@
 ---
 title: "About Us"
 ---
+
+### Ali Hassan
+
+[LinkedIn](https://ca.linkedin.com/in/ali-hassan-8985a020a) - Class of 2027 medical student at the University of Alberta, with a background in Psychology and FinTech.
+
+### Hafeez Nathoo
+
+[LinkedIn](https://ca.linkedin.com/in/hafeez-nathoo) - Class of 2027 medical student at the University of Alberta, with a background in Mechanical Engineering and Data Analytics.

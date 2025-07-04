@@ -1,0 +1,78 @@
+---
+title: "Sensitivity and Specificity"
+author: "Hafeez Nathoo"
+date: "2025-05-05"
+categories: [StatisticsForMedStudents]
+image: "2x2.png"
+---
+
+## Overview
+
+Sensitivity and specificity are terms you will run into on a daily basis when discussing test and physical exam maneuvers, and should be familiar with.
+
+The goal of this post is to clearly define these terms with some basic examples to help you get your head around them.
+
+## The Set Up
+
+The core idea is that a test (like a blood test, physical exam maneuver, etc.) is not perfect, and will not catch every result. So when using tests in practice we must be able to compare their performance and have a good idea of when they are helpful or not.
+
+Lets start with a scenario - you have a blood test for a given marker. There are four quantities that you are concerned with, that can be summarized into the below "2 by 2" table.
+
+-   A is the number of people who are positive for both the marker and the test, **True Positives**
+-   B is the number of people who have the marker but tested negative, **False Negatives**
+-   C is the number of people who have a positive test but no marker, **False Positives**
+-   D is the number of people who have a negative test and no marker, **True Negatives**
+
+![](2x2.png)
+
+## Definitions
+
+OK so now we have context, what does all this have to do with the definitions of sensitivity and specificity?
+
+We mentioned that the point of these terms is to quantify how good a test is and this is done using the quantities A, B, C, D defined above.
+
+------------------------------------------------------------------------
+
+**Sensitivity** is defined as the true positive rate, or in simpler terms - how many of the people who have the marker do we actually catch with the test.
+
+*Essentially, if someone has the marker, what is the chance this test will tell me they are positive.*
+
+$$
+Sensitivity = \frac{A}{A+B} = \frac{True Positives}{True Positives + False Negatives}
+$$
+
+------------------------------------------------------------------------
+
+**Specificity** is defined as the True Negative Rate, or how many people who **do not** have the marker will our test accurately identify as negative.
+
+*Essentially, if someone does not have the marker, what is the chance this test will tell me they are negative.*
+
+$$
+Specificity = \frac{D}{C+D} = \frac{True Negatives}{True Negatives + False Positives}
+$$
+
+### An Example
+
+We have a test for a disease which has a sensitivity of 80% and a specificity of 80%. We use this test on 100 people.
+
+If 50 of them test positive, how many of these actually have the disease?
+
+**Answer** With 50 positive tests and a sensitivity of 80% we can calculate true positives as below
+
+$$
+Sensitivity = \frac{True Positives}{True Positives + False Negatives} = \frac{True Positives}{All test positive results}
+$$ $$
+0.8 = \frac{True Positives}{50 people}
+$$ $$
+0.80 * 50 people  = True Positives
+$$ $$
+True Positives = 40 people
+$$
+
+------------------------------------------------------------------------
+
+These concepts seem simple but can take some time to get fluent speaking about, especially in complex clinical contexts. A solid foundational understanding is key!
+
+## Thank you!
+
+Thanks for reading through this article. More articles connecting clinical practice and mathematics are coming soon.

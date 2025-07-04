@@ -11,21 +11,63 @@
     "href": "applications.html",
     "title": "Applications",
     "section": "",
-    "text": "Tank-Pump-Pipe Model for the Four Categories of Shock\n\n\n\n\n\n\nPhysicsForMedStudents\n\n\n\n\n\n\n\n\n\nAug 15, 2024\n\n\nHafeez Nathoo\n\n\n\n\n\n\n\n\n\n\n\n\nMeasures of Dispersion\n\n\n\n\n\n\nStatisticsForMedStudents\n\n\n\n\n\n\n\n\n\nJul 23, 2024\n\n\nHafeez Nathoo\n\n\n\n\n\n\n\n\n\n\n\n\nRolling Averages\n\n\n\n\n\n\nStatisticsForMedStudents\n\n\n\n\n\n\n\n\n\nJun 24, 2024\n\n\nAli Hassan\n\n\n\n\n\n\n\n\n\n\n\n\nMeasures of Central Tendency\n\n\n\n\n\n\nStatisticsForMedStudents\n\n\n\n\n\n\n\n\n\nJun 24, 2024\n\n\nHafeez Nathoo\n\n\n\n\n\n\nNo matching items"
+    "text": "Sensitivity and Specificity\n\n\n\n\n\n\nStatisticsForMedStudents\n\n\n\n\n\n\n\n\n\nMay 5, 2025\n\n\nHafeez Nathoo\n\n\n\n\n\n\n\n\n\n\n\n\nDimensional Analysis\n\n\n\n\n\n\nMathForMedStudents\n\n\n\n\n\n\n\n\n\nJan 21, 2025\n\n\nAli Hassan\n\n\n\n\n\n\n\n\n\n\n\n\n5 Helpful Resources for Years 1 and 2 of Med School\n\n\n\n\n\n\nResourcesForMedStudents\n\n\n\n\n\n\n\n\n\nNov 10, 2024\n\n\nHafeez Nathoo\n\n\n\n\n\n\n\n\n\n\n\n\nTank-Pump-Pipe Model for the Four Categories of Shock\n\n\n\n\n\n\nPhysicsForMedStudents\n\n\n\n\n\n\n\n\n\nAug 15, 2024\n\n\nHafeez Nathoo\n\n\n\n\n\n\n\n\n\n\n\n\nMeasures of Dispersion\n\n\n\n\n\n\nStatisticsForMedStudents\n\n\n\n\n\n\n\n\n\nJul 23, 2024\n\n\nHafeez Nathoo\n\n\n\n\n\n\n\n\n\n\n\n\nRolling Averages\n\n\n\n\n\n\nStatisticsForMedStudents\n\n\n\n\n\n\n\n\n\nJun 24, 2024\n\n\nAli Hassan\n\n\n\n\n\n\n\n\n\n\n\n\nMeasures of Central Tendency\n\n\n\n\n\n\nStatisticsForMedStudents\n\n\n\n\n\n\n\n\n\nJun 24, 2024\n\n\nHafeez Nathoo\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "applications/3_measures_of_spread/index.html",
-    "href": "applications/3_measures_of_spread/index.html",
-    "title": "Measures of Dispersion",
+    "objectID": "applications/6_dimensional analysis/index.html",
+    "href": "applications/6_dimensional analysis/index.html",
+    "title": "Dimensional Analysis",
     "section": "",
-    "text": "The goal of this post is to give a quick introduction to measures of dispersion - which is a fancy way of saying, how can we use a single number to summarize the contents of a data set. The four quantities we are concerned with will be the standard deviation, variance, inter quartile range (IQR), and range.\nThe big question to answer is why do we care? Generally, data can be described with two measures - one of central tendency and one of spread, these two numbers together will give a sense of the distribution of the data.\nLets start with a simple data set for illustrative purposes with only five numbers: \\((1, 4, 5, 8, 35)\\)"
+    "text": "The goal of this post is to introduce the concept (perhaps better referred to as technique) of dimensional analysis. Dimensional analysis is the process of using the position of units (e.g., grams, litres, days) within a ratio to convert between units, typically using conversion factors (e.g., grams per litre, micrograms per day). Keeping it simple, it means manipulating ratios to cancel out units we don’t need to find units we would like to know.\n\n\nUsing conversion factors to convert between units is called dimensional analysis because the different units are referred to as dimensions and the analysis is the conversion between the dimensions."
   },
   {
-    "objectID": "applications/3_measures_of_spread/index.html#section",
-    "href": "applications/3_measures_of_spread/index.html#section",
-    "title": "Measures of Dispersion",
+    "objectID": "applications/6_dimensional analysis/index.html#overview",
+    "href": "applications/6_dimensional analysis/index.html#overview",
+    "title": "Dimensional Analysis",
     "section": "",
-    "text": "References\n\nEl Omda S, Sergent SR. Standard Deviation. [Updated 2023 Aug 14]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK574574/\nWadhwa RR, Azzam D. Variance. [Updated 2023 Jul 17]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK551689/"
+    "text": "The goal of this post is to introduce the concept (perhaps better referred to as technique) of dimensional analysis. Dimensional analysis is the process of using the position of units (e.g., grams, litres, days) within a ratio to convert between units, typically using conversion factors (e.g., grams per litre, micrograms per day). Keeping it simple, it means manipulating ratios to cancel out units we don’t need to find units we would like to know.\n\n\nUsing conversion factors to convert between units is called dimensional analysis because the different units are referred to as dimensions and the analysis is the conversion between the dimensions."
+  },
+  {
+    "objectID": "applications/6_dimensional analysis/index.html#why-is-dimensional-analysis-useful",
+    "href": "applications/6_dimensional analysis/index.html#why-is-dimensional-analysis-useful",
+    "title": "Dimensional Analysis",
+    "section": "Why is dimensional analysis useful?",
+    "text": "Why is dimensional analysis useful?\nIntuitively, it may seem easier to focus on memorizing that you need to multiple a unit by a conversion factor to convert it - so why bother with dimensional analysis? While it may seem relatively straight-forward to use a conversion factor to convert between units, it becomes a little more difficult when:\n\nYou have to reverse the conversion and,\nThere are complex conversion factors and units that have multiple units in them (e.g., grams per litre per day)\n\nHere’s an example:\nA bolus of Drug X needs to be delivered to patient A.\n\nIt needs to be dosed at 20mg per kilogram of bodyweight\nPatient A weights 172 pounds\n\nHow many grams of Drug X does patient A need?\n\\[\nDosing\\:requirement = \\frac{20 mg}{kg}\n\\] \\[\nPatient\\: weight = 172lbs\n\\]\n\\[\nMilligrams\\:to\\:grams = \\frac{1000mg}{1g}\n\\]\n\\[\nPounds\\:to\\:kilograms = \\frac{1lbs}{2.2kg}\n\\]\nIn this example, it would be cumbersome to individually run through all the conversions and difficult to conceptualize which conversions go where. We can use dimensional analysis to make this a lot easier!\nEssentially, we need to turn Patient A’s weight into grams of drug. So his weight would be a good term to start with.\nThen, we turn his weight into kilograms as the conversion unit we were given of drug weight to human weight is in kilograms, not pounds.\nThen we use the remaining conversion factor of 1000mg to 1g to convert milligrams of drug into grams of drug, which we were asked to provide.\n\\[\n172lbs \\cdot \\frac{2.2kg}{1lbs} \\cdot \\frac{20mg}{kg} \\cdot \\frac{1g}{1000mg}\n\\] The guiding principle to set the above equation up is to orient units such that two adjacent terms should have like units (e.g., pounds, kilograms, etc.) in the numerator and denominator. This will ‘cancel’ out the untis and you will be left with the unit in the numerator in the rightmost term."
+  },
+  {
+    "objectID": "applications/6_dimensional analysis/index.html#takeaways",
+    "href": "applications/6_dimensional analysis/index.html#takeaways",
+    "title": "Dimensional Analysis",
+    "section": "Takeaways",
+    "text": "Takeaways\nDimensional analysis is a useful framework for converting between units of measurement which may be otherwise cumbersome to do with a preset forumla and/or there isn’t a formula available to do so.\nThe principles of dimensional analysis are as follows:\n\nOrganize conversion factors left to right in the logical order of conversion. For example, in our above example we converted our patient’s weight to kilograms before using the conversion factor which required kilograms.\nAlways flip the conversion factor you are using (e.g. 100cm over 1m vs 1m over 100cm) such that adjacent terms in the analysis ‘cancel’ out (i.e., one is in the numerator and one is in the denominator)"
+  },
+  {
+    "objectID": "applications/4_model_for_shock/index.html",
+    "href": "applications/4_model_for_shock/index.html",
+    "title": "Tank-Pump-Pipe Model for the Four Categories of Shock",
+    "section": "",
+    "text": "Overview\nStudying medicine involves the assimilation of a large amount of content and requires much effort from students to keep up and integrate this new knowledge on an ongoing basis.\nThough memorization and studying of facts from slide shows and flash cards will form a large part of many students’ studying, a great technique to promote better understanding over memorization is to model systems in intuitive but simple constructs.\nThe Tank-Pump-Pipe Model for the Four Categories of Shock is a great example of this - and a useful model to visualize the categories of shock.\n\n\nTank-Pump-Pipe Model\nShock is the result of circulatory collapse - i.e. when your organs can no longer be perfused with blood.\nThere are many etiologies for shock - anaphylaxis, sepsis, neurogenic, hemorrhagic, mechanical, etc. but these can be broadly grouped into four categories.\n\n\n\n\n\n\nFour Categories of Shock\n\n\n\nCardiogenic, Distributive, Hypovolemic, and Obstructive\n\n\nThese can of course be memorized directly or with a mnemonic - but visualizing the body’s circulatory system as simple tank-pump-pipe system is more straightforward in understanding the underlying mechanisms.\n\nThe tank represents intravascular volume - the fluid available to perfuse end organs\nThe piping represents the vasculature\nThe pump represents the heart and corresponding cardiac output\n\n\n\n\nNormal Conditions\n\n\nWith this model in mind, it becomes intuitive to define the four categories of shock as follows:\n\nCardiogenic - Failure of the “pump”, i.e nothing to pressurize the system to push fluid to end organs\nDistributive - “Leaky Pipes”, the vasculature is unable to maintain adequate pressure - this represents peripheral vasodilatation (in anaphylactic shock, for example)\nHypovolemic - The empty tank, all components functioning but a lack of volume (example - dehydration)\nObstructive - A blockage - representing any condition which impairs cardiac output leading to lack of perfusion (Example - impaired filling, pericardial tamponade)\n\n\n\n\nThe Four Categories of Shock\n\n\n\n\nThank you!\nHope you found the above model useful for a more intuitive understanding!\nReferences\n\nHaseer Koya H, Paul M. Shock. [Updated 2023 Jul 24]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK531492/"
+  },
+  {
+    "objectID": "applications/2_central_tendency/index.html",
+    "href": "applications/2_central_tendency/index.html",
+    "title": "Measures of Central Tendency",
+    "section": "",
+    "text": "The goal of this post is to give a quick introduction to measures of central tendency - which is a fancy way of saying, how can we use a single number to summarize the contents of a data set. The three quantities we are concerned with will be the mean (average), median, and mode.\nThese are widely taught in pretty much every stats class, so here we will focus on conceptual meaning and interpretation.\nLets start with a simple data set for illustrative purposes with only five numbers: \\((1, 4, 5, 10, 10)\\)"
+  },
+  {
+    "objectID": "applications/2_central_tendency/index.html#section",
+    "href": "applications/2_central_tendency/index.html#section",
+    "title": "Measures of Central Tendency",
+    "section": "",
+    "text": "References\n\nHurley M, Tenny S. Mean. [Updated 2023 Jul 17]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-.Available from: https://www.ncbi.nlm.nih.gov/books/NBK546702\nTenny S, Hoffman MR. Median. [Updated 2022 Sep 19]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-.Available from: https://www.ncbi.nlm.nih.gov/books/NBK470533\nMercadante AA, Tenny S. Mode. [Updated 2023 Jul 17]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-.Available from: https://www.ncbi.nlm.nih.gov/books/NBK540990"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Us",
+    "section": "",
+    "text": "Ali Hassan\nLinkedIn - Class of 2027 medical student at the University of Alberta, with a background in Psychology and FinTech.\n\n\nHafeez Nathoo\nLinkedIn - Class of 2027 medical student at the University of Alberta, with a background in Mechanical Engineering and Data Analytics."
   },
   {
     "objectID": "applications/1_rolling_averages/index.html",
@@ -77,140 +119,73 @@
     "text": "Thank you!\nThanks for reading through this article. More articles connecting clinical practice and mathematics are coming soon.\nImage provided by Wikimedia Commons"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "applications/2_central_tendency/index.html",
-    "href": "applications/2_central_tendency/index.html",
-    "title": "Measures of Central Tendency",
-    "section": "",
-    "text": "The goal of this post is to give a quick introduction to measures of central tendency - which is a fancy way of saying, how can we use a single number to summarize the contents of a data set. The three quantities we are concerned with will be the mean (average), median, and mode.\nThese are widely taught in pretty much every stats class, so here we will focus on conceptual meaning and interpretation.\nLets start with a simple data set for illustrative purposes with only five numbers: \\((1, 4, 5, 10, 10)\\)"
-  },
-  {
-    "objectID": "applications/2_central_tendency/index.html#section",
-    "href": "applications/2_central_tendency/index.html#section",
-    "title": "Measures of Central Tendency",
-    "section": "",
-    "text": "References\n\nHurley M, Tenny S. Mean. [Updated 2023 Jul 17]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-.Available from: https://www.ncbi.nlm.nih.gov/books/NBK546702\nTenny S, Hoffman MR. Median. [Updated 2022 Sep 19]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-.Available from: https://www.ncbi.nlm.nih.gov/books/NBK470533\nMercadante AA, Tenny S. Mode. [Updated 2023 Jul 17]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-.Available from: https://www.ncbi.nlm.nih.gov/books/NBK540990"
-  },
-  {
-    "objectID": "applications/4_model_for_shock/index.html",
-    "href": "applications/4_model_for_shock/index.html",
-    "title": "Tank-Pump-Pipe Model for the Four Categories of Shock",
-    "section": "",
-<<<<<<< HEAD
-    "text": "Some Basics\nAn average is a common concept, it is a number which represents each data point within a range of numbers, giving equal weight to each number. While averages are fairly straightforward, the concept of rolling averages may not be as simple.\nA rolling average is the average of a range of values within a given time frame which keeps moving forward to keep up incoming data as time goes on. Rolling averages help us include incoming data to adjust our average value and they can constrain the data we look at if we want to emphasize a certain set of values within a range.\nTake budgeting for example. An average monthly spend ever since you opened your bank account would not be the greatest figure to help you work on your finances. It would not update with new data (e.g., transactions, withdrawals, deposits) and it includes all data within the range (is it really that useful to know how much you spent in a month when you were 15?) With a rolling average, you can constrain the time you look at (e.g., the last 3 months)\ntest test test"
-  },
-  {
-    "objectID": "topics/3_measures_of_spread/index.html",
-    "href": "topics/3_measures_of_spread/index.html",
+    "objectID": "applications/3_measures_of_spread/index.html",
+    "href": "applications/3_measures_of_spread/index.html",
     "title": "Measures of Dispersion",
     "section": "",
     "text": "The goal of this post is to give a quick introduction to measures of dispersion - which is a fancy way of saying, how can we use a single number to summarize the contents of a data set. The four quantities we are concerned with will be the standard deviation, variance, inter quartile range (IQR), and range.\nThe big question to answer is why do we care? Generally, data can be described with two measures - one of central tendency and one of spread, these two numbers together will give a sense of the distribution of the data.\nLets start with a simple data set for illustrative purposes with only five numbers: \\((1, 4, 5, 8, 35)\\)"
   },
   {
-    "objectID": "topics/3_measures_of_spread/index.html#section",
-    "href": "topics/3_measures_of_spread/index.html#section",
+    "objectID": "applications/3_measures_of_spread/index.html#section",
+    "href": "applications/3_measures_of_spread/index.html#section",
     "title": "Measures of Dispersion",
     "section": "",
     "text": "References\n\nEl Omda S, Sergent SR. Standard Deviation. [Updated 2023 Aug 14]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK574574/\nWadhwa RR, Azzam D. Variance. [Updated 2023 Jul 17]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK551689/"
   },
   {
-    "objectID": "topics/1_rolling_averages/index.html",
-    "href": "topics/1_rolling_averages/index.html",
-    "title": "Rolling Averages",
+    "objectID": "applications/5_useful_resources/index.html",
+    "href": "applications/5_useful_resources/index.html",
+    "title": "5 Helpful Resources for Years 1 and 2 of Med School",
     "section": "",
-    "text": "The goal of this post is to go through the concept of a rolling average. A rolling average is an average which continually updates as new data comes in. A rolling average is comprised of two additional components compared to a regular average:\n\nA time frame in which data is averaged over (e.g., 3 months), this can be thought of the amount of time we look at and,\nWhen that time frame is applied to the data (e.g., the most recent 3 months, this can be though of as when we set the start/end point of the above amount of time"
+    "text": "As you progress through medical school you will see much variation in didactic content, often delivered to you via powerpoint. While some lecturers strike a perfect balance - oftentimes there can be too much or too little detail, or a lack of clarity.\nOver the last two years in medical school pre clerkship program we have come across several third party resources which have helped us fill in the gaps and explore content to a deeper level.\nThe below list is not in a rank order, as each resource has it pros and cons.\nNote, we are at a Canadian medical school - USMLE specific resources are not as emphasized"
   },
   {
-    "objectID": "topics/3_measures_of_spread/index.html#section-1",
-    "href": "topics/3_measures_of_spread/index.html#section-1",
-    "title": "Measures of Dispersion",
+    "objectID": "applications/5_useful_resources/index.html#why-bother-using-anything-outside-lecture-notes",
+    "href": "applications/5_useful_resources/index.html#why-bother-using-anything-outside-lecture-notes",
+    "title": "5 Helpful Resources for Years 1 and 2 of Med School",
     "section": "",
-    "text": "References\n\nEl Omda S, Sergent SR. Standard Deviation. [Updated 2023 Aug 14]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK574574/\nWadhwa RR, Azzam D. Variance. [Updated 2023 Jul 17]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK551689/"
+    "text": "As you progress through medical school you will see much variation in didactic content, often delivered to you via powerpoint. While some lecturers strike a perfect balance - oftentimes there can be too much or too little detail, or a lack of clarity.\nOver the last two years in medical school pre clerkship program we have come across several third party resources which have helped us fill in the gaps and explore content to a deeper level.\nThe below list is not in a rank order, as each resource has it pros and cons.\nNote, we are at a Canadian medical school - USMLE specific resources are not as emphasized"
   },
   {
-    "objectID": "topics/1_rolling_averages/index.html#overview",
-    "href": "topics/1_rolling_averages/index.html#overview",
-    "title": "Rolling Averages",
+    "objectID": "applications/5_useful_resources/index.html#the-list",
+    "href": "applications/5_useful_resources/index.html#the-list",
+    "title": "5 Helpful Resources for Years 1 and 2 of Med School",
+    "section": "The List:",
+    "text": "The List:\nStatpearls\n\nPros: - A solid resource out of the NIH, lots of content with great pathophysiology details and overviews of findings/management. Also its FREE!\nCons: - Lack of figures/visual material can be challenging at times\nUse case: For us, statpearls primarily served as a good starting point on a given condition and a good pathophysiology summary.\n\nToronto Notes\n\nPros: - Comprehensive and very concise. Has a great layout making it easy to follow along in a given course/lecture.\nCons: - The books/PDF do have a cost associated, unless you can borrow/get it second hand. The notes are very concise and good for a summary but can be hard to learn from for the first time.\nUse case: For us, primarily served as a resource during lectures to fill any gaps and as a quick review when looking up diseases/high yield information.\n\nUBC Clinical Anatomy\n\nPros: - Truly an excellent visual resource for learning anatomy, and getting context when learning. Animations and cadaver diagrams are extremely helpful. Also its FREE!\nCons: - The website and modules are great, though they do not cover every detail, and limited relationships to clinical applications (though that’s not really the point of it).\nUse case: For us, this was a great first stop when looking at the anatomy of a given area, and then having gone through this we could supplement with more detailed lectures. Also a good quick reference.\n\nCalgary Black Book\n\nPros: - The place CBB shines is getting a differential diagnosis for a presentation, especially in case based learning.\nCons: - Great for its use case, but you will need to dig in with other resources to get more details on the conditions mentioned.\nUse case: During case based learning a great jumping off point when starting the case from a presentation.\n\nNinja Nerd - Youtube\n\nPros: - It’s likely these videos have already shown up on your feed via the algorithm, these high quality videos offer great insight into pathophysiology and clinical applications. We find the whiteboard diagrams helpful for simplifying concepts.\nCons: - Videos are longer form resources and can take some time to watch/process into notes. Not ideal if you are cramming the night before an assessment, or looking for a very quick review.\nUse case: Looking up concepts that were difficult to understand or unclear in lecture, great as a comprehensive gap filler.\n\n\nThank you!\nWe hope you found this useful, and owing to the huge number of learning resources available will be posting another list soon of 5 more key resources!"
+  },
+  {
+    "objectID": "applications/8_sensitivity and specificity/index.html",
+    "href": "applications/8_sensitivity and specificity/index.html",
+    "title": "Sensitivity and Specificity",
     "section": "",
-    "text": "The goal of this post is to go through the concept of a rolling average. A rolling average is an average which continually updates as new data comes in. A rolling average is comprised of two additional components compared to a regular average:\n\nA time frame in which data is averaged over (e.g., 3 months), this can be thought of the amount of time we look at and,\nWhen that time frame is applied to the data (e.g., the most recent 3 months, this can be though of as when we set the start/end point of the above amount of time"
+    "text": "Sensitivity and specificity are terms you will run into on a daily basis when discussing test and physical exam maneuvers, and should be familiar with.\nThe goal of this post is to clearly define these terms with some basic examples to help you get your head around them."
   },
   {
-    "objectID": "topics/1_rolling_averages/index.html#setting-the-foundation---averages",
-    "href": "topics/1_rolling_averages/index.html#setting-the-foundation---averages",
-    "title": "Rolling Averages",
-    "section": "Setting the foundation - averages",
-    "text": "Setting the foundation - averages\nAn average is a common concept that you are likely already familiar with. It is a number which represents each data point within a range of numbers, giving equal weight to each number. While averages are fairly straightforward, the concept of rolling averages may not be as simple.\n\\[\naverage = \\frac{\\sum_{k=1}^n}{n}\n\\]\nThe formula above is how you calculate a fraction and it looks a lot more complicated than the idea of an average you may have in your head - the numbers within a set all added up divided by the amount of numbers."
+    "objectID": "applications/8_sensitivity and specificity/index.html#overview",
+    "href": "applications/8_sensitivity and specificity/index.html#overview",
+    "title": "Sensitivity and Specificity",
+    "section": "",
+    "text": "Sensitivity and specificity are terms you will run into on a daily basis when discussing test and physical exam maneuvers, and should be familiar with.\nThe goal of this post is to clearly define these terms with some basic examples to help you get your head around them."
   },
   {
-    "objectID": "topics/1_rolling_averages/index.html#setting-the-foundation---the-concept-of-an-average",
-    "href": "topics/1_rolling_averages/index.html#setting-the-foundation---the-concept-of-an-average",
-    "title": "Rolling Averages",
-    "section": "Setting the foundation - the concept of an average",
-    "text": "Setting the foundation - the concept of an average\nAn average is a common concept that you are likely already familiar with. It is a number which represents each data point within a range of numbers, giving equal weight to each number. While averages are fairly straightforward, the concept of rolling averages may not be as simple.\n\\[\naverage = \\frac{\\sum_{i=1}^n}{n}\n\\]\nThe formula above is how you calculate a fraction and it looks a lot more complicated than the idea of an average you may have in your head - the numbers within a set all added up divided by the amount of numbers. The formula is saying that the average of a dataset is the sum (indicated by the \\(\\sum\\) symbol) of all the numbers in a dataset (indicated by the \\(n\\) above the \\(\\sum\\) symbol) starting at the first value in that data set (\\(i\\) = 1) divided by the number of values (\\(n\\))."
+    "objectID": "applications/8_sensitivity and specificity/index.html#the-set-up",
+    "href": "applications/8_sensitivity and specificity/index.html#the-set-up",
+    "title": "Sensitivity and Specificity",
+    "section": "The Set Up",
+    "text": "The Set Up\nThe core idea is that a test (like a blood test, physical exam maneuver, etc.) is not perfect, and will not catch every result. So when using tests in practice we must be able to compare their performance and have a good idea of when they are helpful or not.\nLets start with a scenario - you have a blood test for a given marker. There are four quantities that you are concerned with, that can be summarized into the below “2 by 2” table.\n\nA is the number of people who are positive for both the marker and the test, True Positives\nB is the number of people who have the marker but tested negative, False Negatives\nC is the number of people who have a positive test but no marker, False Positives\nD is the number of people who have a negative test and no marker, True Negatives"
   },
   {
-    "objectID": "topics/1_rolling_averages/index.html#the-rolling-average",
-    "href": "topics/1_rolling_averages/index.html#the-rolling-average",
-    "title": "Rolling Averages",
-    "section": "The rolling average",
-    "text": "The rolling average\nThe rolling average is simply an average which is updated as new data comes in within a set time frame. The point that this average is updated is important; simply calculating an average that’s contrained to a certain time frame does not make an average rolling.\nRecall that the two important components of a rolling average are the amount of time we want to average over and when we want to set that amount of time to be set. Typically, rolling averages are conducted on the most recent values (the ‘when’ we want to set the amount of time to) so the end point is set to be the most recent data and the start point always moves forward in time.\nThe amount of time looked at varies depending on what is important. Take finances for examples. If we wanted to get insight into how our spending is changing as we start to tighten up our budget, it would be better to look at the last 30 days rather than the last 300 days as we are very interested in how new data is affecting this average.\nMathematically, a rolling average can looks like this:\n\\[\nrolling\\;average = \\frac{\\sum_{i=\\:n-3}^n}{n}\n\\]\nSuppose that the values in the above dataset are monthly blood tests for potassium. Based on the convention that we introduced above, the equation is telling us to average the last 3 months worth of blood work (3 data points) and to move that average to include the move recent blood work data point and to subsequently drop the latest blood work data (which would now be 4 months ago) as new potassium blood work comes in."
+    "objectID": "applications/8_sensitivity and specificity/index.html#definitions",
+    "href": "applications/8_sensitivity and specificity/index.html#definitions",
+    "title": "Sensitivity and Specificity",
+    "section": "Definitions",
+    "text": "Definitions\nOK so now we have context, what does all this have to do with the definitions of sensitivity and specificity?\nWe mentioned that the point of these terms is to quantify how good a test is and this is done using the quantities A, B, C, D defined above.\n\nSensitivity is defined as the true positive rate, or in simpler terms - how many of the people who have the marker do we actually catch with the test.\nEssentially, if someone has the marker, what is the chance this test will tell me they are positive.\n\\[\nSensitivity = \\frac{A}{A+B} = \\frac{True Positives}{True Positives + False Negatives}\n\\]\n\nSpecificity is defined as the True Negative Rate, or how many people who do not have the marker will our test accurately identify as negative.\nEssentially, if someone does not have the marker, what is the chance this test will tell me they are negative.\n\\[\nSpecificity = \\frac{D}{C+D} = \\frac{True Negatives}{True Negatives + False Positives}\n\\]\n\nAn Example\nWe have a test for a disease which has a sensitivity of 80% and a specificity of 80%. We use this test on 100 people.\nIf 50 of them test positive, how many of these actually have the disease?\nAnswer With 50 positive tests and a sensitivity of 80% we can calculate true positives as below\n\\[\nSensitivity = \\frac{True Positives}{True Positives + False Negatives} = \\frac{True Positives}{All test positive results}\n\\] \\[\n0.8 = \\frac{True Positives}{50 people}\n\\] \\[\n0.80 * 50 people  = True Positives\n\\] \\[\nTrue Positives = 40 people\n\\]\n\nThese concepts seem simple but can take some time to get fluent speaking about, especially in complex clinical contexts. A solid foundational understanding is key!"
   },
   {
-    "objectID": "topics/1_rolling_averages/index.html#how-this-relates-clinically",
-    "href": "topics/1_rolling_averages/index.html#how-this-relates-clinically",
-    "title": "Rolling Averages",
-    "section": "How this relates clinically",
-    "text": "How this relates clinically\nThe most prominent area of medicine where the rolling average becomes important is in interpreting HbA1c values.\nHbA1c represents the proportion of red blood cells (RBCs) that are glycated (bound to sugar molecules). The gem of HbA1c is that sugar molecules in the blood that have bound to RBCs (glycated) never unbound themselves, RBCs act like a history book of how much sugar has been in the blood. With greater blood sugar concentrations, more glucose binds to the available RBCs and conversely, with lower blood sugar concentrations, less glucose binds to newly created RBCs. As time passes on, both glycated and non-glycated hemoglobin is destroyed in the spleen and those records are effectively ‘deleted’.\nGiven the above, and that RBCs are created and destroyed approximately every 3 months, HbA1c is effectively an internally built in moving average of the blood glucose in the last ~3 months; at any particular moment the HbA1c concentration is a reflection of blood glucose in the last 3 months and updates continually."
-  },
-  {
-    "objectID": "topics/1_rolling_averages/index.html#why-this-matters-for-the-clinician",
-    "href": "topics/1_rolling_averages/index.html#why-this-matters-for-the-clinician",
-    "title": "Rolling Averages",
-    "section": "Why this matters for the clinician",
-    "text": "Why this matters for the clinician\nSince HbA1c is a 3-month rolling average of the latest blood glucose levels in a given patient, testing HbA1c should only be done every 3 months. If testing is done more frequently, there is going to be overlap between the ‘data’ being given between the current and prior HbA1c reading and clinically, we want to see how the body is changing rather than how it was."
-  },
-  {
-    "objectID": "topics/1_rolling_averages/index.html#thank-you",
-    "href": "topics/1_rolling_averages/index.html#thank-you",
-    "title": "Rolling Averages",
+    "objectID": "applications/8_sensitivity and specificity/index.html#thank-you",
+    "href": "applications/8_sensitivity and specificity/index.html#thank-you",
+    "title": "Sensitivity and Specificity",
     "section": "Thank you!",
-    "text": "Thank you!\nThanks for reading through this article. More articles connecting clinical practice and mathematics are coming soon.\nImage provided by Wikimedia Commons"
-  },
-  {
-    "objectID": "topics/4_dimensional analysis/index.html",
-    "href": "topics/4_dimensional analysis/index.html",
-    "title": "Dimensional Analysis",
-    "section": "",
-    "text": "The goal of this post is to introduce the concept (perhaps better referred to as technique) of dimensional analysis. Dimensional analysis is the process of using the position of units (e.g., grams, litres, days) within a ratio to convert between units, typically using conversion factors (e.g., grams per litre, micrograms per day). Keeping it simple, it means manipulating ratios to cancel out units we don’t need to find units we would like to know.\n\n\nUsing conversion factors to convert between units is called dimensional analysis because the different units are referred to as dimensions and the analysis is the conversion between the dimensions."
-  },
-  {
-    "objectID": "topics/4_dimensional analysis/index.html#overview",
-    "href": "topics/4_dimensional analysis/index.html#overview",
-    "title": "Dimensional Analysis",
-    "section": "",
-    "text": "The goal of this post is to introduce the concept (perhaps better referred to as technique) of dimensional analysis. Dimensional analysis is the process of using the position of units (e.g., grams, litres, days) within a ratio to convert between units, typically using conversion factors (e.g., grams per litre, micrograms per day). Keeping it simple, it means manipulating ratios to cancel out units we don’t need to find units we would like to know.\n\n\nUsing conversion factors to convert between units is called dimensional analysis because the different units are referred to as dimensions and the analysis is the conversion between the dimensions."
-  },
-  {
-    "objectID": "topics/4_dimensional analysis/index.html#why-is-dimensional-analysis-useful",
-    "href": "topics/4_dimensional analysis/index.html#why-is-dimensional-analysis-useful",
-    "title": "Dimensional Analysis",
-    "section": "Why is dimensional analysis useful?",
-    "text": "Why is dimensional analysis useful?\nIntuitively, it may seem easier to focus on memorizing that you need to multiple a unit by a conversion factor to convert it - so why bother with dimensional analysis? While it may seem relatively straight-forward to use a conversion factor to convert between units, it becomes a little more difficult when:\n\nYou have to reverse the conversion and,\nThere are complex conversion factors and units that have multiple units in them (e.g., grams per litre per day)\n\nHere’s an example:\nA bolus of Drug X needs to be delivered to patient A.\n\nIt needs to be dosed at 20mg per kilogram of bodyweight\nPatient A weights 172 pounds\n\nHow many grams of Drug X does patient A need?\n\\[\nDosing\\:requirement = \\frac{20 mg}{kg}\n\\] \\[\nPatient\\: weight = 172lbs\n\\]\n\\[\nMilligrams\\:to\\:grams = \\frac{1000mg}{1g}\n\\]\n\\[\nPounds\\:to\\:kilograms = \\frac{1lbs}{2.2kg}\n\\]\nIn this example, it would be cumbersome to individually run through all the conversions and difficult to conceptualize which conversions go where. We can use dimensional analysis to make this a lot easier!\nEssentially, we need to turn Patient A’s weight into grams of drug. So his weight would be a good term to start with.\nThen, we turn his weight into kilograms as the conversion unit we were given of drug weight to human weight is in kilograms, not pounds.\nThen we use the remaining conversion factor of 1000mg to 1g to convert milligrams of drug into grams of drug, which we were asked to provide.\n\\[\n172lbs \\cdot \\frac{2.2kg}{1lbs} \\cdot \\frac{20mg}{kg} \\cdot \\frac{1g}{1000mg}\n\\] The guiding principle to set the above equation up is to orient units such that two adjacent terms should have like units (e.g., pounds, kilograms, etc.) in the numerator and denominator. This will ‘cancel’ out the untis and you will be left with the unit in the numerator in the rightmost term."
-  },
-  {
-    "objectID": "topics/4_dimensional analysis/index.html#takeaways",
-    "href": "topics/4_dimensional analysis/index.html#takeaways",
-    "title": "Dimensional Analysis",
-    "section": "Takeaways",
-    "text": "Takeaways\nDimensional analysis is a useful framework for converting between units of measurement which may be otherwise cumbersome to do with a preset forumla and/or there isn’t a formula available to do so.\nThe principles of dimensional analysis are as follows:\n\nOrganize conversion factors left to right in the logical order of conversion. For example, in our above example we converted our patient’s weight to kilograms before using the conversion factor which required kilograms.\nAlways flip the conversion factor you are using (e.g. 100cm over 1m vs 1m over 100cm) such that adjacent terms in the analysis ‘cancel’ out (i.e., one is in the numerator and one is in the denominator)"
-=======
-    "text": "Overview\nStudying medicine involves the assimilation of a large amount of content and requires much effort from students to keep up and integrate this new knowledge on an ongoing basis.\nThough memorization and studying of facts from slide shows and flash cards will form a large part of many students’ studying, a great technique to promote better understanding over memorization is to model systems in intuitive but simple constructs.\nThe Tank-Pump-Pipe Model for the Four Categories of Shock is a great example of this - and a useful model to visualize the categories of shock.\n\n\nTank-Pump-Pipe Model\nShock is the result of circulatory collapse - i.e. when your organs can no longer be perfused with blood.\nThere are many etiologies for shock - anaphylaxis, sepsis, neurogenic, hemorrhagic, mechanical, etc. but these can be broadly grouped into four categories.\n\n\n\n\n\n\nFour Categories of Shock\n\n\n\nCardiogenic, Distributive, Hypovolemic, and Obstructive\n\n\nThese can of course be memorized directly or with a mnemonic - but visualizing the body’s circulatory system as simple tank-pump-pipe system is more straightforward in understanding the underlying mechanisms.\n\nThe tank represents intravascular volume - the fluid available to perfuse end organs\nThe piping represents the vasculature\nThe pump represents the heart and corresponding cardiac output\n\n\n\n\nNormal Conditions\n\n\nWith this model in mind, it becomes intuitive to define the four categories of shock as follows:\n\nCardiogenic - Failure of the “pump”, i.e nothing to pressurize the system to push fluid to end organs\nDistributive - “Leaky Pipes”, the vasculature is unable to maintain adequate pressure - this represents peripheral vasodilatation (in anaphylactic shock, for example)\nHypovolemic - The empty tank, all components functioning but a lack of volume (example - dehydration)\nObstructive - A blockage - representing any condition which impairs cardiac output leading to lack of perfusion (Example - impaired filling, pericardial tamponade)\n\n\n\n\nThe Four Categories of Shock\n\n\n\n\nThank you!\nHope you found the above model useful for a more intuitive understanding!\nReferences\n\nHaseer Koya H, Paul M. Shock. [Updated 2023 Jul 24]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK531492/"
->>>>>>> 8477e4be928985bd95bdbb15519947940c02a295
+    "text": "Thank you!\nThanks for reading through this article. More articles connecting clinical practice and mathematics are coming soon."
   }
 ]
