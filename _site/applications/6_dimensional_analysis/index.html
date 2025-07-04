@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Hafeez Nathoo">
-<meta name="dcterms.date" content="2025-05-05">
+<meta name="author" content="Ali Hassan">
+<meta name="dcterms.date" content="2025-01-21">
 
-<title>Sensitivity and Specificity – ForMedStudents</title>
+<title>Dimensional Analysis – ForMedStudents</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -142,9 +142,9 @@ window.Quarto = {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Sensitivity and Specificity</h1>
+      <h1 class="title">Dimensional Analysis</h1>
                                 <div class="quarto-categories">
-                <div class="quarto-category">StatisticsForMedStudents</div>
+                <div class="quarto-category">MathForMedStudents</div>
               </div>
                   </div>
   </div>
@@ -155,14 +155,14 @@ window.Quarto = {
       <div>
       <div class="quarto-title-meta-heading">Author</div>
       <div class="quarto-title-meta-contents">
-               <p>Hafeez Nathoo </p>
+               <p>Ali Hassan </p>
             </div>
     </div>
       
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">May 5, 2025</p>
+        <p class="date">January 21, 2025</p>
       </div>
     </div>
     
@@ -178,13 +178,12 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
-  <li><a href="#the-set-up" id="toc-the-set-up" class="nav-link" data-scroll-target="#the-set-up">The Set Up</a></li>
-  <li><a href="#definitions" id="toc-definitions" class="nav-link" data-scroll-target="#definitions">Definitions</a>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a>
   <ul class="collapse">
-  <li><a href="#an-example" id="toc-an-example" class="nav-link" data-scroll-target="#an-example">An Example</a></li>
+  <li><a href="#why-is-it-called-dimensional-analysis" id="toc-why-is-it-called-dimensional-analysis" class="nav-link" data-scroll-target="#why-is-it-called-dimensional-analysis">Why is it called dimensional analysis?</a></li>
   </ul></li>
-  <li><a href="#thank-you" id="toc-thank-you" class="nav-link" data-scroll-target="#thank-you">Thank you!</a></li>
+  <li><a href="#why-is-dimensional-analysis-useful" id="toc-why-is-dimensional-analysis-useful" class="nav-link" data-scroll-target="#why-is-dimensional-analysis-useful">Why is dimensional analysis useful?</a></li>
+  <li><a href="#takeaways" id="toc-takeaways" class="nav-link" data-scroll-target="#takeaways">Takeaways</a></li>
   </ul>
 </nav>
     </div>
@@ -197,58 +196,53 @@ window.Quarto = {
 
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>Sensitivity and specificity are terms you will run into on a daily basis when discussing test and physical exam maneuvers, and should be familiar with.</p>
-<p>The goal of this post is to clearly define these terms with some basic examples to help you get your head around them.</p>
+<p>The goal of this post is to introduce the concept (perhaps better referred to as technique) of dimensional analysis. Dimensional analysis is the process of using the position of units (e.g., grams, litres, days) within a ratio to convert between units, typically using conversion factors (e.g., grams per litre, micrograms per day). Keeping it simple, it means manipulating ratios to cancel out units we don’t need to find units we would like to know.</p>
+<section id="why-is-it-called-dimensional-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="why-is-it-called-dimensional-analysis">Why is it called dimensional analysis?</h3>
+<p>Using conversion factors to convert between units is called dimensional analysis because the different units are referred to as dimensions and the analysis is the conversion between the dimensions.</p>
 </section>
-<section id="the-set-up" class="level2">
-<h2 class="anchored" data-anchor-id="the-set-up">The Set Up</h2>
-<p>The core idea is that a test (like a blood test, physical exam maneuver, etc.) is not perfect, and will not catch every result. So when using tests in practice we must be able to compare their performance and have a good idea of when they are helpful or not.</p>
-<p>Lets start with a scenario - you have a blood test for a given marker. There are four quantities that you are concerned with, that can be summarized into the below “2 by 2” table.</p>
+</section>
+<section id="why-is-dimensional-analysis-useful" class="level2">
+<h2 class="anchored" data-anchor-id="why-is-dimensional-analysis-useful">Why is dimensional analysis useful?</h2>
+<p>Intuitively, it may seem easier to focus on memorizing that you need to multiple a unit by a conversion factor to convert it - so why bother with dimensional analysis? While it may seem relatively straight-forward to use a conversion factor to convert between units, it becomes a little more difficult when:</p>
 <ul>
-<li>A is the number of people who are positive for both the marker and the test, <strong>True Positives</strong></li>
-<li>B is the number of people who have the marker but tested negative, <strong>False Negatives</strong></li>
-<li>C is the number of people who have a positive test but no marker, <strong>False Positives</strong></li>
-<li>D is the number of people who have a negative test and no marker, <strong>True Negatives</strong></li>
+<li>You have to reverse the conversion and,</li>
+<li>There are complex conversion factors and units that have multiple units in them (e.g., grams per litre per day)</li>
 </ul>
-<p><img src="2x2.png" class="img-fluid"></p>
-</section>
-<section id="definitions" class="level2">
-<h2 class="anchored" data-anchor-id="definitions">Definitions</h2>
-<p>OK so now we have context, what does all this have to do with the definitions of sensitivity and specificity?</p>
-<p>We mentioned that the point of these terms is to quantify how good a test is and this is done using the quantities A, B, C, D defined above.</p>
-<hr>
-<p><strong>Sensitivity</strong> is defined as the true positive rate, or in simpler terms - how many of the people who have the marker do we actually catch with the test.</p>
-<p><em>Essentially, if someone has the marker, what is the chance this test will tell me they are positive.</em></p>
+<p>Here’s an example:</p>
+<p>A bolus of Drug X needs to be delivered to patient A.</p>
+<ul>
+<li>It needs to be dosed at 20mg per kilogram of bodyweight</li>
+<li>Patient A weights 172 pounds</li>
+</ul>
+<p>How many grams of Drug X does patient A need?</p>
 <p><span class="math display">\[
-Sensitivity = \frac{A}{A+B} = \frac{True Positives}{True Positives + False Negatives}
+Dosing\:requirement = \frac{20 mg}{kg}
+\]</span> <span class="math display">\[
+Patient\: weight = 172lbs
 \]</span></p>
-<hr>
-<p><strong>Specificity</strong> is defined as the True Negative Rate, or how many people who <strong>do not</strong> have the marker will our test accurately identify as negative.</p>
-<p><em>Essentially, if someone does not have the marker, what is the chance this test will tell me they are negative.</em></p>
 <p><span class="math display">\[
-Specificity = \frac{D}{C+D} = \frac{True Negatives}{True Negatives + False Positives}
+Milligrams\:to\:grams = \frac{1000mg}{1g}
 \]</span></p>
-<section id="an-example" class="level3">
-<h3 class="anchored" data-anchor-id="an-example">An Example</h3>
-<p>We have a test for a disease which has a sensitivity of 80%. We use this test on 100 people.</p>
-<p>If 50 of them test positive and are actually positive with the disease (assume we have a guaranteed way of determining this), how many people in the population have the disease?</p>
-<p><strong>Answer</strong> With 50 positive tests and a sensitivity of 80% we can calculate true positives as below</p>
 <p><span class="math display">\[
-Sensitivity = \frac{True Positives}{True Positives + False Negatives}
-\]</span> <span class="math display">\[
-0.8 = \frac{50people}{True Positives + False Negatives}
-\]</span> <span class="math display">\[
-\frac{50 people}{0.8}= True Positives + False Negatives
-\]</span> <span class="math display">\[
-True Positives + False Negatives = 62.5 people \simeq 63 people
+Pounds\:to\:kilograms = \frac{1lbs}{2.2kg}
 \]</span></p>
-<hr>
-<p>These concepts seem simple but can take some time to get fluent speaking about, especially in complex clinical contexts. A solid foundational understanding is key!</p>
+<p>In this example, it would be cumbersome to individually run through all the conversions and difficult to conceptualize which conversions go where. We can use dimensional analysis to make this a lot easier!</p>
+<p>Essentially, we need to turn Patient A’s weight into grams of drug. So his weight would be a good term to start with.</p>
+<p>Then, we turn his weight into kilograms as the conversion unit we were given of drug weight to human weight is in kilograms, not pounds.</p>
+<p>Then we use the remaining conversion factor of 1000mg to 1g to convert milligrams of drug into grams of drug, which we were asked to provide.</p>
+<p><span class="math display">\[
+172lbs \cdot \frac{2.2kg}{1lbs} \cdot \frac{20mg}{kg} \cdot \frac{1g}{1000mg}
+\]</span> The guiding principle to set the above equation up is to orient units such that two adjacent terms should have like units (e.g., pounds, kilograms, etc.) in the numerator and denominator. This will ‘cancel’ out the untis and you will be left with the unit in the numerator in the rightmost term.</p>
 </section>
-</section>
-<section id="thank-you" class="level2">
-<h2 class="anchored" data-anchor-id="thank-you">Thank you!</h2>
-<p>Thanks for reading through this article. More articles connecting clinical practice and mathematics are coming soon.</p>
+<section id="takeaways" class="level2">
+<h2 class="anchored" data-anchor-id="takeaways">Takeaways</h2>
+<p>Dimensional analysis is a useful framework for converting between units of measurement which may be otherwise cumbersome to do with a preset forumla and/or there isn’t a formula available to do so.</p>
+<p>The principles of dimensional analysis are as follows:</p>
+<ul>
+<li>Organize conversion factors left to right in the logical order of conversion. For example, in our above example we converted our patient’s weight to kilograms before using the conversion factor which required kilograms.</li>
+<li>Always flip the conversion factor you are using (e.g.&nbsp;100cm over 1m vs 1m over 100cm) such that adjacent terms in the analysis ‘cancel’ out (i.e., one is in the numerator and one is in the denominator)</li>
+</ul>
 
 
 </section>

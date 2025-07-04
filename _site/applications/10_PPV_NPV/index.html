@@ -179,7 +179,7 @@ window.Quarto = {
    
   <ul>
   <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
-  <li><a href="#the-set-up" id="toc-the-set-up" class="nav-link" data-scroll-target="#the-set-up">The Set Up</a></li>
+  <li><a href="#the-set-up---same-as-for-sensitivity-and-specificity" id="toc-the-set-up---same-as-for-sensitivity-and-specificity" class="nav-link" data-scroll-target="#the-set-up---same-as-for-sensitivity-and-specificity">The Set Up - same as for Sensitivity and Specificity</a></li>
   <li><a href="#definitions" id="toc-definitions" class="nav-link" data-scroll-target="#definitions">Definitions</a>
   <ul class="collapse">
   <li><a href="#an-example" id="toc-an-example" class="nav-link" data-scroll-target="#an-example">An Example</a></li>
@@ -197,11 +197,11 @@ window.Quarto = {
 
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>In a <a href="./applications/8_sensitivity and specificity/index.qmd&quot;">prior article</a> Sensitivity and specificity are terms you will run into on a daily basis when discussing test and physical exam maneuvers, and should be familiar with.</p>
-<p>The goal of this post is to clearly define these terms with some basic examples to help you get your head around them.</p>
+<p>In a <a href="https://formedstudents.netlify.app/applications/8_sensitivity%20and%20specificity/">prior article</a> Sensitivity and specificity were defined, and these go hand in hand with two other important metrics - Positive and Negative predicted value (PPV and NPV)</p>
+<p>The goal of this post is to clearly define PPV and NPV with some basic examples to help you get your head around them.</p>
 </section>
-<section id="the-set-up" class="level2">
-<h2 class="anchored" data-anchor-id="the-set-up">The Set Up</h2>
+<section id="the-set-up---same-as-for-sensitivity-and-specificity" class="level2">
+<h2 class="anchored" data-anchor-id="the-set-up---same-as-for-sensitivity-and-specificity">The Set Up - same as for Sensitivity and Specificity</h2>
 <p>The core idea is that a test (like a blood test, physical exam maneuver, etc.) is not perfect, and will not catch every result. So when using tests in practice we must be able to compare their performance and have a good idea of when they are helpful or not.</p>
 <p>Lets start with a scenario - you have a blood test for a given marker. There are four quantities that you are concerned with, that can be summarized into the below “2 by 2” table.</p>
 <ul>
@@ -214,36 +214,35 @@ window.Quarto = {
 </section>
 <section id="definitions" class="level2">
 <h2 class="anchored" data-anchor-id="definitions">Definitions</h2>
-<p>OK so now we have context, what does all this have to do with the definitions of sensitivity and specificity?</p>
-<p>We mentioned that the point of these terms is to quantify how good a test is and this is done using the quantities A, B, C, D defined above.</p>
+<p>OK so now we have context. Let’s define Positive and negative predictive value.</p>
+<p>Note that when we talk about sensitivity and specificity, we are concerned with the populations that do or do not have the marker and how well the test does in recognizing them.</p>
+<p>For PPV and NPV, the frame of reference is slightly different - we are considering the groups that test positive and negative, as opposed to the groups that do or do not have the marker.</p>
 <hr>
-<p><strong>Sensitivity</strong> is defined as the true positive rate, or in simpler terms - how many of the people who have the marker do we actually catch with the test.</p>
-<p><em>Essentially, if someone has the marker, what is the chance this test will tell me they are positive.</em></p>
+<p><strong>Positive Predictive Value (PPV)</strong> is defined as the chance that someone actually has the marker if they have a positive test.</p>
+<p><em>Essentially, if the test is positive, what is the chance that the person actually has it</em></p>
 <p><span class="math display">\[
-Sensitivity = \frac{A}{A+B} = \frac{True Positives}{True Positives + False Negatives}
+PPV = \frac{A}{A+C} = \frac{True Positives}{True Positives + False Positives}
 \]</span></p>
 <hr>
-<p><strong>Specificity</strong> is defined as the True Negative Rate, or how many people who <strong>do not</strong> have the marker will our test accurately identify as negative.</p>
-<p><em>Essentially, if someone does not have the marker, what is the chance this test will tell me they are negative.</em></p>
+<p><strong>Negative Predictive Value (NPV)</strong> is defined as the chance that someone actually <strong>does not</strong> have the marker if they have a negative test.</p>
+<p><em>Essentially, if the test is negative, what is the chance that the person actually does not have it</em></p>
 <p><span class="math display">\[
-Specificity = \frac{D}{C+D} = \frac{True Negatives}{True Negatives + False Positives}
+NPV = \frac{D}{B+D} = \frac{True Negatives}{True Negatives + False Negatives}
 \]</span></p>
 <section id="an-example" class="level3">
 <h3 class="anchored" data-anchor-id="an-example">An Example</h3>
-<p>We have a test for a disease which has a sensitivity of 80% and a specificity of 80%. We use this test on 100 people.</p>
+<p>We have a test for a disease which has a PPV of 90%, and we test 100 people.</p>
 <p>If 50 of them test positive, how many of these actually have the disease?</p>
-<p><strong>Answer</strong> With 50 positive tests and a sensitivity of 80% we can calculate true positives as below</p>
+<p><strong>Answer</strong> With 50 positive tests and a PPV of 90% we can calculate true positives as below</p>
 <p><span class="math display">\[
-Sensitivity = \frac{True Positives}{True Positives + False Negatives} = \frac{True Positives}{All test positive results}
+PPV = \frac{True Positives}{True Positives + False Positives} = \frac{True Positives}{All Test Positive Results}
 \]</span> <span class="math display">\[
-0.8 = \frac{True Positives}{50 people}
+0.9 = \frac{True Positives}{50 people}
 \]</span> <span class="math display">\[
-0.80 * 50 people  = True Positives
+0.90 * 50 people  = True Positives
 \]</span> <span class="math display">\[
-True Positives = 40 people
+True Positives = 45 people
 \]</span></p>
-<hr>
-<p>These concepts seem simple but can take some time to get fluent speaking about, especially in complex clinical contexts. A solid foundational understanding is key!</p>
 </section>
 </section>
 <section id="thank-you" class="level2">
@@ -346,7 +345,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/formedstudents\.netlify\.app");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

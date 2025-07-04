@@ -1,5 +1,5 @@
 ---
-title: "POsitive and Negative Predictive Values"
+title: "Positive and Negative Predictive Values"
 author: "Hafeez Nathoo"
 date: "2025-09-10"
 categories: [StatisticsForMedStudents]
