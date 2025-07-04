@@ -2,7 +2,7 @@
 title: "Dimensional Analysis"
 author: "Ali Hassan"
 date: "2025-01-21"
-categories: [MATHFORMEDSTUDENTS]
+categories: [MathForMedStudents]
 image: "image.jpg"
 ---
 
@@ -16,26 +16,23 @@ Using conversion factors to convert between units is called dimensional analysis
 
 ## Why is dimensional analysis useful?
 
-Intuitively, it may seem easier to focus on memorizing that you need to multiple a unit by a conversion factor to convert it - so why bother with dimensional analysis? While it may seem relatively straight-forward to use a conversion factor to convert between units, it becomes a little more difficult when: 
+Intuitively, it may seem easier to focus on memorizing that you need to multiple a unit by a conversion factor to convert it - so why bother with dimensional analysis? While it may seem relatively straight-forward to use a conversion factor to convert between units, it becomes a little more difficult when:
 
-- You have to reverse the conversion and, 
-- There are complex conversion factors and units that have multiple units in them (e.g., grams per litre per day)
+-   You have to reverse the conversion and,
+-   There are complex conversion factors and units that have multiple units in them (e.g., grams per litre per day)
 
 Here's an example:
 
-A bolus of Drug X needs to be delivered to patient A. 
+A bolus of Drug X needs to be delivered to patient A.
 
-- It needs to be dosed at 20mg per kilogram of bodyweight
-- Patient A weights 172 pounds
+-   It needs to be dosed at 20mg per kilogram of bodyweight
+-   Patient A weights 172 pounds
 
 How many grams of Drug X does patient A need?
 
-  
-
 $$
 Dosing\:requirement = \frac{20 mg}{kg}
-$$
-$$
+$$ $$
 Patient\: weight = 172lbs
 $$
 
@@ -49,7 +46,7 @@ $$
 
 In this example, it would be cumbersome to individually run through all the conversions and difficult to conceptualize which conversions go where. We can use dimensional analysis to make this a lot easier!
 
-Essentially, we need to turn Patient A's weight into grams of drug. So his weight would be a good term to start with. 
+Essentially, we need to turn Patient A's weight into grams of drug. So his weight would be a good term to start with.
 
 Then, we turn his weight into kilograms as the conversion unit we were given of drug weight to human weight is in kilograms, not pounds.
 
@@ -57,8 +54,7 @@ Then we use the remaining conversion factor of 1000mg to 1g to convert milligram
 
 $$
 172lbs \cdot \frac{2.2kg}{1lbs} \cdot \frac{20mg}{kg} \cdot \frac{1g}{1000mg}
-$$
-The guiding principle to set the above equation up is to orient units such that two adjacent terms should have like units (e.g., pounds, kilograms, etc.) in the numerator and denominator. This will 'cancel' out the untis and you will be left with the unit in the numerator in the rightmost term.
+$$ The guiding principle to set the above equation up is to orient units such that two adjacent terms should have like units (e.g., pounds, kilograms, etc.) in the numerator and denominator. This will 'cancel' out the untis and you will be left with the unit in the numerator in the rightmost term.
 
 ## Takeaways
 
@@ -66,5 +62,5 @@ Dimensional analysis is a useful framework for converting between units of measu
 
 The principles of dimensional analysis are as follows:
 
-- Organize conversion factors left to right in the logical order of conversion. For example, in our above example we converted our patient's weight to kilograms before using the conversion factor which required kilograms.
-- Always flip the conversion factor you are using (e.g. 100cm over 1m vs 1m over 100cm) such that adjacent terms in the analysis 'cancel' out (i.e., one is in the numerator and one is in the denominator)  
+-   Organize conversion factors left to right in the logical order of conversion. For example, in our above example we converted our patient's weight to kilograms before using the conversion factor which required kilograms.
+-   Always flip the conversion factor you are using (e.g. 100cm over 1m vs 1m over 100cm) such that adjacent terms in the analysis 'cancel' out (i.e., one is in the numerator and one is in the denominator)

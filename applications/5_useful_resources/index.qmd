@@ -2,7 +2,7 @@
 title: "5 Helpful Resources for Years 1 and 2 of Med School"
 author: "Hafeez Nathoo"
 date: "2024-11-10"
-categories: [BertaBriefs]
+categories: [ResourcesForMedStudents]
 ---
 
 ## Why bother using anything outside lecture notes?
