@@ -3,7 +3,7 @@ title: "Dimensional Analysis"
 author: "Ali Hassan"
 date: "2025-01-21"
 categories: [MathForMedStudents]
-image: "image.jpg"
+image: "image.png"
 ---
 
 ## Overview
